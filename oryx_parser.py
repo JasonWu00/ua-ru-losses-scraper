@@ -124,6 +124,7 @@ for vehicle_type in lists:
                     print(flag_country)
                     break
             if not flag_found:
+                flag_country = "NONE"
                 print("Flag not in manufacturer dict")
         
         proofs = vehicle.find_all('a')
