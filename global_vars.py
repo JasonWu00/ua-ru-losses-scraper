@@ -104,3 +104,8 @@ ua_vehicle_types = {"M-55S": "Tanks",
 A dictionary of the first entries of vehicle types and their corresponding types
 in the Ukraine losses page.
 """
+
+df_colnames = ["id", "name", "type", "status", 
+                "year", "month", "day", 
+                "manufacturer", "manufacturer_abbr", 
+                "user", "user_abbr", "proof"]

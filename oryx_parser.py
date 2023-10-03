@@ -8,66 +8,25 @@ import pandas as pd
 from bs4 import BeautifulSoup
 import re
 import twitter_api_tokens # user-side file with twitter api tokens
+from global_vars import manufacturer_dict, ua_vehicle_types, ru_vehicle_types, df_colnames
 
-# A dictionary of keywords that appear in flag display links and their corresponding country abbr.
-manufacturer_dict = {
-    "Russia": "RU",
-    "Soviet_Union": "USSR",
-    "Italy": "ITA",
-    "France": "FR",
-    "Spain": "SP",
-    "United_States": "USA",
-    "Ukraine": "UA",
-    "Sweden": "SWE",
-    "Finland": "FIN",
-    "Poland": "PL",
-    "Israel": "ISR",
-    "Iran": "IR",
-    "Czech_Republic": "CZ",
-    "Germany": "GER",
-    "Belarus": "BEL",
-}
-
-vehicle_types = {"Unknown T-54/55": "Tanks",
-                 "BMPT Terminator": "Armored Fighting Vehicles",
-                 "BTR-60PB": "Armoured Personnel Carriers",
-                 "BMP-1KSh command and staff vehicle": "Command Posts and Communications Stations",
-                 "UR-67 mine clearing charge on BTR-D APC": "Engineering Vehicles and Equipment",
-                 "9P148 Konkurs": "Self-Propelled Anti-Tank Missile Systems",
-                 "1V110 BM-21 Grad battery command vehicle": "Artillery Support Vehicles and Equipment",
-                 "82mm 2B9 Vasilek automatic gun mortar": "Towed Artillery",
-                 "120mm 2S9 Nona": "Self Propelled Artillery",
-                 "122mm BM-21 Grad": "Multiple Rocket Launchers",
-                 "23mm ZU-23-2": "Anti-Aircraft Guns",
-                 "3 BTR-ZD Skrezhet": "Self-Propelled Anti-Aircraft Guns",
-                 "9K33 Osa": "Surface-To-Air Missile Systems",
-                 "9S36 (for Buk-M2)": "Radars",
-                 "R-325BMV jamming station": "Jammers and Deception Systems",
-                 "MiG-31BM fighter aircraft": "Aircraft",
-                 "Mi-8 transport helicopter": "Helicopters",
-                 "Orion": "Unmanned Combat Aerial Vehicles",
-                 "Forpost": "Reconnaissance Unmanned Aerial Vehicles",
-                 "Project 1164 Slava-class guided missile cruiser": "Naval Ships and Submarines",
-                 "GAZ-51": "Trucks, Vehicles, and Jeeps"}
-"""
-A dictionary of the first entries of vehicle types and their corresponding types.
-The Oryx blog has some extremely inconsistent tag, id, and class usage which
-makes code-based acquiring of this data too difficult.
-"""
-
-df = pd.DataFrame(columns=["class", "type", "status", 
+df = pd.DataFrame(columns=["id", "name", "type", "status", 
                            "year", "month", "day", 
-                           "manufacturer", "user", "proof"])
+                           "manufacturer", "manufacturer_abbr", 
+                           "user", "user_abbr", "proof"])
 """
 A DataFrame that will store all scraped vehicle loss data.
 
 Columns include:
-Class: vehicle designation (T-80BVM, BMP-1, Ka-52, Su-25, etc)
+id: generic numerical ID.
+Name: vehicle designation (T-80BVM, BMP-1, Ka-52, Su-25, etc)
 Type: vehicle category (tank, helicopter, boat, etc)
 Status: type of loss (destroyed, abandoned, captured, etc)
 Year, Month, Day: date of vehicle loss
-Manufactuer: country that produced it (USSR, RU, etc)
-User: country that used it (UA or RU)
+Manufacturer: country that produced it (Soviet Union, Russia, etc)
+Manufacturer_abbr: abbreviation (USSR, RU, etc)
+User: country that used it (Ukraine or Russia)
+User_abbr: abbreviation (UA or RU)
 Proof: postimg or twitter link that shows the loss.
 """
 
@@ -111,50 +70,84 @@ def postimg_date_parsing(postimg: str) -> tuple[int, int, int] | tuple[None, Non
     Regex generated using this website:
     https://regex-generator.olafneumann.org/
     """
+    if "postimg" in postimg:
+        # There is a bug where some postimg links leading directly to an image results in requests
+        # getting junk data. To fix this, we will process the link to lead to postimg posts.
+        postimg = postimg.replace("i.postimg", "postlmg")
+        placeholder = ""
+        slash_counter = 0
+        # Postimg links take the form of:
+        # https://i.postimg.cc/idhere/imagename.extension
+        # this for loop truncates the link (after replacement) to:
+        # https://postlmg.cc/idhere
+        for char in postimg:
+            if char == '/':
+                slash_counter += 1
+            if slash_counter == 4:
+                break
+            placeholder += char
+        postimg = placeholder
+        #print(postimg)
+
+    # for postimg links that lead to a post instead of an image,
+    # we can proceed to parsing normally.
 
     r = requests.get(postimg)
     soup = BeautifulSoup(r.content, 'html.parser')
     title = soup.find("title")
-    parsed_date = re.search(r"(\s+([0-9]+\s+)+)", title.text)
+    parsed_date = re.search(r"([0-9]+( [0-9]+)+)", title.text)
     if parsed_date is None: return None, None, None
 
     parsed_date = parsed_date.group(0).strip()
     parsed_date = parsed_date.split()
+    # sometimes parsed_date only has 1 or 2 numbers. In that case, return None.
+    if len(parsed_date) < 3: return None, None, None
     day = int(parsed_date[0])
     month = int(parsed_date[1])
     year = int(parsed_date[2])
     return day, month, year
 
 
-def twitter_date_parsing(twitter: str):
+def twitter_date_parsing(twitter: str) -> tuple[int, int, int] | tuple[None, None, None]:
     """
     For parsing twitter links.
     """
-    #status_id = re.search(r"[0-9]+", twitter).group(0).strip()
-    r = requests.get(twitter)
-    soup = BeautifulSoup(r.content, 'html.parser')
-    print(soup.text)
-    time = soup.find('time')
-    if time is None: return "Nothing"
-    return time.text
+    # Holding back on implementing the twitter api until everything else works
+    # Since the free Twitter API only allows around 1500 queries a month or something of that sort
+    return None, None, None
 
-def link_parsing(link: str):
+def link_date_parsing(link: str):
     """
     This function takes in one input:
     link: a twitter or postimg link.
 
-    derives the date of sighting of this loss through more website parsing.
+    Derives the date of sighting of this loss through more website parsing.
     """
-    if "postimg" in link:
+    if "postimg" in link or "postlmg" in link:
         return postimg_date_parsing(link)
-    elif "twitter" in link:
+    else:
         return twitter_date_parsing(link)
+    # All links are postimg or postlmg or twitter (I checked)
 
-def parse_oryx(link: str, user: str):
+def status_parsing(raw_status: str) -> tuple[str, int]:
+    """
+    This function takes in one input:
+    raw_status: status of a vehicle in the format ([number or numbers] [status])
+
+    Returns the status and the number of vehicles in that status.
+    """
+    parsed_status = re.search(r"[A-Za-z\s]+\)", raw_status).group(0).strip(" )")
+    count = len(re.findall(r"[0-9]+", raw_status))
+    return parsed_status, count
+
+df_list = []
+
+def parse_oryx(link: str, user: str, vehicle_types: dict):
     """
     Parses an Oryx page for useful data.
-    user -> Owner
     """
+    id = 0
+    user_abbr = manufacturer_dict[user] # User abbr
     r = requests.get(link)
     soup = BeautifulSoup(r.content, 'html.parser')
 
@@ -163,56 +156,83 @@ def parse_oryx(link: str, user: str):
     # Thus it is necessary to do this inefficient setup.
     art = soup.find('article')
     lists = art.find_all('ul')
-    vehicle_class = "" # Class
+    vehicle_name = "" # Name
 
     for vehicle_type in lists:
-        #sys.exit(0) # temporary exit code to not do extra work that I don't need to do yet
+
         vehicles = vehicle_type.find_all('li')
 
         for vehicle in vehicles:
-            #print(vehicle.text)
+            # Search for the name of the vehicle.
             parsed_name = re.search(r"\S[\w\s\(\)\-\"\'\,]*", vehicle.text).group(0)
-            parsed_name = name_parsing(parsed_name) # Type
+            parsed_name = name_parsing(parsed_name) # Vehicle name
+            print(parsed_name)
 
+            # Search for a vehicle type corresponding to this name.
             if parsed_name in vehicle_types:
-                vehicle_class = vehicle_types[parsed_name]
-            
+                vehicle_name = vehicle_types[parsed_name]
+
+            # Identify a country and abbreviation using a flag image link.
             flag = vehicle.find('img', class_='thumbborder')
             flag_country = None # Manufacturer
+            flag_country_abbr = None #Manufacturer abbr
             if flag != None:
                 flag_found = False
                 for target in manufacturer_dict:
                     if target in flag.get('src'):
                         flag_found = True
-                        flag_country = manufacturer_dict[target]
+                        flag_country = target.replace("_", " ")
+                        flag_country_abbr = manufacturer_dict[target]
                         print(flag_country)
                         break
                 if not flag_found:
                     flag_country = "NONE"
+                    flag_country_abbr = "NONE"
                     print("Flag not in manufacturer dict")
             
-            proofs = vehicle.find_all('a') # Proof
+            # For every ([numbers], [status]) link: extract status, date, and number of vehicles
+            # described in that link.
+            proofs = vehicle.find_all('a')
             for proof in proofs:
+                year = None
+                month = None
+                day = None
                 status = proof.text
-                link = proof.get('href')
-                if "postimg" in link:
-                    i = 0
-                    # do postimg processing here
-                elif "twitter" in link:
-                    i = 0
-                    # do twitter processing here
-                else:
-                    i = 0
-                    # do third party link stuff here
+                status, status_count = status_parsing(status) # Status and number of vehicles under it
+                link = proof.get('href') # Proof as a postimg or twitter link
+                print(proof)
+
+                year, month, day = link_date_parsing(link)
+
+                # add data to the df
+                # since each proof can have multiple numbers e.g. (30, 31 and 32: destroyed)
+                # those multiple-number proofs will result in adding multiple lines into the df.
+                for i in range(status_count):
+                    # df.loc[len(df.index)] = [id, vehicle_name, parsed_name, status,
+                    #                          year, month, day, flag_country,
+                    #                          flag_country_abbr, user, user_abbr,
+                    #                          link]
+                    # df_list.append([id, vehicle_name, parsed_name, status,
+                    #                 year, month, day, flag_country,
+                    #                 flag_country_abbr, user, user_abbr, link])
+                    id += 1
 
 def main():
     """
     Main function.
     """
-    parse_oryx(ru_losses, "RU")
+    parse_oryx(ru_losses, "Russia", ru_vehicle_types)
+    #parse_oryx(ua_losses, "Ukraine", ua_vehicle_types)
+    #day, month, year = postimg_date_parsing("https://i.postimg.cc/3Js826nn/1012-T-62-M-destr-26-05-23.jpg")
+    #print(day, month, year)
     #date = twitter_date_parsing("https://twitter.com/CalibreObscura/status/1670510694838546436")
     #print (date)
     #twitter_api_tokens.test()
+    #print(df.head(12))
+
+    #df = pd.DataFrame(df_list, columns=df_colnames)
+    #print(df.head(12))
+
 
 if __name__ == "__main__":
     main()
