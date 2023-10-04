@@ -109,3 +109,6 @@ df_colnames = ["id", "name", "type", "status",
                 "year", "month", "day", 
                 "manufacturer", "manufacturer_abbr", 
                 "user", "user_abbr", "proof"]
+
+ru_losses = "https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-equipment.html"
+ua_losses = "https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-ukrainian.html"
