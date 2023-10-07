@@ -30,12 +30,11 @@ User_abbr: abbreviation (UA or RU)
 Proof: postimg or twitter link that shows the loss.
 """
 
-df_list = []
-
 def parse_oryx(link: str, user: str, vehicle_types: dict):
     """
     Parses an Oryx page for useful data.
     """
+    df_list = [] # list to be converted into a df and stored in a csv later
     id = 0
     user_abbr = manufacturer_dict[user] # User abbr
     r = requests.get(link)
@@ -102,9 +101,9 @@ def parse_oryx(link: str, user: str, vehicle_types: dict):
                     #                          year, month, day, flag_country,
                     #                          flag_country_abbr, user, user_abbr,
                     #                          link]
-                    # df_list.append([id, vehicle_name, parsed_name, status,
-                    #                 year, month, day, flag_country,
-                    #                 flag_country_abbr, user, user_abbr, link])
+                    df_list.append([id, vehicle_name, parsed_name, status,
+                                    year, month, day, flag_country,
+                                    flag_country_abbr, user, user_abbr, link])
                     id += 1
 
 def main():
