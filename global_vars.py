@@ -5,7 +5,6 @@ Due to limitations such as the structure of the Oryx blog's HTML and coding skil
 most of these global variables were manually generated.
 """
 
-# A dictionary of keywords that appear in flag display links and their corresponding country abbr.
 manufacturer_dict = {
     "Russia": "RU",
     "Ukraine": "UA",
@@ -30,7 +29,7 @@ manufacturer_dict = {
     "Italy": "ITA",
     "France": "FR",
     "Spain": "SP",
-    "Switzerland": "SWS",
+    "Switzerland": "SWZ",
     "Netherlands": "NTHL",
     "Denmark": "DEN",
     "Slovenia": "SLVN",
@@ -43,6 +42,9 @@ manufacturer_dict = {
 """
 A dictionary of keywords that appear in flag display links and their corresponding country abbr.
 """
+
+former_countries_list = ["USSR", "YGO", "Soviet Union", "Yugoslavia"]
+# List of countries that do not exist in 2023. Denotes equipment inherited from these countries.
 
 ru_vehicle_types = {"Unknown T-54/55": "Tanks",
                     "BMPT Terminator": "Armored Fighting Vehicles",
@@ -106,9 +108,24 @@ in the Ukraine losses page.
 """
 
 df_colnames = ["id", "name", "type", "status", 
-                "year", "month", "day", 
+                "day", "month", "year", 
                 "manufacturer", "manufacturer_abbr", 
                 "user", "user_abbr", "proof"]
+"""
+Column names that will be used to create a Pandas Dataframe in oryx_parser.py.
+
+Column names and meanings:
+id: generic numerical ID.
+name: vehicle designation (T-80BVM, BMP-1, Ka-52, Su-25, etc)
+type: vehicle category (tank, helicopter, boat, etc)
+status: type of loss (destroyed, abandoned, captured, etc)
+year, month, day: date of vehicle loss or None if the date cannot be parsed by numbers.
+manufacturer: country that produced it (Soviet Union, Russia, United States, etc)
+manufacturer_abbr: abbreviation (USSR, RU, USA, etc)
+user: country that used it (Ukraine or Russia)
+user_abbr: abbreviation (UA or RU)
+proof: postimg or twitter link that shows the loss.
+"""
 
 ru_losses = "https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-equipment.html"
 ua_losses = "https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-ukrainian.html"

@@ -15,6 +15,9 @@ def name_parsing(input_name: str) -> str:
 
     This function removes leading spaces and number counts from the string
     and returns the relevant portions "[name]".
+
+    Example input: 409 T-80BV
+    Example output: T-80BV
     """
     output = ""
     startReading = False
@@ -25,45 +28,76 @@ def name_parsing(input_name: str) -> str:
             output += input_name[index]
     return output[1:]
 
-def status_parsing(status: str) -> str:
+def status_parsing(status: str) -> tuple[str, int]:
     """
     This function takes in one input:
     status: a partially parsed string containing the status of a lost vehicle.
     They usually take the form of " ([1 or more numbers]: [status])".
 
-    Returns the relevant portion [status].
-    """
+    Returns the relevant portion [status] and the number of occurrences of this status.
 
-def postimg_date_parsing(postimg: str) -> tuple[int, int, int] | tuple[None, None, None]:
-    """
-    For parsing postimg links.
-    Some postimg links include a date in text format in the form:
-    Day Month Year (example: 05 08 23)
-    Extract that and return day, month, year separately.
-    If the link does not contain a DMY, return None values.
+    Example input: (21, 22, 23, 24, 25 and 26, captured)
+    Example output: captured, 6
+
     Regex generated using this website:
     https://regex-generator.olafneumann.org/
     """
-    if "postimg" in postimg:
-        # There is a bug where some postimg links leading directly to an image results in requests
-        # getting junk data. To fix this, we will process the link to lead to postimg posts.
-        postimg = postimg.replace("i.postimg", "postlmg")
+    parsed_status = re.search(r"[A-Za-z0-9]+\)", status)
+    if parsed_status is not None: parsed_status = parsed_status.group(0).strip(" )")
+    else: return "Unknown", 1
+    status_count = len(re.findall(r"[0-9]+", status))
+    return parsed_status, status_count
+
+def postimg_link_processing(link: str) -> str:
+    """
+    This function takes in one input:
+    postimg: a link to a postimg image post.
+
+    Turns the link into a usable format. See the docstring for postimg_date_parsing
+    for additional context.
+
+    Example input: https://i.postimg.cc/jdFBJdQb/1027-t55-dam-05-08-23.jpg
+    Example output: https://postlmg.cc/jdFBJdQb
+    """
+    if "postimg" in link:
+        link = link.replace("i.postimg", "postlmg")
         placeholder = ""
         slash_counter = 0
         # Postimg links take the form of:
         # https://i.postimg.cc/idhere/imagename.extension
         # this for loop truncates the link (after replacement) to:
         # https://postlmg.cc/idhere
-        for char in postimg:
+        for char in link:
             if char == '/':
                 slash_counter += 1
             if slash_counter == 4:
                 break
             placeholder += char
-        postimg = placeholder
-        #print(postimg)
+        return placeholder
+    else: return link
 
-    # for postimg links that lead to a post instead of an image,
+def postimg_date_parsing(postimg: str) -> tuple[int, int, int] | tuple[None, None, None]:
+    """
+    This function takes in one input:
+    postimg: a link to a postimg image post.
+
+    Parses the link and returns any date values included in the webpage.
+    Some postimg links include a date in text format in the form:
+    Day Month Year (example: 05 08 23)
+    Extract that and return day, month, year separately.
+    If the link does not contain a DMY, return None values.
+
+    Example input: https://i.postimg.cc/jdFBJdQb/1027-t55-dam-05-08-23.jpg
+    Example output: 05 08 23
+    To confirm that the example output is legitimate, open the processed input
+    link in a new tab.
+
+    Regex generated using this website:
+    https://regex-generator.olafneumann.org/
+    """
+    postimg = postimg_link_processing(postimg)
+
+    # for postlmg links that lead to a post instead of an image,
     # we can proceed to parsing normally.
 
     r = requests.get(postimg)
@@ -85,6 +119,7 @@ def postimg_date_parsing(postimg: str) -> tuple[int, int, int] | tuple[None, Non
 def twitter_date_parsing(twitter: str) -> tuple[int, int, int] | tuple[None, None, None]:
     """
     For parsing twitter links.
+    Currently a placeholder function that returns None.
     """
     # Holding back on implementing the twitter api until everything else works
     # Since the free Twitter API only allows around 1500 queries a month or something of that sort
@@ -102,14 +137,3 @@ def link_date_parsing(link: str):
     else:
         return twitter_date_parsing(link)
     # All links are postimg or postlmg or twitter (I checked)
-
-def status_parsing(raw_status: str) -> tuple[str, int]:
-    """
-    This function takes in one input:
-    raw_status: status of a vehicle in the format ([number or numbers] [status])
-
-    Returns the status and the number of vehicles in that status.
-    """
-    parsed_status = re.search(r"[A-Za-z\s]+\)", raw_status).group(0).strip(" )")
-    count = len(re.findall(r"[0-9]+", raw_status))
-    return parsed_status, count
