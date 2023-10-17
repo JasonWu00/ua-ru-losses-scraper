@@ -127,20 +127,20 @@ def main():
     """
     Main function.
     """
-    df_list, twitter_link_count, twitter_links_list = parse_oryx(ru_losses, "Russia", ru_vehicle_types)
-    print(twitter_link_count)
-    df = pd.DataFrame(df_list, columns=df_colnames)
-    print(df.head())
-    df.to_csv("ru_losses.csv", index=False)
+    # df_list, twitter_link_count, twitter_links_list = parse_oryx(ru_losses, "Russia", ru_vehicle_types)
+    # print(twitter_link_count)
+    # df = pd.DataFrame(df_list, columns=df_colnames)
+    # print(df.head())
+    # df.to_csv("ru_losses.csv", index=False)
 
     # df_twitter_ru = pd.DataFrame(twitter_links_list, columns=["link", "day", "month", "year"])
     # print(df_twitter_ru.head())
     # df_twitter_ru.to_csv("ru_losses_twitter_links.csv", index=False)
 
-    df_list, twitter_link_count, twitter_links_list = parse_oryx(ua_losses, "Ukraine", ua_vehicle_types)
-    df = pd.DataFrame(df_list, columns=df_colnames)
-    print(df.head())
-    df.to_csv("ua_losses.csv", index=False)
+    # df_list, twitter_link_count, twitter_links_list = parse_oryx(ua_losses, "Ukraine", ua_vehicle_types)
+    # df = pd.DataFrame(df_list, columns=df_colnames)
+    # print(df.head())
+    # df.to_csv("ua_losses.csv", index=False)
 
     # df_twitter_ua = pd.DataFrame(twitter_links_list, columns=["link", "day", "month", "year"])
     # print(df_twitter_ua.head())
@@ -149,6 +149,9 @@ def main():
     # df_twitter_sum = pd.concat([df_twitter_ru, df_twitter_ua])
     # print(df_twitter_sum.head())
     # df_twitter_sum.to_csv("total_losses_twitter_links.csv", index=False)
+
+    #merge_production_years()
+    #
 
 
 if __name__ == "__main__":
