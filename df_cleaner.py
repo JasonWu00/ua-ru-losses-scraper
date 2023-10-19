@@ -5,7 +5,7 @@ and process them to deal with missing and bad values.
 
 import pandas as pd
 
-openai_key = "eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJhcHAiLCJzdWIiOiIxMzYxMTI3IiwiYXVkIjoiV0VCIiwiaWF0IjoxNjk2ODIzNzM4LCJleHAiOjE2OTc0Mjg1Mzh9.oATrLqc0KVWQZY7foHScZJsbWf-fzxBpnrnubWB9QUs"
+openai_key = "lmao no"
 # reference: https://stackoverflow.com/questions/47969756/pandas-apply-function-that-returns-two-new-columns
 def swap_ddmmyy(row):
     #print(row)
@@ -19,6 +19,8 @@ def swap_ddmmyy(row):
 def merge_ru_ua_years():
     """
     Merges RU vehicle first made years csv into the UA vehicle first made years csv.
+
+    Edit 23:23 18 October 2023 EST: I could have just used the df.update() function. Too late now.
     """
     ru_uniques = pd.read_csv("ru_unique_vehicles_years.csv")
     ua_uniques = pd.read_csv("ua_unique_vehicles.csv")

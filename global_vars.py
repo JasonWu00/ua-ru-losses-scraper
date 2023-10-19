@@ -110,7 +110,7 @@ in the Ukraine losses page.
 df_colnames = ["id", "name", "type", "status", 
                 "day", "month", "year", 
                 "manufacturer", "manufacturer_abbr", 
-                "user", "user_abbr", "proof"]
+                "user", "user_abbr", "proof", "year_first_produced"]
 """
 Column names that will be used to create a Pandas Dataframe in oryx_parser.py.
 

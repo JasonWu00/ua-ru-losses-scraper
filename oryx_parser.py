@@ -9,6 +9,7 @@ from bs4 import BeautifulSoup
 import re
 from global_vars import *
 from parser_helpers import *
+from df_cleaner import swap_ddmmyy
 
 df = pd.DataFrame(columns=["id", "name", "type", "status", 
                            "year", "month", "day", 
@@ -40,7 +41,15 @@ def parse_oryx(link: str, user: str, vehicle_types: dict) -> []:
     and their corresponding types in the linked page.
 
     Parses an Oryx page for useful data.
+    The code is a mess. 
     """
+    # load a df of known vehicle names and their years of first production.
+    df_year_made = None
+    if user == "Russia":
+        df_year_made = pd.read_csv("ru_unique_vehicles_years.csv", index_col="name")
+    else:
+        df_year_made = pd.read_csv("ua_unique_vehicles.csv", index_col="name")
+
     twitter_link_count = 0
     df_list = [] # list to be converted into a df and stored in a csv later
     twitter_links_list = [] # list of twitter links to be scraped another time
@@ -110,13 +119,17 @@ def parse_oryx(link: str, user: str, vehicle_types: dict) -> []:
                     twitter_links_list.append([proof, None, None, None])
                     twitter_link_count += 1
 
+                year_made = None
+                if vehicle_name in df_year_made.index:
+                    year_made = df_year_made.loc[vehicle_name, "year_first_made"] # a year number or None
                 # add data to the df
                 # since each proof can have multiple numbers e.g. (30, 31 and 32: destroyed)
                 # those multiple-number proofs will result in adding multiple lines into the df.
                 for i in range(status_count):
+                    #if proof not in existing_proofs: # add only losses not already in the db
                     df_list.append([id, vehicle_name, vehicle_type, status,
                                     day, month, year, flag_country,
-                                    flag_country_abbr, user, user_abbr, proof])
+                                    flag_country_abbr, user, user_abbr, proof, year_made])
                     id += 1
                     print(df_list[len(df_list)-1])
                     
@@ -127,20 +140,22 @@ def main():
     """
     Main function.
     """
-    # df_list, twitter_link_count, twitter_links_list = parse_oryx(ru_losses, "Russia", ru_vehicle_types)
+    df_list, twitter_link_count, twitter_links_list = parse_oryx(ru_losses, "Russia", ru_vehicle_types)
     # print(twitter_link_count)
-    # df = pd.DataFrame(df_list, columns=df_colnames)
+    df_ru = pd.DataFrame(df_list, columns=df_colnames)
+    df_ru[["year", "month", "day"]] = df_ru[["year", "month", "day"]].apply(swap_ddmmyy)
     # print(df.head())
-    # df.to_csv("ru_losses.csv", index=False)
+    df_ru.to_csv("ru_losses.csv", index=False)
 
     # df_twitter_ru = pd.DataFrame(twitter_links_list, columns=["link", "day", "month", "year"])
     # print(df_twitter_ru.head())
     # df_twitter_ru.to_csv("ru_losses_twitter_links.csv", index=False)
 
-    # df_list, twitter_link_count, twitter_links_list = parse_oryx(ua_losses, "Ukraine", ua_vehicle_types)
-    # df = pd.DataFrame(df_list, columns=df_colnames)
+    df_list, twitter_link_count, twitter_links_list = parse_oryx(ua_losses, "Ukraine", ua_vehicle_types)
+    df_ua = pd.DataFrame(df_list, columns=df_colnames)
+    df_ua[["year", "month", "day"]] = df_ua[["year", "month", "day"]].apply(swap_ddmmyy)
     # print(df.head())
-    # df.to_csv("ua_losses.csv", index=False)
+    df_ua.to_csv("ua_losses.csv", index=False)
 
     # df_twitter_ua = pd.DataFrame(twitter_links_list, columns=["link", "day", "month", "year"])
     # print(df_twitter_ua.head())
