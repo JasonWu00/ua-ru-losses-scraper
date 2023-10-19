@@ -39,19 +39,25 @@ def merge_production_years():
     """
     Merges RU and UA vehicle first made years into the overall csv.
     """
-    ru_uniques = pd.read_csv("ru_unique_vehicles_years.csv")
+    #ru_uniques = pd.read_csv("ru_unique_vehicles_years.csv")
     ua_uniques = pd.read_csv("ua_unique_vehicles.csv")
-    ru_losses = pd.read_csv("ru_losses.csv")
+    #ru_losses = pd.read_csv("ru_losses.csv")
     ua_losses = pd.read_csv("ua_losses.csv")
+    
     ua_losses = ua_losses.merge(right=ua_uniques,
                                 on="name",
                                 how="left")
-    #ua_losses = ua_losses.astype({"year_first_produced": int})
-    ru_losses = ru_losses.merge(right=ru_uniques,
-                                on="name",
-                                how="left")
-    #ru_losses = ru_losses.astype({"year_first_produced": int})
-    ru_losses.to_csv("ru_losses.csv", index=False)
+    
+    # merge() creates copies of the year first produce col
+    # drop the old copy and rename the new copy
+    ua_losses.drop(["year_first_produced_x"], axis=1, inplace=True)
+    ua_losses.rename({"year_first_produced_y":"year_first_produced"}, axis=1, inplace=True)
+    # ru_losses = ru_losses.merge(right=ru_uniques,
+    #                             on="name",
+    #                             how="left")
+    #ru_losses.update(ua_uniques)
+    
+    #ru_losses.to_csv("ru_losses.csv", index=False)
     ua_losses.to_csv("ua_losses.csv", index=False)
 
 def remove_extra_cols():
@@ -73,6 +79,7 @@ def main():
     """
     Main.
     """
+    merge_production_years()
 
 if __name__ == "__main__":
     main()
