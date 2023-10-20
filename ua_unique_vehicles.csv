@@ -73,11 +73,11 @@ FV103 Spartan,1978
 VAB,
 Sisu XA-185,1984
 M1126 Stryker,2002
-KrAZ-MPV Shrek One,
+KrAZ-MPV Shrek One,2008
 KrAZ-Forpost,
-Alvis 4 'Mamba',
-Mastiff Protected Patrol,
-Wolfhound Protected Patrol,
+Alvis 4 'Mamba',1988
+Mastiff Protected Patrol,2002
+Wolfhound Protected Patrol,2002
 Bushmaster Protected Mobility Vehicle,1997
 International M1224 MaxxPro,2007
 Oshkosh M-ATV,2009
@@ -90,7 +90,7 @@ Novator,2019
 Varta,
 Kozak-2,2015
 Kozak-2M1,2019
-Kozak-5,
+Kozak-5,2015
 Kozak-7,
 Triton-1,
 M1114 and M1151 HMMWV,1983
@@ -166,7 +166,7 @@ AK4-9A 'Porosha' airfield air conditioner based on KamAZ-5320,
 1V16M artillery battalion command and staff vehicle,
 1V18 'Klyon-1' artillery command and forward observer vehicle,
 9T452 transporter-loader (for BM-27 'Uragan' MRL),1975
-100mm BS-3 anti-tank gun,
+100mm BS-3 anti-tank gun,1944
 100mm MT-12 anti-tank gun,1970
 105mm L119 howitzer,1974
 120mm 2B16 Nona-K gun mortar,1981
@@ -184,7 +184,7 @@ Unknown towed artillery,
 120mm 2S9 Nona,1981
 120mm BRM-1K with 2S9 Nona turret,1981
 120mm M1064A3,1990
-120mm Alakran,
+120mm Alakran,2019
 122mm 2S1 Gvozdika,1972
 152mm 2S3 Akatsiya,1971
 152mm 2S5 Giatsint-S,1978
@@ -193,8 +193,8 @@ Unknown towed artillery,
 155mm AHS Krab,1997
 203mm 2S7 Pion,1976
 155mm ShKH Zuzana 2,2009
-155mm Caesar 6x6,
-155mm Caesar 8x8,
+155mm Caesar 6x6,2008
+155mm Caesar 8x8,2008
 155mm Panzerhaubitze 2000,1998
 152mm ShKH vz. 77 DANA,1981
 155mm AS-90,1992
@@ -203,7 +203,7 @@ Unknown SPG,
 122mm BM-21 Grad,1963
 122mm Bastion-1,
 220mm BM-27 Uragan,1975
-220mm Bureviy,
+220mm Bureviy,1975
 122mm RM-80,
 23mm ZU-23,1960
 23mm 23 ItK 61,
@@ -212,7 +212,7 @@ ZSU-23-4 Shilka,1957
 2K22M Tunguska-M,2003
 9K33 Osa,1971
 9K35 Strela-10,1976
-Stormer HVM,
+Stormer HVM,1981
 9A3M1 TELAR (for Buk-M1),1980
 9A39M1 TEL (for Buk-M1),1980
 9A3 Tor TLAR (for 9K330 Tor),1986
@@ -220,21 +220,21 @@ Stormer HVM,
 5P85D (launcher for S-300PS),1985
 5P85S (launcher for S-300PS),1985
 5P85D,
-Launcher for S-300,
+Launcher for S-300,1978
 P-14 'Tall King',1959
 P-18 'Spoon Rest D',1970
 P-18 'Malakhit',
 79K6 'Pelikan' 3D surveillance radar,
-P-19 'Flat Face B',
+P-19 'Flat Face B',1974
 P-35,1958
 PRV-11 'Side Net',
 PRV-13 'Odd Pair',
 PRV-16 'Thin Skin B',
 1L22 'Parol',
 36D6 'Tin Shield',
-5N63S 'Flap Lid B' (for S-0PS),
-5N63-1 'Flap Lid A' on V6M mast (for S-0PT),
-5N66M 'Clam Shell' on V6M mast (for S-0PT),
+5N63S 'Flap Lid B' (for S-300PS),1985
+5N63-1 'Flap Lid A' on V6M mast (for S-300PT),1978
+5N66M 'Clam Shell' on V6M mast (for S-300PT),1978
 "R-4-7,5 tropospheric radio relay communication station",
 SNAR-10 battlefield surveillance radar,
 1B44-1 (RPMK-1) radiosonde weather radar,
@@ -246,7 +246,7 @@ TRML-4D multi-functional radar (for IRIS-T SLM),2005
 AN/TPQ-36,1982
 AN/TPQ-37,1980
 AN/TPQ-49,1991
-AN/TPQ-50,
+AN/TPQ-50,2023
 ARTHUR counter-battery radar,1994
 Unknown counter mortar,
 NOTA,
@@ -269,7 +269,7 @@ Mi-24 attack helicopter,1972
 Airbus H225 transport helicopter,2005
 Bayraktar TB2,2014
 Avenger,
-A1-SM Fury,
+A1-SM Fury,2023
 ASU-1 Valkyrja,
 Leleka-0,
 Spaitech Sparrow,
@@ -290,12 +290,12 @@ EOS-C VTOL,
 Bayraktar Mini,2007
 AeroVironment RQ-20 Puma,2008
 AeroVironment Quantix Recon UAV,
-Boeing Insitu ScanEagle 2,
+Boeing Insitu ScanEagle 2,2005
 Malloy Aeronautics T1 cargo UAV,
 Unknown reconnaissance UAV,
 Krivak III-class frigate,1970
 Gyurza-M-class gunboat,2012
-Island-class patrol boat,
+Island-class patrol boat,1985
 Stenka-class patrol boat (Operated by the Sea Guard),1967
 Zhuk-class patrol boat (Sea Guard),1969
 Sorum-class seagoing tugboat,1974
