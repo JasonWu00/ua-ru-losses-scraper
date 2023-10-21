@@ -11,27 +11,6 @@ from global_vars import *
 from parser_helpers import *
 from df_cleaner import swap_ddmmyy
 
-df = pd.DataFrame(columns=["id", "name", "type", "status", 
-                           "year", "month", "day", 
-                           "manufacturer", "manufacturer_abbr", 
-                           "user", "user_abbr", "proof"])
-"""
-A DataFrame that will store all scraped vehicle loss data.
-
-Columns include:
-id: generic numerical ID.
-Name: vehicle designation (T-80BVM, BMP-1, Ka-52, Su-25, etc)
-Type: vehicle category (tank, helicopter, boat, etc)
-Status: type of loss (destroyed, abandoned, captured, etc)
-Year, Month, Day: date of vehicle loss
-Manufacturer: country that produced it (Soviet Union, Russia, etc)
-Manufacturer_abbr: abbreviation (USSR, RU, etc)
-User: country that used it (Ukraine or Russia)
-User_abbr: abbreviation (UA or RU)
-Proof: postimg or twitter link that shows the loss.
-"""
-
-
 def parse_oryx(link: str, user: str, vehicle_types: dict) -> []:
     """
     This function takes in three inputs:
@@ -73,7 +52,7 @@ def parse_oryx(link: str, user: str, vehicle_types: dict) -> []:
 
         for vehicle in vehicles:
             # Search for the name of the vehicle.
-            vehicle_name = re.search(r"\S[\w\s\(\)\-\"\'\,.]*", vehicle.text).group(0)
+            vehicle_name = re.search(r"\S[\w\s\(\)\-\"\'\,\.\/]*", vehicle.text).group(0)
             # The Unknown T-54/55 entry in the Oryx blog breaks the regex
             # by not having a colon that ends the regex.
             # This is manually fixed here.
@@ -121,7 +100,7 @@ def parse_oryx(link: str, user: str, vehicle_types: dict) -> []:
 
                 year_made = None
                 if vehicle_name in df_year_made.index:
-                    year_made = df_year_made.loc[vehicle_name, "year_first_made"] # a year number or None
+                    year_made = df_year_made.loc[vehicle_name, "year_first_produced"] # a year number or None
                 # add data to the df
                 # since each proof can have multiple numbers e.g. (30, 31 and 32: destroyed)
                 # those multiple-number proofs will result in adding multiple lines into the df.
@@ -143,7 +122,7 @@ def main():
     df_list, twitter_link_count, twitter_links_list = parse_oryx(ru_losses, "Russia", ru_vehicle_types)
     # print(twitter_link_count)
     df_ru = pd.DataFrame(df_list, columns=df_colnames)
-    df_ru[["year", "month", "day"]] = df_ru[["year", "month", "day"]].apply(swap_ddmmyy)
+    df_ru[["day", "month", "year"]] = df_ru[["day", "month", "year"]].apply(swap_ddmmyy, axis=1)
     # print(df.head())
     df_ru.to_csv("ru_losses.csv", index=False)
 
@@ -153,7 +132,7 @@ def main():
 
     df_list, twitter_link_count, twitter_links_list = parse_oryx(ua_losses, "Ukraine", ua_vehicle_types)
     df_ua = pd.DataFrame(df_list, columns=df_colnames)
-    df_ua[["year", "month", "day"]] = df_ua[["year", "month", "day"]].apply(swap_ddmmyy)
+    df_ua[["day", "month", "year"]] = df_ua[["day", "month", "year"]].apply(swap_ddmmyy, axis=1)
     # print(df.head())
     df_ua.to_csv("ua_losses.csv", index=False)
 

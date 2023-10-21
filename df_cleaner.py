@@ -4,6 +4,7 @@ and process them to deal with missing and bad values.
 """
 
 import pandas as pd
+import numpy as np
 
 openai_key = "lmao no"
 # reference: https://stackoverflow.com/questions/47969756/pandas-apply-function-that-returns-two-new-columns
@@ -12,8 +13,16 @@ def swap_ddmmyy(row):
     day = row["day"]
     month = row["month"]
     year = row["year"]
-    if day == 2022 or day == 2023: # datetime stored in year month day format
-        return pd.Series([year, month, day - 2000])
+    if year == 2022 or year == 2023: # datetime stored in year month day format
+        return pd.Series([month, day, year - 2000])
+    else: return pd.Series([day, month, year])
+
+def unmix_ddmmyy(row):
+    day = row["day"]
+    month = row["month"]
+    year = row["year"]
+    if np.isnan(year): return pd.Series([None, None, None])
+    elif year != 22.0 or year != 23.0: return pd.Series([year, month, day])
     else: return pd.Series([day, month, year])
 
 def merge_ru_ua_years():
@@ -79,7 +88,12 @@ def main():
     """
     Main.
     """
-    merge_production_years()
+    df_ru = pd.read_csv("ru_losses.csv")
+    df_ua = pd.read_csv("ua_losses.csv")
+    df_ru[["day", "month", "year"]] = df_ru[["day", "month", "year"]].apply(swap_ddmmyy, axis=1)
+    df_ua[["day", "month", "year"]] = df_ua[["day", "month", "year"]].apply(swap_ddmmyy, axis=1)
+    df_ru.to_csv("ru_losses.csv", index=False)
+    df_ua.to_csv("ua_losses.csv", index=False)
 
 if __name__ == "__main__":
     main()

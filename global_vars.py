@@ -73,7 +73,7 @@ ru_vehicle_types = {"Unknown T-54/55": "Tanks",
 """
 A dictionary of the first entries of vehicle types and their corresponding types
 in the Russia losses page.
-The Oryx blog has some extremely inconsistent tag, id, and class usage which
+The Oryx blog has some inconsistent tag, id, and class usage which
 makes code-based acquiring of this data too difficult.
 Thus I had to make these dicts by hand.
 There is an equivalent dict for entry/type combos for the Ukrainian losses page.
