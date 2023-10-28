@@ -6,6 +6,8 @@ import requests
 from bs4 import BeautifulSoup
 import re
 import twitter_api_tokens # user-side file with twitter api tokens
+import tweepy
+import pandas as pd
 
 def name_parsing(input_name: str) -> str:
     """
@@ -115,14 +117,53 @@ def postimg_date_parsing(postimg: str) -> tuple[int, int, int] | tuple[None, Non
     year = int(parsed_date[2])
     return day, month, year
 
+def parse_all_twitter_links() -> None:
+    """
+    Goes through every Twitter link and returns DMY data or None (if the API breaks).
+    """
 
-def twitter_date_parsing(twitter: str) -> tuple[int, int, int] | tuple[None, None, None]:
+    twitter_df = pd.read_csv("total_losses_twitter_links.csv")
+    twitter_list = twitter_df.values.tolist()
+    auth = tweepy.OAuthHandler(twitter_api_tokens.API_KEY, twitter_api_tokens.API_KEY_SECRET)
+    auth.set_access_token(twitter_api_tokens.ACCESS_TOKEN, twitter_api_tokens.ACCESS_TOKEN_SECRET)
+    api = tweepy.API(auth)
+
+    for entry in twitter_list:
+        link = entry[0]
+        if entry[1] is not None: continue
+        try:
+            id = re.search(r'[0-9]+', link).group(0)
+            status = api.get_status(id)
+            creation_time = str(status.created_at)
+            dmy = re.search(r'[0-9]{4}-[0-9]{2}-[0-9]{2}', creation_time).group(0)
+
+            dmy_str_list = dmy.split('-')
+            dmy_list = []
+            for entry in dmy_str_list:
+                dmy_list.append( int(entry))
+   
+            entry[1] = dmy_list[0]
+            entry[2] = dmy_list[1]
+            entry[3] = dmy_list[2]
+        except:
+            entry[1] = None
+            entry[2] = None
+            entry[3] = None
+    dated_twitter = pd.DataFrame(twitter_list, columns=["proof", "day", "month", "year"])
+    dated_twitter.to_csv("twitter_links_dated.csv")
+
+def twitter_date_parsing(link: str) -> tuple[int, int, int] | tuple[None, None, None]:
     """
-    For parsing twitter links.
-    Currently a placeholder function that returns None.
+    Takes in a Twitter link.
+    Returns either its DDMMYY data or (if the API refuses to accept more requests) None.
+
+    Reference:
+    https://www.geeksforgeeks.org/python-tweepy-getting-the-date-and-time-when-a-tweet-was-tweeted/
+
+    Twitter API tokens are taken from a private file.
+    You might want to create your own version if you are cloning this repo.
     """
-    # Holding back on implementing the twitter api until everything else works
-    # Since the free Twitter API only allows around 1500 queries a month or something of that sort
+    #PLACEHOLDER
     return None, None, None
 
 def link_date_parsing(link: str):
