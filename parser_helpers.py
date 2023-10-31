@@ -105,7 +105,10 @@ def postimg_date_parsing(postimg: str) -> tuple[int, int, int] | tuple[None, Non
     r = requests.get(postimg)
     soup = BeautifulSoup(r.content, 'html.parser')
     title = soup.find("title")
-    parsed_date = re.search(r"([0-9]+( [0-9]+)+)", title.text)
+
+    # Oryx image titling is extremely inconsistent so this only sort of works
+    # Clean up the dates manually later
+    parsed_date = re.search(r"([0-9]{2} [0-9]{2} [0-9]{2,4})", title.text)
     if parsed_date is None: return None, None, None
 
     parsed_date = parsed_date.group(0).strip()
@@ -117,38 +120,47 @@ def postimg_date_parsing(postimg: str) -> tuple[int, int, int] | tuple[None, Non
     year = int(parsed_date[2])
     return day, month, year
 
-def parse_all_twitter_links() -> None:
+def parse_all_twitter_links(twitter_list: list) -> list:
     """
-    Goes through every Twitter link and returns DMY data or None (if the API breaks).
+    Goes through every Twitter link in the given list
+    and returns DMY data or None (if the API breaks).
     """
-
-    twitter_df = pd.read_csv("total_losses_twitter_links.csv")
-    twitter_list = twitter_df.values.tolist()
+    print("Starting parse all twtr links")
     auth = tweepy.OAuthHandler(twitter_api_tokens.API_KEY, twitter_api_tokens.API_KEY_SECRET)
     auth.set_access_token(twitter_api_tokens.ACCESS_TOKEN, twitter_api_tokens.ACCESS_TOKEN_SECRET)
     api = tweepy.API(auth)
+    status = api.get_status(1234567890)
 
     for entry in twitter_list:
         link = entry[0]
-        if entry[1] is not None: continue
+        if pd.notna(entry[1]): continue
         try:
+            print("Starting try")
             id = re.search(r'[0-9]+', link).group(0)
+            print("id got")
+            print(id)
             status = api.get_status(id)
+            print("Status got")
+            print(status)
             creation_time = str(status.created_at)
+            print("Extract creation time")
+            print(creation_time)
             dmy = re.search(r'[0-9]{4}-[0-9]{2}-[0-9]{2}', creation_time).group(0)
 
             dmy_str_list = dmy.split('-')
             dmy_list = []
             for entry in dmy_str_list:
                 dmy_list.append( int(entry))
-   
+            print(dmy_list)
             entry[1] = dmy_list[0]
             entry[2] = dmy_list[1]
             entry[3] = dmy_list[2]
         except:
+            print("stuck in Except")
             entry[1] = None
             entry[2] = None
             entry[3] = None
+    return twitter_list
     dated_twitter = pd.DataFrame(twitter_list, columns=["proof", "day", "month", "year"])
     dated_twitter.to_csv("twitter_links_dated.csv")
 
@@ -178,3 +190,20 @@ def link_date_parsing(link: str):
     else:
         return twitter_date_parsing(link)
     # All links are postimg or postlmg or twitter (I checked)
+
+def main():
+    """
+    main function.
+    """
+    twitter_df = pd.read_csv("total_losses_twitter_links.csv")
+    twitter_list = twitter_df.values.tolist()
+    sample_twitter_list = twitter_list[:2]
+    #print(sample_twitter_list)
+    new_twitter_list = parse_all_twitter_links(sample_twitter_list)
+    print(new_twitter_list[:2])
+    return 0
+    dated_twitter = pd.DataFrame(new_twitter_list, columns=["proof", "day", "month", "year"])
+    dated_twitter.to_csv("twitter_links_dated.csv")
+
+if __name__ == "__main__":
+    main()

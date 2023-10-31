@@ -85,6 +85,31 @@ def remove_extra_cols():
     ru_losses.to_csv("ru_losses.csv", index=False)
     ua_losses.to_csv("ua_losses.csv", index=False)
 
+def make_datetime(row):
+    """
+    Convert day, month, year ints into a datetime value.
+    """
+    #print(row)
+    if pd.isna(row["year"]): return None
+    dt_string = "" + str(int(row["year"] + 2000)) + "-" + str(int(row["month"])) + "-" + str(int(row["day"]))
+    #print(dt_string)
+    return pd.to_datetime(dt_string)
+
+def add_fix_datetime():
+    """
+    Turns DDMMYY into datetime and also highlights badly formatted datetime values.
+    """
+    ru_losses = pd.read_csv('ru_losses.csv')
+    ua_losses = pd.read_csv('ua_losses.csv')
+
+    ru_losses["date_lost"] = ru_losses[["day", "month", "year"]].apply(lambda row: make_datetime(row), axis=1)
+    print(ru_losses["date_lost"])
+    ru_losses.to_csv('ru_losses.csv')
+
+    ua_losses["date_lost"] = ua_losses[["day", "month", "year"]].apply(lambda row: make_datetime(row), axis=1)
+    print(ua_losses["date_lost"])
+    ua_losses.to_csv('ua_losses.csv')
+
 def main():
     """
     Main.
