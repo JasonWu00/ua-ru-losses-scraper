@@ -44,7 +44,7 @@ def status_parsing(status: str) -> tuple[str, int]:
     Regex generated using this website:
     https://regex-generator.olafneumann.org/
     """
-    parsed_status = re.search(r"[A-Za-z0-9]+\)", status)
+    parsed_status = re.search(r"[A-Za-z0-9\s]+\)", status)
     if parsed_status is not None: parsed_status = parsed_status.group(0).strip(" )")
     else: return "Unknown", 1
     status_count = len(re.findall(r"[0-9]+", status))
@@ -108,7 +108,7 @@ def postimg_date_parsing(postimg: str) -> tuple[int, int, int] | tuple[None, Non
 
     # Oryx image titling is extremely inconsistent so this only sort of works
     # Clean up the dates manually later
-    parsed_date = re.search(r"([0-9]{2} [0-9]{2} [0-9]{2,4})", title.text)
+    parsed_date = re.search(r"\W([0-9]{2} [0-9]{2} [0-9]{2,4})\W", title.text)
     if parsed_date is None: return None, None, None
 
     parsed_date = parsed_date.group(0).strip()
