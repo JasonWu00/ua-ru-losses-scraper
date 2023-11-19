@@ -45,6 +45,15 @@ def merge_ru_ua_years():
     print(ua_uniques[10:20])
     ua_uniques.to_csv("ua_unique_vehicles.csv", index=False)
 
+def merge_donation_years():
+    """
+    Merges first made years for RU and UA donated equipment.
+    """
+    donated_vehicles = pd.read_csv("donated_vehicles.csv")
+    years = pd.read_csv("donated_vehicles_years.csv")
+    donated_vehicles = donated_vehicles.merge(right=years, on="vehicle_name", how="left")
+    donated_vehicles.to_csv("donated_vehicles.csv", index=False)
+
 def merge_production_years():
     """
     Merges RU and UA vehicle first made years into the overall csv.
@@ -111,6 +120,9 @@ def add_fix_datetime():
     ua_losses.to_csv('ua_losses.csv')
 
 def main():
+    merge_donation_years()
+
+def main1():
     """
     Main.
     """

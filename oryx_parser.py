@@ -11,6 +11,13 @@ from global_vars import *
 from parser_helpers import *
 from df_cleaner import swap_ddmmyy
 
+"""
+Su-25,1978.0
+MiG-29AS'/UBS',1983.0
+MiG-29As/UB,1983.0
+MiG-29,1983.0
+"""
+
 def parse_oryx_donations(link: str, user: str, vehicle_types: dict) -> []:
     """
     Text.
@@ -35,10 +42,10 @@ def parse_oryx_donations(link: str, user: str, vehicle_types: dict) -> []:
             for index in range(len(vehicle_str)):
                 if not vehicle_str[index].isascii(): # some of the entries have invisible ascii characters breaking regex
                     vehicle_str = vehicle_str[:index] + " " + vehicle_str[index+1:]
-            
-            vehicle_name_counts = re.findall(r"[0-9]* <a href=[a-zA-Z0-9/\:\"\.]+>[a-zA-Z0-9\-\s/\'\(\)]+</a>", 
+            #print(vehicle_str)
+            vehicle_name_counts = re.findall(r"[0-9\s+]*<a href=[a-zA-Z0-9/\:\"\.\-]+>[a-zA-Z0-9\-\s/\'\(\)\*]+</a>", 
                                             vehicle_str)
-            if "Roshel" in vehicle.text: print(vehicle_str); print(vehicle_name_counts)
+
             #print(vehicle_name_counts)
             # Identify a country and abbreviation using a flag image link.
             flag = vehicle.find('img')
@@ -61,12 +68,18 @@ def parse_oryx_donations(link: str, user: str, vehicle_types: dict) -> []:
                 #print(flag)
                 #print(vehicle_name_count)
 
-                count = re.search(r"[0-9]*[+]*", vehicle_name_count).group(0)
-                if count == '': count = 0 # when it doesn't specify how many donated, default to 0
-                elif '+' in count: count = count[:len(count)-2]
+                count = re.search(r"[0-9]+[+]*\s", vehicle_name_count)
+                #print(count)
+                if count is None: count = 0
+                else: count = count.group(0)
+                #print(count)
+                if type(count) is not int:
+                    if count == '': count = 0 # when it doesn't specify how many donated, default to 0
+                    if '+' in count: count = count[:len(count)-2]
+                #print(count)
                 count = int(count)
 
-                name = re.search(r">[a-zA-Z0-9\-\s/\'\(\)]+<", vehicle_name_count).group(0)
+                name = re.search(r">[a-zA-Z0-9\-\s/\'\(\)\*]+<", vehicle_name_count).group(0)
                 name = name[1:]
                 name = name[:len(name)-1] # drops the < and >
                 if name[len(name)-1] == 's':
@@ -78,9 +91,9 @@ def parse_oryx_donations(link: str, user: str, vehicle_types: dict) -> []:
                 proof = proof[6:]
                 if proof[len(proof)-1] == "\"":
                     proof = proof[:len(proof)-1] # gets rid of trailing quotation marks
-                if "Roshel" in vehicle_name_count:
-                    print([count, name, proof, flag_country, flag_country_abbr])
-                    print("-"*50)
+
+                #print([count, name, proof, flag_country, flag_country_abbr])
+                #print("-"*50)
 
                 if name in donated_vehicle_types: vehicle_type = donated_vehicle_types[name]
                 is_delivered = not ("[to be delivered]" in vehicle.text or "pledged" in vehicle.text)
@@ -90,6 +103,7 @@ def parse_oryx_donations(link: str, user: str, vehicle_types: dict) -> []:
                         "Ukraine", "UA", count, is_delivered, is_soviet, proof]
                 df_list.append(line)
                 id += 1
+                #if id > 10: return []
 
     df = pd.DataFrame(df_list, columns=df_donations_colnames)
     df.to_csv("donated_vehicles.csv", index=False)
@@ -202,7 +216,12 @@ def main():
     """
     Second main function.
     """
-    parse_oryx_donations(ua_supplies, "Ukraine", donated_vehicle_types)
+    # parse_oryx_donations(ua_supplies, "Ukraine", donated_vehicle_types)
+    donations = pd.read_csv("donated_vehicles.csv")
+    donations = donations[donations["vehicle_name"] != "Ringtausch"]
+    donations["id"] = donations.index
+    donations = donations.to_csv("donated_vehicles.csv", index=False)
+    #donations["vehicle_name"].to_csv("donated_vehicles_years.csv", index=False)
 
 def main_old():
     """

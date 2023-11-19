@@ -1,0 +1,298 @@
+vehicle_name,year_first_produced
+Su-25,1978.0
+MiG-29AS'/UBS',1983.0
+MiG-29As/UB,1983.0
+MiG-29,1983.0
+F-16A/B,1974.0
+F-16AM/BM,1974.0
+Mi-17V5,1977.0
+Mi-8MT,1961.0
+Mi-24V,1976.0
+Mi-2,1965.0
+Mi-17,1977.0
+Westland Sea King,1969.0
+Mi-8T,1977.0
+Mi-8PS,1961.0
+Mi-8MTV-1,1961.0
+Mi-8MTV-1VA,1961.0
+Mi-8,1961.0
+Mi-24K,1976.0
+Ka-32A11BC,1982.0
+Bayraktar TB2,2014.0
+T-72M1,1979.0
+T-72M(R)s and T-72M1(R),1979.0
+T-72A,1979.0
+M-55S',1999.0
+T-72EA,2022.0
+Leopard 2A4,1985.0
+Leopard 2A6,2007.0
+Challenger 2,1998.0
+PT-91,1990.0
+Strv 122,1997.0
+Leopard 1A5,1986.0
+Leopard 1A5BE,1986.0
+M1A1 Abrams',1985.0
+Fennek,2001.0
+AMX-10 RC(R),1981.0
+BPzV Svatava,
+FV107 Scimitar Mk II,2011.0
+Combat And Logistics Vehicle,
+BVP-1,1966.0
+Pbv 501A,1966.0
+BWP-1,1966.0
+BVP M-80A,1970.0
+BMP-1A1,1966.0
+Marder 1A3,1988.0
+M2A2 ODS Bradley,1991.0
+M7 BFIST,
+CV9040C,1993.0
+KTO Rosomaks**,2001.0
+AIFV-B-C25,1970.0
+YPR-765,1970.0
+M113,1960.0
+M577,1963.0
+FV103 Spartan,1978.0
+M113AS4,1960.0
+M113G3DK/G4DK,1960.0
+M113 Armoured Medical Treatment Vehicle,1960.0
+VAB,
+Sisu XA-185,1984.0
+FV104 Samaritan,
+TAB-71M,1970.0
+Armoured Combat Support Vehicles (ACSVs),
+Bandvagn BvS 10,2014.0
+Bandvagn BV 206S',1980.0
+Stryker,2002.0
+Valuk,1996.0
+M1117 ASV,1999.0
+Armoured Personnel Carriers (Including FV430 Bulldogs),2006.0
+BTR-60PB,1966.0
+MT-LB,1970.0
+RG-31 Nyala Ambulance,
+Bushmaster Protected Mobility Vehicle,1997.0
+Alvis 4s ''Mamba'',
+Wolfhound Heavy Tactical Support Vehicle,2002.0
+Mastiff Protected Patrol Vehicle,2002.0
+International M1224 MaxxPro,2007.0
+BMC Kirpi**,2009.0
+Dingo,2000.0
+Cougar 4x4,2002.0
+Cougar 6x6,2002.0
+Oshkosh M-ATV,2009.0
+Unknown MRAP,
+Dingo 2s Equipped With CORTEX Typhon RWS To Counter Uncrewed Aerial Systems (C-UAS),2000.0
+HMMWV,1983.0
+Husky Tactical Support Vehicle,2006.0
+Roshel Senator,2018.0
+AMZ Dzik-2,2004.0
+VTLM Lince,1990.0
+Iveco LAV III,
+Inkas Titan-S 4x4,
+BATT UMG,
+Panthera T6,
+Iveco LMV,1990.0
+Otokar Cobra IIs**,2013.0
+Light Tactical Vehicle,
+Caracal 4x4,
+122mm D-30,1960.0
+155mm M777,2005.0
+152mm D-20,1947.0
+155mm FH-70,1968.0
+130mm M-46,1981.0
+105mm L118/L119,1974.0
+105mm M119,1989.0
+155mm TRF1s*,1990.0
+105mm M101,1941.0
+105mm OTO Melara Mod 56,1950.0
+152mm 152 K89s (2A36 Giatsint-Bs),1975.0
+152mm M1981s (D-20s),1947.0
+130mm 130 K54s (M-46s),1981.0
+152mm DANA M2,2018.0
+122mm 2S1 Gvozdika,1972.0
+122mm 2S1 Go dzik,1972.0
+155mm Caesar 6x6,2008.0
+155mm M109A3GN,1969.0
+155mm PzH 2000,1998.0
+155mm AHS Krab,2008.0
+LPG WDSz,
+155mm ShKH Zuzana 2s*,1998.0
+155mm M109A5 ,1979.0
+155mm M109L,1979.0
+120mm Panzerm rser M113,1960.0
+155mm M109A4BE,1969.0
+81mm/120mm M113 Mortar Variant,1960.0
+155mm AS-90,1992.0
+155mm Caesar 8x8,2008.0
+155mm M109A6,1994.0
+120mm Alakran Mortar On Toyota Land Cruisers**,
+122mm 122 PSH 74s (2S1 Gvozdikas),1972.0
+155mm Archer Artillery System,2016.0
+155mm T-155 F rt na,1995.0
+155mm RCH-155s*,2022.0
+120mm M120 Raks*,2017.0
+122mm RM-70,1972.0
+122mm BM-21 Grad,1963.0
+230mm TRLG-230,
+122mm RM-70 Vampir,1972.0
+227mm HIMARS,2010.0
+227mm M270B1 MLRS,2005.0
+227mm M270 MARS MLRS,1983.0
+227mm M270A1 MLRS-I,2005.0
+227mm LRU MLRS,1983.0
+128mm RAK SA-12,
+122mm APR-40,1963.0
+23 ItK 61,
+Zastava M55,
+Zastava M75,
+Bofors 40L70,1952.0
+AZP S-60,1950.0
+''Anti-Aircraft Guns'',
+CORTEX Typhon integrated anti-drone system,
+Gepard,1976.0
+ZSU-23-4 Shilka,1960.0
+Hibneryt self-propelled anti-aircraft gun,
+Oerlikon Skynex System,2011.0
+Cheetah PRTL,
+S-300PMU Battery,1985.0
+9K35 Strela-10M,1976.0
+Stormer HVM,1981.0
+IRIS-T SLM System,2015.0
+NASAMS batteries,1997.0
+Spada 2000 Battery,
+Crotale NG batteries,1970.0
+MIM-23 Hawk Phase I/III (21) Battery,1960.0
+MIM-23 Hawk Firing Unit,1960.0
+AN/TWQ-1 Avenger,1989.0
+S-125 Newa SC,1961.0
+9K33 Osa-AK(M),1971.0
+Osa-AKM-P1 Żądło,1971.0
+SkyGuard Aspide,
+Spada,
+Patriot Battery,1981.0
+Patriot Launcher,1981.0
+SAMP/T Battery,2001.0
+Supacat HMT-based ASRAAM SAM Launcher,1999.0
+IRIS-T SLS Launcher,2015.0
+2K12M2 Kub-M2s batteries,1967.0
+Vampire Counter-Unmanned Aerial System,
+NASAMS Battery,1997.0
+NASAMS Firing Unit,1997.0
+2K12M2 Kub-M2,1967.0
+AGM-84 Harpoon (Launcher and Missiles),1977.0
+AGM-84 Harpoon (Missiles),1977.0
+AGM-84 Harpoon (Launcher and an unknown number of missiles),1977.0
+R-73E Short-Range AAM,1984.0
+R-60MK Short-Range AAM,1970.0
+R-27R1 Beyond-Visual-Range AAM,1983.0
+AIM-9 Short-Range AAM,1956.0
+AIM-7 Beyond-Visual-Range AAM,1958.0
+AIM-9M Short-Range AAM,1956.0
+MAM-L Guided Bomb,
+MAM-C Guided Bomb,
+AGM-88 HARM Anti-Radiation Missile,1985.0
+Storm Shadow Cruise Missile,2003.0
+SCALP EG Cruise Missile,2003.0
+Brimstone 1,2005.0
+Wolfram,1999.0
+Brimstone 2,2012.0
+Hellfire Shore Defense Systems ''Robot 17'',1984.0
+Hellfire Shore Defense Systems (Launchers and 160 Missiles),1984.0
+Laser-Guided Rocket,
+APKWS,2012.0
+70mm Laser-Guided Rocket Launchers On Pick-Up Truck,
+''Electronic Jamming Equipment'',
+''Electronic Warfare Equipment'',
+''GPS Jamming Equipment'',
+''Electronic Warfare And Counter-Electronic Warfare Equipment'',
+Switchblade 300,2011.0
+Switchblade 600,2020.0
+''Loitering Munitions'',
+PPDS',
+Phoenix Ghost,
+DefendTex D40,
+WB Electronics FlyEye,
+Mini-Bayraktar,2007.0
+RQ-35 Heidrun,
+RQ-20 Puma,2008.0
+Tekever AR3,
+Unmanned Aerial Vehicle,
+Quantix  Recon,
+Unmanned Aerial Vehicle,
+Primoco One 150,2015.0
+Black Hornet,
+Vector,
+Reconnaissance UAV,
+Sky-Hero Loki MkII Quadcopter,
+''Unmanned Aerial Vehicles'',
+''Unmanned Aerial Vehicles'',
+Boeing Insitu ScanEagle 2,
+DeltaQuad Pro VTOL,
+''Unmanned Aerial And Ground Vehicles'',
+Black Hornet,
+Jump 20,
+Altius-600,
+CyberLux K8,
+Penguin,
+Luna,
+Malloy Aeronautics T150,
+AN/TPQ-36 Firefinder Weapons Locating Radar,
+Thales Squire Ground Surveillance Radar,
+AN/TPQ-36 Firefinder Weapons Locating Radar,
+AN/MPQ-64 Sentinel Air Surveillance Radar,1995.0
+Counter-Mortar Radar System,
+Unknown Radar System,
+Ground Surveillance Radar,
+Cobra Counter-Battery Radar System,
+TRML-4D Radar System,
+Mamba Arthur Counter-Battery Radar,
+AN/TPQ-37 Weapons Locating Radar,1980.0
+PS-90 Air Surveillance Radar,
+Counter-Artillery Radar,
+Multi-Mission Radar,
+Ground Master 200,2008.0
+VERA-NG Passive Radar,
+ARTHUR Counter-Battery Radar,1994.0
+Bergepanzer 2 Armoured Recovery Vehicle,1966.0
+M1089A1P2 and M984A4 HEMTT Wrecker,1982.0
+M88A1 and A2 Hercule,1961.0
+Brückenlegepanzer Biber Bridgelayer,1965.0
+GCS-200 Remote Controlled And Protected Mine Clearing System,
+Bozena 5 Remote Controlled Mine Clearance System,
+M113AS4 Armoured Logistics Vehicle,1960.0
+Bergepanzer 3 Armoured Recovery Vehicle,1979.0
+Challenger Armoured Repair and Recovery Vehicle,1988.0
+Wisent 1 Mine-Clearing Tank,2008.0
+Pionierpanzer 2A1 Dachs Armoured Engineering Vehicle,
+Pansret Broslagningsvogn Biber Bridgelayer,1965.0
+PNINK Wisent 1 Armoured Recovery Vehicles (ARVs),
+Hydrema 910 Mine Clearing Vehicle,
+GCS-200 Remote Controlled Mine Clearing Vehicle,
+NM217 Armoured Recovery Vehicle,
+NM189 Ingeni rpanservogn Armoured Engineering Vehicle,
+DOK-ING MV-4 Remote Controlled Mine Clearance System,
+Leopard 2R Mine-Clearing Tank,1979.0
+Bärgningsbandvagn 90 Armoured Recovery Vehicle,
+DIGGER D-250 Remote Controlled Mine Clearance System,
+NM199 (M548) Tracked Logistics Vehicle,
+Motorised Floating Bridges*,
+M3 Amphibious Bridging Vehicles ,
+VAB Génie Engineering Vehicle,
+K600 Combat Engineering Vehicle,
+SDZ mine clearance robot,
+SeaFox Autonomous Mine-Detecting Underwater Vehicle,2001.0
+Autonomous Surface Vessel,
+Sonobot 5,
+Dauntless Sea Ark Patrol Boat,
+Small Unit Riverine Craft (SURC),
+40-foot Riverine Patrol Boat,
+Armoured Riverine Boat,
+Unmanned Coastal Defence Vessels (USVs),
+R7 Remotely Operated Vehicle,
+Alkmaar-Class Minehunter,1983.0
+Mohajer-6,2018.0
+Shahed-131 'Geran-1',2021.0
+Shahed-136 'Geran-3',2020.0
+Turretless BMP,1966.0
+BMP-2,1980.0
+Shaanxi Baoji Tiger,
+Ural-4320,1976.0
