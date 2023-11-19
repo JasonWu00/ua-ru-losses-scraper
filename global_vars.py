@@ -38,6 +38,17 @@ manufacturer_dict = {
     "Yugoslavia": "YGO",
     "Turkey": "TRK",
     "Cyprus": "CYP",
+    "Macedonia": "MAC",
+    "Portugal": "POR",
+    "Belgium": "BLG",
+    "South_Korea": "SK",
+    "North_Korea": "NK",
+    "NATO": "NATO",
+    "Croatia": "CRO",
+    "Greece": "GRE",
+    "Romania": "ROM",
+    "Albania": "ALB",
+    "Luxembourg": "LUX",
 }
 """
 A dictionary of keywords that appear in flag display links and their corresponding country abbr.
@@ -45,6 +56,34 @@ A dictionary of keywords that appear in flag display links and their correspondi
 
 former_countries_list = ["USSR", "YGO", "Soviet Union", "Yugoslavia"]
 # List of countries that do not exist in 2023. Denotes equipment inherited from these countries.
+
+donated_vehicle_types = {"Su-25": "Aircraft",
+                        "Mi-17V5": "Helicopters",
+                        "Bayraktar TB2": "Unmanned Combat Aerial Vehicles",
+                        "T-72M1": "Tanks",
+                        "BVP-1": "Infantry Fighting Vehicles",
+                        "YPR-765": "Armored Personnel Carriers",
+                        "RG-31 Nyala Ambulance": "MRAP Vehicles",
+                        "HMMWV": "Infantry Mobility Vehicles",
+                        "122mm D-30": "Towed Artillery",
+                        "152mm ShKH vz.77 DANA": "Self-Propelled Artillery",
+                        "122mm RM-70s": "Multiple Rocket Launchers",
+                        "23 ItK 61": "Anti-Aircraft Guns",
+                        "ItK 61": "Anti-Aircraft Guns",
+                        "Gepard": "Self-Propelled Anti-Air Guns",
+                        "S-300PMU Battery": "Surface-To-Air Missile Systems",
+                        "AGM-84 Harpoon (Launcher and Missiles)": "Anti-Ship Missiles",
+                        "R-73E Short Range AAM": "Air-To-Air Missiles",
+                        "MAM-L Guided Bomb": "Air-To-Ground Weaponry",
+                        "Brimstone 1": "Surface-To-Surface Missiles",
+                        "Laser-Guided Rockets": "Laser-Guided Rockets",
+                        "Electronics Jamming Equipment": "Electronic Warfare Equipment",
+                        "Switchblade 300": "Loitering Munitions",
+                        "WB Electronics FlyEye": "Reconnaissance UAVs",
+                        "Malloy Aeronautics T150": "Cargo Drones",
+                        "AN/TPQ-36 Firefinder Weapons Locating Radars": "Radars",
+                        "Pontoon Bridge": "Engineering Equipment",
+                        "SeaFox Autonomous Mine-Detecting Underwater Vehicles": "Ships and Underwater Vehicles",}
 
 ru_vehicle_types = {"Unknown T-54/55": "Tanks",
                     "BMPT Terminator": "Armored Fighting Vehicles",
@@ -111,6 +150,10 @@ df_colnames = ["id", "name", "type", "status",
                 "day", "month", "year", 
                 "manufacturer", "manufacturer_abbr", 
                 "user", "user_abbr", "proof", "year_first_produced"]
+
+#0,Su-25,North Atlantic Treaty Organization,NATO,Ukraine,UA,14,True,True,1978.0,https://postlmg.cc/RF9WvybT/547.png
+df_donations_colnames = ["id", "vehicle_name", "vehicle_type", "supplier", "supplier_abbr", "recipient", 
+                         "recipient_abbr", "count", "is_delivered", "is_soviet", "proof"]
 """
 Column names that will be used to create a Pandas Dataframe in oryx_parser.py.
 
@@ -129,3 +172,4 @@ proof: postimg or twitter link that shows the loss.
 
 ru_losses = "https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-equipment.html"
 ua_losses = "https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-ukrainian.html"
+ua_supplies = "https://www.oryxspioenkop.com/2022/04/answering-call-heavy-weaponry-supplied.html"

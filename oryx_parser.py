@@ -11,6 +11,89 @@ from global_vars import *
 from parser_helpers import *
 from df_cleaner import swap_ddmmyy
 
+def parse_oryx_donations(link: str, user: str, vehicle_types: dict) -> []:
+    """
+    Text.
+
+    Self reference: this is how a line in the output CSV should look
+    0,Su-25,North Atlantic Treaty Organization,NATO,Ukraine,UA,14,True,True,1978.0,https://postlmg.cc/RF9WvybT/547.png
+    """
+    #df_year_made = pd.read_csv("donated_vehicles_years.csv")
+    df_list = [] # list to be converted into a df and stored in a csv later
+    r = requests.get(link)
+    soup = BeautifulSoup(r.content, 'html.parser')
+    article = soup.find('article') # main article of the Oryx page
+    lists = article.find_all('ul')
+    id = 0
+    vehicle_type = ""
+
+    for vehicle_name_group in lists:
+        donated_vehicles = vehicle_name_group.find_all('li')
+        for vehicle in donated_vehicles:
+            vehicle_str = str(vehicle)
+
+            for index in range(len(vehicle_str)):
+                if not vehicle_str[index].isascii(): # some of the entries have invisible ascii characters breaking regex
+                    vehicle_str = vehicle_str[:index] + " " + vehicle_str[index+1:]
+            
+            vehicle_name_counts = re.findall(r"[0-9]* <a href=[a-zA-Z0-9/\:\"\.]+>[a-zA-Z0-9\-\s/\'\(\)]+</a>", 
+                                            vehicle_str)
+            if "Roshel" in vehicle.text: print(vehicle_str); print(vehicle_name_counts)
+            #print(vehicle_name_counts)
+            # Identify a country and abbreviation using a flag image link.
+            flag = vehicle.find('img')
+            flag_country = None # Manufacturer ("Soviet Union")
+            flag_country_abbr = None #Manufacturer abbr ("USSR")
+
+            if flag != None:
+                flag_found = False
+                for target in manufacturer_dict:
+                    if target in flag.get('src'):
+                        flag_found = True
+                        flag_country = target.replace("_", " ")
+                        flag_country_abbr = manufacturer_dict[target]
+                        break
+                if not flag_found:
+                    flag_country = "NONE"
+                    flag_country_abbr = "NONE"
+            
+            for vehicle_name_count in vehicle_name_counts:
+                #print(flag)
+                #print(vehicle_name_count)
+
+                count = re.search(r"[0-9]*[+]*", vehicle_name_count).group(0)
+                if count == '': count = 0 # when it doesn't specify how many donated, default to 0
+                elif '+' in count: count = count[:len(count)-2]
+                count = int(count)
+
+                name = re.search(r">[a-zA-Z0-9\-\s/\'\(\)]+<", vehicle_name_count).group(0)
+                name = name[1:]
+                name = name[:len(name)-1] # drops the < and >
+                if name[len(name)-1] == 's':
+                    name = name[:len(name)-1]
+                while name[0] == ' ':
+                    name = name[1:]
+                
+                proof = re.search(r"href=\"[a-zA-Z0-9/\:\"\.]+", vehicle_name_count).group(0)
+                proof = proof[6:]
+                if proof[len(proof)-1] == "\"":
+                    proof = proof[:len(proof)-1] # gets rid of trailing quotation marks
+                if "Roshel" in vehicle_name_count:
+                    print([count, name, proof, flag_country, flag_country_abbr])
+                    print("-"*50)
+
+                if name in donated_vehicle_types: vehicle_type = donated_vehicle_types[name]
+                is_delivered = not ("[to be delivered]" in vehicle.text or "pledged" in vehicle.text)
+                is_soviet = False
+
+                line = [id, name, vehicle_type, flag_country, flag_country_abbr, 
+                        "Ukraine", "UA", count, is_delivered, is_soviet, proof]
+                df_list.append(line)
+                id += 1
+
+    df = pd.DataFrame(df_list, columns=df_donations_colnames)
+    df.to_csv("donated_vehicles.csv", index=False)
+
 def parse_oryx(link: str, user: str, vehicle_types: dict) -> []:
     """
     This function takes in three inputs:
@@ -116,6 +199,12 @@ def parse_oryx(link: str, user: str, vehicle_types: dict) -> []:
     return df_list, twitter_link_count, twitter_links_list
 
 def main():
+    """
+    Second main function.
+    """
+    parse_oryx_donations(ua_supplies, "Ukraine", donated_vehicle_types)
+
+def main_old():
     """
     Main function.
     """
