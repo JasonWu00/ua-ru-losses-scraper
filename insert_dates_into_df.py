@@ -98,10 +98,54 @@ def main3():
     print(len(dates_df[dates_df["datetime"] > "2023-10-18"])) # 43 bad entries (after last day of collection)
     # 3.6 roentgen: not great, not terrible.
 
-# ru_losses = pd.read_csv("ru_losses.csv")
-# ua_losses = pd.read_csv("ua_losses.csv")
-# ru_losses.drop(columns=["Unnamed: 0"], inplace=True)
-# ua_losses.drop(columns=["Unnamed: 0"], inplace=True)
-# print(ru_losses.columns)
+link_dates_dict = {}
 
-main3()
+def put_dates_into_dict(row):
+    """
+    Input: a row from a DataFrame containing a processed datetime and a proof link.
+    Populate a dictionary with {proof: datetime} entries.
+    """
+    #print(row)
+    link_dates_dict[row["proof"]] = row["datetime"]
+
+def pick_dates_from_list(row):
+    """
+    Input: a row from a DataFrame containing a datetime (None or timestamp) and a proof link.
+
+    If the row already has a legal datetime, return the row as is.
+    If it does not have a legal datetime, check if the dict has one.
+    If the dict has one, insert the dict datetime and return.
+    If the dict does not, return the row as is.
+    """
+    #print(row)
+    if pd.notna(row["date_lost"]):
+        return pd.Series([row["proof"], row["date_lost"]])
+    elif row["proof"] in link_dates_dict:
+        return pd.Series([row["proof"], link_dates_dict[row["proof"]]])
+    else:
+        return pd.Series([row["proof"], row["date_lost"]])
+
+def main4():
+    ru_losses = pd.read_csv("ru_losses.csv")
+    ua_losses = pd.read_csv("ua_losses.csv")
+    ru_losses.drop(columns=["Unnamed: 0"], inplace=True)
+    ua_losses.drop(columns=["Unnamed: 0"], inplace=True)
+    dates_df = pd.read_csv("total_losses_with_processed_dates.csv")
+    # remove duplicates and nulls
+    dates_df.drop_duplicates(inplace=True)
+    dates_df.dropna(inplace=True)
+    # remove out of bound dates (before start of war or after last collection date)
+    dates_df = dates_df[dates_df["datetime"] > "2022-02-24"]
+    dates_df = dates_df[dates_df["datetime"] < "2023-10-18"]
+    # populate a dictionary of proof and corresponding datetime values
+    dates_df[["proof", "datetime"]].apply(lambda row: put_dates_into_dict(row), axis=1)
+    #print(link_dates_dict)
+
+    ru_losses[["proof", "date_lost"]] = ru_losses[["proof", "date_lost"]].apply(
+        lambda row: pick_dates_from_list(row), axis=1)
+    ua_losses[["proof", "date_lost"]] = ua_losses[["proof", "date_lost"]].apply(
+        lambda row: pick_dates_from_list(row), axis=1)
+    ru_losses.to_csv("ru_losses.csv", index=False)
+    ua_losses.to_csv("ua_losses.csv", index=False)
+
+main4()
