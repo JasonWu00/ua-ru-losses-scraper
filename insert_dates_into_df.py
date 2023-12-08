@@ -89,10 +89,19 @@ def main2():
     print(dates_df.tail(25))
     dates_df.to_csv("total_losses_with_processed_dates.csv", index=False)
 
+def main3():
+    dates_df = pd.read_csv("total_losses_with_processed_dates.csv")
+    print(len(dates_df)) # 13037 entries
+    print(dates_df["datetime"].notnull().sum()) # 7638 usable entries
+    print(dates_df["proof"].duplicated().sum()) # 400 duplicates
+    print(len(dates_df[dates_df["datetime"] < "2022-02-24"])) # 95 bad entries (before war start)
+    print(len(dates_df[dates_df["datetime"] > "2023-10-18"])) # 43 bad entries (after last day of collection)
+    # 3.6 roentgen: not great, not terrible.
+
 # ru_losses = pd.read_csv("ru_losses.csv")
 # ua_losses = pd.read_csv("ua_losses.csv")
 # ru_losses.drop(columns=["Unnamed: 0"], inplace=True)
 # ua_losses.drop(columns=["Unnamed: 0"], inplace=True)
 # print(ru_losses.columns)
 
-main2()
+main3()
