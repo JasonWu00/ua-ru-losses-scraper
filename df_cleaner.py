@@ -6,6 +6,10 @@ and process them to deal with missing and bad values.
 import pandas as pd
 import numpy as np
 import re
+from bs4 import BeautifulSoup
+import requests
+
+#direct_links_found = 0
 
 openai_key = "lmao no"
 # reference: https://stackoverflow.com/questions/47969756/pandas-apply-function-that-returns-two-new-columns
@@ -120,7 +124,50 @@ def add_fix_datetime():
     ua_losses.to_csv('ua_losses.csv')
 
 def main():
-    merge_donation_years()
+    global direct_links_found
+    direct_links_found = 0
+    prepare_list()
+    get_direct_links()
+
+def fix_postimg(link: str):
+    if "postimg" in link:
+        link = link.replace("postimg", "postlmg")
+        return link
+    else: return link
+
+def clean_links():
+    ru_losses = pd.read_csv("ru_losses.csv")
+    ua_losses = pd.read_csv("ua_losses.csv")
+    ru_losses["proof"] = ru_losses["proof"].apply(fix_postimg)
+    ua_losses["proof"] = ua_losses["proof"].apply(fix_postimg)
+    ru_losses.to_csv("ru_losses.csv", index=False)
+    ua_losses.to_csv("ua_losses.csv", index=False)
+
+def find_direct_link(source: str):
+    r = requests.get(source)
+    soup = BeautifulSoup(r.content, 'html.parser')
+    link = soup.find(property='og:image')
+    if link is not None:
+        link = link["content"]
+    global direct_links_found
+    direct_links_found += 1
+    print(f"{direct_links_found}: Processed link {source}")
+    return link
+
+def get_direct_links():
+    total_losses = pd.read_csv("total_losses_postimg_links.csv")
+    total_losses["direct link"] = total_losses["proof"].apply(find_direct_link)
+    total_losses.to_csv("total_losses_postimg_links.csv", index=False)
+
+def prepare_list():
+    clean_links()
+    ru_losses = pd.read_csv("ru_losses.csv")
+    ua_losses = pd.read_csv("ua_losses.csv")
+    ru_links = ru_losses[ru_losses["proof"].apply(lambda proof: "postlmg" in proof)]
+    ua_links = ua_losses[ua_losses["proof"].apply(lambda proof: "postlmg" in proof)]
+    total_links = pd.concat([ru_links["proof"], ua_links["proof"]]).to_frame()
+    total_links.drop_duplicates(inplace=True)
+    total_links.to_csv("total_losses_postimg_links.csv", index=False)
 
 def main1():
     """

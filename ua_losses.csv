@@ -1,4 +1,4 @@
-,id,name,type,status,day,month,year,manufacturer,manufacturer_abbr,user,user_abbr,proof,year_first_produced,date_lost
+Unnamed: 0,id,name,type,status,day,month,year,manufacturer,manufacturer_abbr,user,user_abbr,proof,year_first_produced,date_lost
 0,1,M-55S,Tanks,destroyed,,,,Slovenia,SLVN,Ukraine,UA,https://twitter.com/UAWeapons/status/1682710915811033092,1999.0,
 1,2,M-55S,Tanks,damaged,,,,Slovenia,SLVN,Ukraine,UA,https://twitter.com/UAWeapons/status/1680549443043483654,1999.0,
 2,3,T-64A,Tanks,destroyed,7.0,4.0,22.0,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/dVvPF6kS,1977.0,2022-04-07
@@ -25,7 +25,7 @@
 23,24,T-64BV,Tanks,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/MpP3ydft,1976.0,
 24,25,T-64BV,Tanks,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/15YP8yQG,1976.0,
 25,26,T-64BV,Tanks,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/15hWDxMQ,1976.0,
-26,27,T-64BV,Tanks,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/m1wCg20r,1976.0,
+26,27,T-64BV,Tanks,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/m1wCg20r,1976.0,
 27,28,T-64BV,Tanks,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/YqRKxCHL,1976.0,
 28,29,T-64BV,Tanks,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/Dw7LbFQz,1976.0,
 29,30,T-64BV,Tanks,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/xTdfVcCD,1976.0,
@@ -69,7 +69,7 @@
 67,68,T-64BV,Tanks,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/L8pWr96x,1976.0,
 68,69,T-64BV,Tanks,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/G291gYgG,1976.0,
 69,70,T-64BV,Tanks,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/Vs3kp383,1976.0,
-70,71,T-64BV,Tanks,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/MMHB68H0,1976.0,
+70,71,T-64BV,Tanks,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/MMHB68H0,1976.0,
 71,72,T-64BV,Tanks,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://twitter.com/UAWeapons/status/1569426437119123458,1976.0,
 72,73,T-64BV,Tanks,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/FRgG4nP8,1976.0,
 73,74,T-64BV,Tanks,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/4yfhPvLm,1976.0,
@@ -78,9 +78,9 @@
 76,77,T-64BV,Tanks,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/bNdBsBtr,1976.0,
 77,78,T-64BV,Tanks,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/65WY63JV,1976.0,
 78,79,T-64BV,Tanks,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://twitter.com/UAWeapons/status/1576654734726864896,1976.0,
-79,80,T-64BV,Tanks,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/5Yv3h1Dg,1976.0,
+79,80,T-64BV,Tanks,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/5Yv3h1Dg,1976.0,
 80,81,T-64BV,Tanks,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/KY1tRg4y,1976.0,
-81,82,T-64BV,Tanks,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/KR4dW3JD,1976.0,
+81,82,T-64BV,Tanks,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/KR4dW3JD,1976.0,
 82,83,T-64BV,Tanks,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/SKRkf9jS,1976.0,
 83,84,T-64BV,Tanks,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/c1TTzq8v,1976.0,
 84,85,T-64BV,Tanks,destroyed,21.0,10.0,22.0,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/66RRjpYp,1976.0,2022-10-21
@@ -91,10 +91,10 @@
 89,90,T-64BV,Tanks,destroyed,6.0,3.0,23.0,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/w3xBqYbD,1976.0,2023-03-06
 90,91,T-64BV,Tanks,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/wB75RgXK,1976.0,
 91,92,T-64BV,Tanks,destroyed,20.0,2.0,23.0,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/vTPX4cLZ,1976.0,2023-02-20
-92,93,T-64BV,Tanks,destroyed,25.0,2.0,23.0,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/ftR1t2H2,1976.0,2023-02-25
+92,93,T-64BV,Tanks,destroyed,25.0,2.0,23.0,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/ftR1t2H2,1976.0,2023-02-25
 93,94,T-64BV,Tanks,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/25hXnWZ5,1976.0,
 94,95,T-64BV,Tanks,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/Dwq30zY7,1976.0,
-95,96,T-64BV,Tanks,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/Tp07F3QV,1976.0,
+95,96,T-64BV,Tanks,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/Tp07F3QV,1976.0,
 96,97,T-64BV,Tanks,destroyed,25.0,5.0,22.0,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/nLR6vtd6,1976.0,2022-05-25
 97,98,T-64BV,Tanks,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/VNr6V1VC,1976.0,
 98,99,T-64BV,Tanks,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/nrfxB4Rb,1976.0,
@@ -231,7 +231,7 @@
 229,230,T-64BV,Tanks,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/RVmydn25,1976.0,
 230,231,T-64BV,Tanks,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/DfC3hYw7,1976.0,
 231,232,T-64BV,Tanks,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/7Pg2zKcj,1976.0,
-232,233,T-64BV,Tanks,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/xXWqBXhb,1976.0,
+232,233,T-64BV,Tanks,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/xXWqBXhb,1976.0,
 233,234,T-64BV,Tanks,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/76xvHkhf,1976.0,
 234,235,T-64BV,Tanks,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/2yh1TrML,1976.0,
 235,236,T-64BV,Tanks,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/WzKkTv85,1976.0,
@@ -245,7 +245,7 @@
 243,244,T-64BV,Tanks,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/1Xf6NdyB,1976.0,
 244,245,T-64BV,Tanks,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/XqS9FJwj,1976.0,
 245,246,T-64BV,Tanks,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/xC5PJs9c,1976.0,
-246,247,T-64BV,Tanks,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/w7DpP5bY,1976.0,
+246,247,T-64BV,Tanks,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/w7DpP5bY,1976.0,
 247,248,T-64BV,Tanks,captured,,,,Soviet Union,USSR,Ukraine,UA,https://twitter.com/UAWeapons/status/1583805930461794306,1976.0,
 248,249,T-64BV,Tanks,captured,,,,Soviet Union,USSR,Ukraine,UA,https://twitter.com/UAWeapons/status/1583805930461794306,1976.0,
 249,250,T-64BV,Tanks,captured,,,,Soviet Union,USSR,Ukraine,UA,https://twitter.com/UAWeapons/status/1597298042256125952,1976.0,
@@ -269,9 +269,9 @@
 267,268,T-64BV Zr. 2017,Tanks,destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/XJfhfrWd,2017.0,
 268,269,T-64BV Zr. 2017,Tanks,destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/N0CXKHQN,2017.0,
 269,270,T-64BV Zr. 2017,Tanks,destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/fyQrfB6H,2017.0,
-270,271,T-64BV Zr. 2017,Tanks,destroyed,,,,Ukraine,UA,Ukraine,UA,https://postimg.cc/gL8dFh08,2017.0,
+270,271,T-64BV Zr. 2017,Tanks,destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/gL8dFh08,2017.0,
 271,272,T-64BV Zr. 2017,Tanks,destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/bNn2tsjG,2017.0,
-272,273,T-64BV Zr. 2017,Tanks,destroyed,,,,Ukraine,UA,Ukraine,UA,https://postimg.cc/s13sDJJj,2017.0,
+272,273,T-64BV Zr. 2017,Tanks,destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/s13sDJJj,2017.0,
 273,274,T-64BV Zr. 2017,Tanks,destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/SN923jFw,2017.0,
 274,275,T-64BV Zr. 2017,Tanks,destroyed,7.0,6.0,22.0,Ukraine,UA,Ukraine,UA,https://postlmg.cc/g00zwXky,2017.0,2022-06-07
 275,276,T-64BV Zr. 2017,Tanks,destroyed,20.0,10.0,22.0,Ukraine,UA,Ukraine,UA,https://postlmg.cc/xCwnF6Gg,2017.0,2022-10-20
@@ -279,7 +279,7 @@
 277,278,T-64BV Zr. 2017,Tanks,destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/FKrR44Bb,2017.0,
 278,279,T-64BV Zr. 2017,Tanks,destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/P54MYvVB,2017.0,
 279,280,T-64BV Zr. 2017,Tanks,destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/Gm6WsdrD,2017.0,
-280,281,T-64BV Zr. 2017,Tanks,destroyed,,,,Ukraine,UA,Ukraine,UA,https://postimg.cc/8jbykpcn,2017.0,
+280,281,T-64BV Zr. 2017,Tanks,destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/8jbykpcn,2017.0,
 281,282,T-64BV Zr. 2017,Tanks,destroyed,30.0,4.0,22.0,Ukraine,UA,Ukraine,UA,https://postlmg.cc/XNsXBWc1,2017.0,2022-04-30
 282,283,T-64BV Zr. 2017,Tanks,destroyed,28.0,1.0,23.0,Ukraine,UA,Ukraine,UA,https://postlmg.cc/fy8SKhx7,2017.0,2023-01-28
 283,284,T-64BV Zr. 2017,Tanks,destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/2ymh0wGS,2017.0,
@@ -334,7 +334,7 @@
 332,333,T-64BV Zr. 2017,Tanks,captured,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/nrZLNHw2,2017.0,
 333,334,T-64BV Zr. 2017,Tanks,captured,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/J7ZyLgHY,2017.0,
 334,335,T-64BV Zr. 2017,Tanks,captured,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/g0GqzfGF,2017.0,
-335,336,T-64BV Zr. 2017,Tanks,captured,,,,Ukraine,UA,Ukraine,UA,https://postimg.cc/vxWbnnfX,2017.0,
+335,336,T-64BV Zr. 2017,Tanks,captured,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/vxWbnnfX,2017.0,
 336,337,T-64BV Zr. 2017,Tanks,captured,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/qR73wNL8,2017.0,
 337,338,T-64BV Zr. 2017,Tanks,captured,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/fyV1pjJq,2017.0,
 338,339,T-64BV Zr. 2017,Tanks,captured,5.0,5.0,22.0,Ukraine,UA,Ukraine,UA,https://postlmg.cc/TwLT9zbp,2017.0,2022-05-05
@@ -349,7 +349,7 @@
 347,348,T-64B1M,Tanks,captured,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/FHz64hW6,1970.0,
 348,349,T-64B1M,Tanks,captured,17.0,7.0,22.0,Ukraine,UA,Ukraine,UA,https://postlmg.cc/SNXxdzWg,1970.0,2022-07-17
 349,350,T-64BM 'Bulat',Tanks,destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/bNx0nWSP,2004.0,
-350,351,T-64BM 'Bulat',Tanks,destroyed,,,,Ukraine,UA,Ukraine,UA,https://postimg.cc/Z0TNNMpN,2004.0,
+350,351,T-64BM 'Bulat',Tanks,destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/Z0TNNMpN,2004.0,
 351,352,T-64BM 'Bulat',Tanks,destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/7Zj68RhN,2004.0,
 352,353,T-64BM 'Bulat',Tanks,destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/CxrCX8V9,2004.0,
 353,354,T-64BM 'Bulat',Tanks,destroyed,1.0,1.0,23.0,Ukraine,UA,Ukraine,UA,https://postlmg.cc/mDGsjnfz,2004.0,2023-01-01
@@ -384,16 +384,16 @@
 382,383,T-72M/M1(R),Tanks,destroyed,,,,Poland,PL,Ukraine,UA,https://twitter.com/UAWeapons/status/1570138869227470848,,
 383,384,T-72M/M1(R),Tanks,destroyed,15.0,1.0,23.0,Poland,PL,Ukraine,UA,https://postlmg.cc/9MPMkjqN,,2023-01-15
 384,385,T-72M/M1(R),Tanks,destroyed,,,,Poland,PL,Ukraine,UA,https://postlmg.cc/4drwhRk0,,
-385,386,T-72M/M1(R),Tanks,destroyed,,,,Poland,PL,Ukraine,UA,https://postimg.cc/sQmXDHQW,,
-386,387,T-72M/M1(R),Tanks,destroyed,,,,Poland,PL,Ukraine,UA,https://postimg.cc/bGJgyWBX,,
-387,388,T-72M/M1(R),Tanks,destroyed,,,,Poland,PL,Ukraine,UA,https://postimg.cc/ZBJZN8FG,,
+385,386,T-72M/M1(R),Tanks,destroyed,,,,Poland,PL,Ukraine,UA,https://postlmg.cc/sQmXDHQW,,
+386,387,T-72M/M1(R),Tanks,destroyed,,,,Poland,PL,Ukraine,UA,https://postlmg.cc/bGJgyWBX,,
+387,388,T-72M/M1(R),Tanks,destroyed,,,,Poland,PL,Ukraine,UA,https://postlmg.cc/ZBJZN8FG,,
 388,389,T-72M/M1(R),Tanks,destroyed,,,,Poland,PL,Ukraine,UA,https://postlmg.cc/9MD1P4Y4,,
 389,390,T-72M/M1(R),Tanks,destroyed,,,,Poland,PL,Ukraine,UA,https://postlmg.cc/mrLPqqhc,,
 390,391,T-72M/M1(R),Tanks,destroyed,,,,Poland,PL,Ukraine,UA,https://postlmg.cc/QdhCnNKd,,
 391,392,T-72M/M1(R),Tanks,destroyed,,,,Poland,PL,Ukraine,UA,https://postlmg.cc/bwgrXX1H,,
-392,393,T-72M/M1(R),Tanks,destroyed,,,,Poland,PL,Ukraine,UA,https://postimg.cc/tsZdqDqM,,
-393,394,T-72M/M1(R),Tanks,destroyed,,,,Poland,PL,Ukraine,UA,https://postimg.cc/CZvBsMH1,,
-394,395,T-72M/M1(R),Tanks,destroyed,,,,Poland,PL,Ukraine,UA,https://postimg.cc/yJLW68xB,,
+392,393,T-72M/M1(R),Tanks,destroyed,,,,Poland,PL,Ukraine,UA,https://postlmg.cc/tsZdqDqM,,
+393,394,T-72M/M1(R),Tanks,destroyed,,,,Poland,PL,Ukraine,UA,https://postlmg.cc/CZvBsMH1,,
+394,395,T-72M/M1(R),Tanks,destroyed,,,,Poland,PL,Ukraine,UA,https://postlmg.cc/yJLW68xB,,
 395,396,T-72M/M1(R),Tanks,destroyed,,,,Poland,PL,Ukraine,UA,https://twitter.com/UAWeapons/status/1593939839740788737,,
 396,397,T-72M/M1(R),Tanks,destroyed,14.0,8.0,22.0,Poland,PL,Ukraine,UA,https://postlmg.cc/qMdpsZvv,,2022-08-14
 397,398,T-72M/M1(R),Tanks,destroyed,31.0,8.0,22.0,Poland,PL,Ukraine,UA,https://postlmg.cc/RVQ4XQWQ,,2022-08-31
@@ -481,7 +481,7 @@
 479,480,T-72B,Tanks,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://twitter.com/UAWeapons/status/1569014536824553473,1985.0,
 480,481,T-72B,Tanks,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/7Y7NWPXP,1985.0,
 481,482,T-72B,Tanks,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/GpyjgTGR,1985.0,
-482,483,T-72B,Tanks,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/18JRRRSw,1985.0,
+482,483,T-72B,Tanks,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/18JRRRSw,1985.0,
 483,484,T-72B,Tanks,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://twitter.com/UAWeapons/status/1583429062722080768,1985.0,
 484,485,T-72B,Tanks,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/fyT24gg3,1985.0,
 485,486,T-72B,Tanks,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/gJpts0VH,1985.0,
@@ -508,7 +508,7 @@
 506,507,T-72B,Tanks,damaged,29.0,1.0,23.0,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/4dnfW8sq,1985.0,2023-01-29
 507,508,T-72B,Tanks,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/Qt0YYkvD,1985.0,
 508,509,T-72B,Tanks,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/gcvHPYnx,1985.0,
-509,510,T-72B,Tanks,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/8smZ5GpV,1985.0,
+509,510,T-72B,Tanks,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/8smZ5GpV,1985.0,
 510,511,T-72B,Tanks,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/FFbtjVK4,1985.0,
 511,512,T-72B,Tanks,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/VLR2r3gr,1985.0,
 512,513,T-72B,Tanks,captured,,,,Soviet Union,USSR,Ukraine,UA,https://twitter.com/UAWeapons/status/1578365764729348096,1985.0,
@@ -557,10 +557,10 @@
 555,556,T-80BV,Tanks,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/Fzm2Jyps,1985.0,
 556,557,T-80BV,Tanks,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://twitter.com/UAWeapons/status/1534632102955720709,1985.0,
 557,558,T-80BV,Tanks,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/pdGFLp4T,1985.0,
-558,559,T-80BV,Tanks,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/d76zVQMS,1985.0,
+558,559,T-80BV,Tanks,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/d76zVQMS,1985.0,
 559,560,T-80BV,Tanks,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/J0zqk1tR,1985.0,
 560,561,T-80BV,Tanks,captured,,,,Soviet Union,USSR,Ukraine,UA,https://twitter.com/UAWeapons/status/1636098069388206080,1985.0,
-561,562,T-80BV,Tanks,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/v1wL5C46,1985.0,
+561,562,T-80BV,Tanks,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/v1wL5C46,1985.0,
 562,563,T-80BV,Tanks,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/wMzR42C8,1985.0,
 563,564,T-80BV,Tanks,destroyed,18.0,5.0,22.0,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/rp7B8Kdw,1985.0,2022-05-18
 564,565,T-80BV,Tanks,destroyed,9.0,7.0,22.0,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/zBW938WS,1985.0,2022-07-09
@@ -568,8 +568,8 @@
 566,567,T-80BV,Tanks,destroyed,20.0,8.0,22.0,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/3xfMcLYp,1985.0,2022-08-20
 567,568,T-80BV,Tanks,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/3wqMvJCq,1985.0,
 568,569,T-80BV,Tanks,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/T1tT4k5X,1985.0,
-569,570,T-80BV,Tanks,destroyed,11.0,11.0,22.0,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/063fRKL4,1985.0,2022-11-11
-570,571,T-80BV,Tanks,destroyed,11.0,11.0,22.0,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/0rStvZ50,1985.0,2022-11-11
+569,570,T-80BV,Tanks,destroyed,11.0,11.0,22.0,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/063fRKL4,1985.0,2022-11-11
+570,571,T-80BV,Tanks,destroyed,11.0,11.0,22.0,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/0rStvZ50,1985.0,2022-11-11
 571,572,T-80BV,Tanks,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/nLrbrQ77,1985.0,
 572,573,T-80BV,Tanks,destroyed,18.0,12.0,22.0,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/NMFbxFLN,1985.0,2022-12-18
 573,574,T-80BV,Tanks,destroyed,23.0,9.0,22.0,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/N9KV2Gzw,1985.0,2022-09-23
@@ -605,9 +605,9 @@
 603,604,T-80BV,Tanks,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/rFbMJRqZ,1985.0,
 604,605,T-80BV,Tanks,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/G352G9YJ,1985.0,
 605,606,T-80BV,Tanks,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/zvh7qCq7,1985.0,
-606,607,T-80BV,Tanks,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/DJfV8xMx,1985.0,
+606,607,T-80BV,Tanks,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/DJfV8xMx,1985.0,
 607,608,T-80BV,Tanks,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/Bvd6csGs,1985.0,
-608,609,T-80BV,Tanks,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/S2VsBjb6,1985.0,
+608,609,T-80BV,Tanks,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/S2VsBjb6,1985.0,
 609,610,T-80BV,Tanks,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/26h3yR6d,1985.0,
 610,611,T-80BV,Tanks,captured,9.0,3.0,22.0,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/VN5wfxDD,1985.0,2022-03-09
 611,612,Leopard 2A4,Tanks,destroyed,,,,Germany,GER,Ukraine,UA,https://twitter.com/UAWeapons/status/1666830782533435394,1985.0,
@@ -673,7 +673,7 @@
 671,672,AMX-10 RC(R),Tanks,abandoned,,,,France,FR,Ukraine,UA,https://postlmg.cc/W3pK4DzB,1981.0,
 672,673,AMX-10 RC(R),Tanks,captured,,,,France,FR,Ukraine,UA,https://twitter.com/UAWeapons/status/1684659411082530816,1981.0,
 673,674,BRM-1(K) reconnaissance vehicle,Tanks,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/3JbrsBB1,1972.0,
-674,675,BRM-1(K) reconnaissance vehicle,Tanks,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/dDYSKnQw,1972.0,
+674,675,BRM-1(K) reconnaissance vehicle,Tanks,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/dDYSKnQw,1972.0,
 675,676,BRM-1(K) reconnaissance vehicle,Tanks,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/C1j135Gd,1972.0,
 676,677,BRM-1(K) reconnaissance vehicle,Tanks,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/4dsFzt7v,1972.0,
 677,678,BRM-1(K) reconnaissance vehicle,Tanks,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://twitter.com/UAWeapons/status/1570492289751064577,1972.0,
@@ -710,33 +710,33 @@
 708,709,BRM-1(K) reconnaissance vehicle,Tanks,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/0Q71gWbb,1972.0,
 709,710,BRM-1(K) reconnaissance vehicle,Tanks,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/QxBnrw8S,1972.0,
 710,711,BRM-1(K) reconnaissance vehicle,Tanks,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/65pcRcw1,1972.0,
-711,712,BRM-1(K) reconnaissance vehicle,Tanks,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/Xrdg4kJx,1972.0,
+711,712,BRM-1(K) reconnaissance vehicle,Tanks,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/Xrdg4kJx,1972.0,
 712,713,BRM-1(K) reconnaissance vehicle,Tanks,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/2yBG8fjb,1972.0,
 713,714,BRM-1(K) reconnaissance vehicle,Tanks,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/NfT6jcpW,1972.0,
 714,715,BRM-1(K) reconnaissance vehicle,Tanks,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/3xTgycqW,1972.0,
 715,716,BRM-1(K) reconnaissance vehicle,Tanks,captured,12.0,12.0,22.0,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/fTY3rthp,1972.0,2022-12-12
 716,717,BRM-1(K) reconnaissance vehicle,Tanks,captured,2.0,8.0,22.0,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/m2yfDgT6,1972.0,2022-08-02
 717,718,BRM-1(K) reconnaissance vehicle,Tanks,captured,,,,Soviet Union,USSR,Ukraine,UA,https://twitter.com/UAWeapons/status/1558408794018877441,1972.0,
-718,719,BRDM-2,Tanks,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/fVx7vWcJ,1962.0,
+718,719,BRDM-2,Tanks,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/fVx7vWcJ,1962.0,
 719,720,BRDM-2,Tanks,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/ht3GCSkq,1962.0,
 720,721,BRDM-2,Tanks,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/ZngwN0QL,1962.0,
 721,722,BRDM-2,Tanks,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/gJy48H5H,1962.0,
 722,723,BRDM-2,Tanks,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/SQMHBs2q,1962.0,
-723,724,BRDM-2,Tanks,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/fS4PHG92,1962.0,
-724,725,BRDM-2,Tanks,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/gn7gNFbv,1962.0,
+723,724,BRDM-2,Tanks,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/fS4PHG92,1962.0,
+724,725,BRDM-2,Tanks,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/gn7gNFbv,1962.0,
 725,726,BRDM-2,Tanks,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/wM4r5VgP,1962.0,
 726,727,BRDM-2,Tanks,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/mZFYPYmc,1962.0,
 727,728,BRDM-2,Tanks,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/mkykpPt7,1962.0,
 728,729,BRDM-2,Tanks,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/XY8hN4yx,1962.0,
 729,730,BRDM-2,Tanks,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/Jn29hRYf,1962.0,
-730,731,BRDM-2,Tanks,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/XBVT9YCd,1962.0,
+730,731,BRDM-2,Tanks,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/XBVT9YCd,1962.0,
 731,732,BRDM-2,Tanks,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://twitter.com/UAWeapons/status/1566786799548223491,1962.0,
 732,733,BRDM-2,Tanks,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/QtFT2N3R,1962.0,
 733,734,BRDM-2,Tanks,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/65QMgQHw,1962.0,
 734,735,BRDM-2,Tanks,destroyed,29.0,9.0,22.0,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/MpmXv3dw,1962.0,2022-09-29
 735,736,BRDM-2,Tanks,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/HLz3dRwD,1962.0,
 736,737,BRDM-2,Tanks,destroyed,29.0,9.0,22.0,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/jCVYXKq1,1962.0,2022-09-29
-737,738,BRDM-2,Tanks,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/yJN6p83q,1962.0,
+737,738,BRDM-2,Tanks,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/yJN6p83q,1962.0,
 738,739,BRDM-2,Tanks,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/6pQ0W6y2,1962.0,
 739,740,BRDM-2,Tanks,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/d0wg5p9j,1962.0,
 740,741,BRDM-2,Tanks,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/Y9G26x2c,1962.0,
@@ -761,10 +761,10 @@
 759,760,BRDM-2,Tanks,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/ZYQhmscP,1962.0,
 760,761,BRDM-2,Tanks,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/fRy80Tc8,1962.0,
 761,762,BRDM-2,Tanks,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/KcC7csQq,1962.0,
-762,763,BRDM-2,Tanks,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/N5m5ZWWj,1962.0,
+762,763,BRDM-2,Tanks,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/N5m5ZWWj,1962.0,
 763,764,BRDM-2,Tanks,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/Lsmp3xYM,1962.0,
 764,765,BRDM-2,Tanks,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/RZfGyS3W,1962.0,
-765,766,BRDM-2,Tanks,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/pyv7D8Rc,1962.0,
+765,766,BRDM-2,Tanks,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/pyv7D8Rc,1962.0,
 766,767,BRDM-2,Tanks,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/Znpzq7dX,1962.0,
 767,768,BRDM-2,Tanks,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/x1Pz37Vk,1962.0,
 768,769,BRDM-2,Tanks,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/7Pg0LbtM,1962.0,
@@ -776,13 +776,13 @@
 774,775,BRDM-2,Tanks,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/x8NZ9VzQ,1962.0,
 775,776,BRDM-2,Tanks,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/x8NZ9VzQ,1962.0,
 776,777,BRDM-2,Tanks,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/vBJzLg4R,1962.0,
-777,778,BRDM-2,Tanks,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/qgxtrDB5,1962.0,
+777,778,BRDM-2,Tanks,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/qgxtrDB5,1962.0,
 778,779,BRDM-2,Tanks,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/QNKN2xMZ,1962.0,
 779,780,BRDM-2,Tanks,captured,8.0,7.0,22.0,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/prR1T8PR,1962.0,2022-07-08
-780,781,BRDM-2,Tanks,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/nCXkc0fN,1962.0,
-781,782,BRDM-2,Tanks,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/XG8NLbhr,1962.0,
-782,783,BRDM-2L1,Tanks,destroyed,,,,Ukraine,UA,Ukraine,UA,https://postimg.cc/WhTyyztk,,
-783,784,BRDM-2L1,Tanks,destroyed,,,,Ukraine,UA,Ukraine,UA,https://postimg.cc/R3y8pTnS,,
+780,781,BRDM-2,Tanks,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/nCXkc0fN,1962.0,
+781,782,BRDM-2,Tanks,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/XG8NLbhr,1962.0,
+782,783,BRDM-2L1,Tanks,destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/WhTyyztk,,
+783,784,BRDM-2L1,Tanks,destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/R3y8pTnS,,
 784,785,BRDM-2L1,Tanks,destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/zB37hLrN,,
 785,786,BRDM-2L1,Tanks,destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/XvY1CmCn,,
 786,787,BRDM-2L1,Tanks,destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/6pwbxCDL,,
@@ -794,7 +794,7 @@
 792,793,BRDM-2L1,Tanks,destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/ZR74W6B7,,
 793,794,BRDM-2L1,Tanks,destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/zGqvmc01,,
 794,795,BRDM-2L1,Tanks,destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/BnLsX84N,,
-795,796,BRDM-2L1,Tanks,destroyed,,,,Ukraine,UA,Ukraine,UA,https://postimg.cc/HjkmJ64K,,
+795,796,BRDM-2L1,Tanks,destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/HjkmJ64K,,
 796,797,BRDM-2L1,Tanks,destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/nL9NTSm1,,
 797,798,BRDM-2L1,Tanks,destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/JhCvmb4n,,
 798,799,BRDM-2L1,Tanks,destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/XNkWMb7j,,
@@ -821,10 +821,10 @@
 819,820,BRDM-2L1,Tanks,captured,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/TYfDBCPr,,
 820,821,BRDM-2L1,Tanks,captured,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/MKcHscPj,,
 821,822,BRDM-2L1,Tanks,captured,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/Y0pYBKNR,,
-822,823,BRDM-2L1,Tanks,captured,,,,Ukraine,UA,Ukraine,UA,https://postimg.cc/HJBwFzYS,,
-823,824,BRDM-2L1,Tanks,captured,,,,Ukraine,UA,Ukraine,UA,https://postimg.cc/5YQxLzJ2,,
-824,825,BRDM-2L1,Tanks,captured,,,,Ukraine,UA,Ukraine,UA,https://postimg.cc/kVfcKVcz,,
-825,826,BRDM-2L1,Tanks,captured,,,,Ukraine,UA,Ukraine,UA,https://postimg.cc/WDk10Wxx,,
+822,823,BRDM-2L1,Tanks,captured,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/HJBwFzYS,,
+823,824,BRDM-2L1,Tanks,captured,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/5YQxLzJ2,,
+824,825,BRDM-2L1,Tanks,captured,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/kVfcKVcz,,
+825,826,BRDM-2L1,Tanks,captured,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/WDk10Wxx,,
 826,827,BRDM-2L1,Tanks,captured,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/SK8Fvjz3,,
 827,828,BRDM-2L1,Tanks,captured,28.0,2.0,22.0,Ukraine,UA,Ukraine,UA,https://postlmg.cc/vmSxJFrB,,2022-02-28
 828,829,BRDM-2L1,Tanks,captured,23.0,3.0,22.0,Ukraine,UA,Ukraine,UA,https://postlmg.cc/kGvzFsT2,,2022-03-23
@@ -839,8 +839,8 @@
 837,838,BRDM-2RKhb chemical reconnaissance vehicle,Tanks,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/T3Fgs0nm,,
 838,839,BRDM-2RKhb chemical reconnaissance vehicle,Tanks,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/sDBwnx0y,,
 839,840,BRDM-2RKhb chemical reconnaissance vehicle,Tanks,captured,31.0,3.0,22.0,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/YCjxkW7g,,2022-03-31
-840,841,BRDM-2RKhb chemical reconnaissance vehicle,Tanks,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/47D1F81D,,
-841,842,Vepr,Mine-Resistant Ambush Protected (MRAP) Vehicles,destroyed,,,,Ukraine,UA,Ukraine,UA,https://postimg.cc/LYvD1j1F,2006.0,
+840,841,BRDM-2RKhb chemical reconnaissance vehicle,Tanks,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/47D1F81D,,
+841,842,Vepr,Mine-Resistant Ambush Protected (MRAP) Vehicles,destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/LYvD1j1F,2006.0,
 842,843,Vepr,Mine-Resistant Ambush Protected (MRAP) Vehicles,destroyed,28.0,3.0,22.0,Ukraine,UA,Ukraine,UA,https://postlmg.cc/P5pKdK11,2006.0,2022-03-28
 843,844,MT-LB,Mine-Resistant Ambush Protected (MRAP) Vehicles,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/ry4rL6Zz,1970.0,
 844,845,MT-LB,Mine-Resistant Ambush Protected (MRAP) Vehicles,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/15LSXyBT,1970.0,
@@ -900,7 +900,7 @@
 898,899,MT-LB,Mine-Resistant Ambush Protected (MRAP) Vehicles,captured,11.0,2.0,23.0,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/br0JNKt1,1970.0,2023-02-11
 899,900,MT-LB,Mine-Resistant Ambush Protected (MRAP) Vehicles,captured,4.0,3.0,22.0,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/hGNgSyJz,1970.0,2022-03-04
 900,901,MT-LB with ZU-23 AA gun,Mine-Resistant Ambush Protected (MRAP) Vehicles,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/GmFC2VRb,1970.0,
-901,902,MT-LB with ZU-23 AA gun,Mine-Resistant Ambush Protected (MRAP) Vehicles,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/0zHcXggY,1970.0,
+901,902,MT-LB with ZU-23 AA gun,Mine-Resistant Ambush Protected (MRAP) Vehicles,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/0zHcXggY,1970.0,
 902,903,MT-LB with ZU-23 AA gun,Mine-Resistant Ambush Protected (MRAP) Vehicles,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/Rhd3fZy0,1970.0,
 903,904,MT-LB with ZU-23 AA gun,Mine-Resistant Ambush Protected (MRAP) Vehicles,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/VkgPMXzY,1970.0,
 904,905,MT-LB with ZU-23 AA gun,Mine-Resistant Ambush Protected (MRAP) Vehicles,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/L4PYbN1H,1970.0,
@@ -943,7 +943,7 @@
 941,942,BMM-4C Ambulance,Mine-Resistant Ambush Protected (MRAP) Vehicles,destroyed,28.0,2.0,23.0,Ukraine,UA,Ukraine,UA,https://postlmg.cc/cLz7v18B,,2023-02-28
 942,943,BMM-4C Ambulance,Mine-Resistant Ambush Protected (MRAP) Vehicles,captured,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/pdVsmcw4,,
 943,944,BMM-4C Ambulance,Mine-Resistant Ambush Protected (MRAP) Vehicles,captured,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/qq2YGpNh,,
-944,945,Unknown AFV,Mine-Resistant Ambush Protected (MRAP) Vehicles,destroyed,6.0,2.0,23.0,Ukraine,UA,Ukraine,UA,https://postimg.cc/0z7ztSzS,,2023-02-06
+944,945,Unknown AFV,Mine-Resistant Ambush Protected (MRAP) Vehicles,destroyed,6.0,2.0,23.0,Ukraine,UA,Ukraine,UA,https://postlmg.cc/0z7ztSzS,,2023-02-06
 945,946,Unknown AFV,Mine-Resistant Ambush Protected (MRAP) Vehicles,destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/RZxLrS2h,,
 946,947,Unknown AFV,Mine-Resistant Ambush Protected (MRAP) Vehicles,destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/0yCWcKrP,,
 947,948,Unknown AFV,Mine-Resistant Ambush Protected (MRAP) Vehicles,destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/mDPmLdjg,,
@@ -953,7 +953,7 @@
 951,952,Unknown AFV,Mine-Resistant Ambush Protected (MRAP) Vehicles,destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/RZDhQVmk,,
 952,953,Unknown AFV,Mine-Resistant Ambush Protected (MRAP) Vehicles,destroyed,,,,Ukraine,UA,Ukraine,UA,https://twitter.com/UAWeapons/status/1519769346624704514,,
 953,954,Unknown AFV,Mine-Resistant Ambush Protected (MRAP) Vehicles,destroyed,3.0,5.0,22.0,Ukraine,UA,Ukraine,UA,https://postlmg.cc/nj9sZrR5,,2022-05-03
-954,955,Unknown AFV,Mine-Resistant Ambush Protected (MRAP) Vehicles,destroyed,3.0,2.0,23.0,Ukraine,UA,Ukraine,UA,https://postimg.cc/m13XTKJ7,,2023-02-03
+954,955,Unknown AFV,Mine-Resistant Ambush Protected (MRAP) Vehicles,destroyed,3.0,2.0,23.0,Ukraine,UA,Ukraine,UA,https://postlmg.cc/m13XTKJ7,,2023-02-03
 955,956,Unknown AFV,Mine-Resistant Ambush Protected (MRAP) Vehicles,destroyed,,,,Ukraine,UA,Ukraine,UA,https://twitter.com/RALee85/status/1546190144335740928,,
 956,957,Unknown AFV,Mine-Resistant Ambush Protected (MRAP) Vehicles,destroyed,,,,Ukraine,UA,Ukraine,UA,https://twitter.com/UAWeapons/status/1550129446744576001,,
 957,958,Unknown AFV,Mine-Resistant Ambush Protected (MRAP) Vehicles,destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/HsbBTh78,,
@@ -995,9 +995,9 @@
 993,994,Unknown AFV,Mine-Resistant Ambush Protected (MRAP) Vehicles,destroyed,,,,Ukraine,UA,Ukraine,UA,https://twitter.com/UAWeapons/status/1698955326496592140,,
 994,995,Unknown AFV,Mine-Resistant Ambush Protected (MRAP) Vehicles,destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/cL77ZFnf,,
 995,996,Unknown AFV,Mine-Resistant Ambush Protected (MRAP) Vehicles,damaged,6.0,7.0,23.0,Ukraine,UA,Ukraine,UA,https://postlmg.cc/ZRJTspqb,,2023-07-06
-996,997,Unknown AFV,Mine-Resistant Ambush Protected (MRAP) Vehicles,damaged,,,,Ukraine,UA,Ukraine,UA,https://postimg.cc/tnnpgJzp,,
-997,998,Unknown AFV,Mine-Resistant Ambush Protected (MRAP) Vehicles,damaged,,,,Ukraine,UA,Ukraine,UA,https://postimg.cc/CR3Py1Rb,,
-998,999,Unknown AFV,Mine-Resistant Ambush Protected (MRAP) Vehicles,damaged,,,,Ukraine,UA,Ukraine,UA,https://postimg.cc/183MVjd7,,
+996,997,Unknown AFV,Mine-Resistant Ambush Protected (MRAP) Vehicles,damaged,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/tnnpgJzp,,
+997,998,Unknown AFV,Mine-Resistant Ambush Protected (MRAP) Vehicles,damaged,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/CR3Py1Rb,,
+998,999,Unknown AFV,Mine-Resistant Ambush Protected (MRAP) Vehicles,damaged,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/183MVjd7,,
 999,1000,Unknown AFV,Mine-Resistant Ambush Protected (MRAP) Vehicles,damaged,25.0,7.0,23.0,Ukraine,UA,Ukraine,UA,https://postlmg.cc/SRy1qrxh,,2023-07-25
 1000,1001,Unknown AFV,Mine-Resistant Ambush Protected (MRAP) Vehicles,damaged,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/L4VxB6Xz,,
 1001,1002,Unknown AFV,Mine-Resistant Ambush Protected (MRAP) Vehicles,abandoned,10.0,7.0,23.0,Ukraine,UA,Ukraine,UA,https://postlmg.cc/Tw1wSpGR,,2023-07-10
@@ -1043,18 +1043,18 @@
 1041,1042,BMP-1(P),Infantry Fighting Vehicles,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/MHw5KcX8,1975.0,
 1042,1043,BMP-1(P),Infantry Fighting Vehicles,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/DzgkJrJ9,1975.0,
 1043,1044,BMP-1(P),Infantry Fighting Vehicles,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/hj8BPX7f,1975.0,
-1044,1045,BMP-1(P),Infantry Fighting Vehicles,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/3yVfRsn8,1975.0,
+1044,1045,BMP-1(P),Infantry Fighting Vehicles,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/3yVfRsn8,1975.0,
 1045,1046,BMP-1(P),Infantry Fighting Vehicles,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/59g9LZnc,1975.0,
 1046,1047,BMP-1(P),Infantry Fighting Vehicles,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/QNbT9fpd,1975.0,
-1047,1048,BMP-1(P),Infantry Fighting Vehicles,destroyed,26.0,1.0,23.0,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/QFgQx7yM,1975.0,2023-01-26
+1047,1048,BMP-1(P),Infantry Fighting Vehicles,destroyed,26.0,1.0,23.0,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/QFgQx7yM,1975.0,2023-01-26
 1048,1049,BMP-1(P),Infantry Fighting Vehicles,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/HW8MYFHG,1975.0,
 1049,1050,BMP-1(P),Infantry Fighting Vehicles,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/Hn0khqcR,1975.0,
 1050,1051,BMP-1(P),Infantry Fighting Vehicles,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/m2Fwt8xq,1975.0,
 1051,1052,BMP-1(P),Infantry Fighting Vehicles,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://twitter.com/UAWeapons/status/1554912880989970432,1975.0,
 1052,1053,BMP-1(P),Infantry Fighting Vehicles,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/y85XPphS,1975.0,
 1053,1054,BMP-1(P),Infantry Fighting Vehicles,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/brbf5rpy,1975.0,
-1054,1055,BMP-1(P),Infantry Fighting Vehicles,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/cv9fPGfZ,1975.0,
-1055,1056,BMP-1(P),Infantry Fighting Vehicles,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/ts8v8c01,1975.0,
+1054,1055,BMP-1(P),Infantry Fighting Vehicles,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/cv9fPGfZ,1975.0,
+1055,1056,BMP-1(P),Infantry Fighting Vehicles,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/ts8v8c01,1975.0,
 1056,1057,BMP-1(P),Infantry Fighting Vehicles,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/1301nHrM,1975.0,
 1057,1058,BMP-1(P),Infantry Fighting Vehicles,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/MTHFgXbC,1975.0,
 1058,1059,BMP-1(P),Infantry Fighting Vehicles,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/zvbXDz5M,1975.0,
@@ -1080,9 +1080,9 @@
 1078,1079,BMP-1(P),Infantry Fighting Vehicles,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/yx4M0NbB,1975.0,
 1079,1080,BMP-1(P),Infantry Fighting Vehicles,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/k5YyM9Fv,1975.0,
 1080,1081,BMP-1(P),Infantry Fighting Vehicles,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://twitter.com/UAWeapons/status/1569061435833044992,1975.0,
-1081,1082,BMP-1(P),Infantry Fighting Vehicles,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/BL0X1853,1975.0,
+1081,1082,BMP-1(P),Infantry Fighting Vehicles,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/BL0X1853,1975.0,
 1082,1083,BMP-1(P),Infantry Fighting Vehicles,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://twitter.com/UAWeapons/status/1570157013480382473,1975.0,
-1083,1084,BMP-1(P),Infantry Fighting Vehicles,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/zHfVXKP7,1975.0,
+1083,1084,BMP-1(P),Infantry Fighting Vehicles,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/zHfVXKP7,1975.0,
 1084,1085,BMP-1(P),Infantry Fighting Vehicles,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://twitter.com/UAWeapons/status/1570783958715240449,1975.0,
 1085,1086,BMP-1(P),Infantry Fighting Vehicles,destroyed,10.0,2.0,23.0,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/rKvpnc4R,1975.0,2023-02-10
 1086,1087,BMP-1(P),Infantry Fighting Vehicles,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://twitter.com/UAWeapons/status/1571108754393042947,1975.0,
@@ -1103,10 +1103,10 @@
 1101,1102,BMP-1(P),Infantry Fighting Vehicles,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/5N5vmTQM,1975.0,
 1102,1103,BMP-1(P),Infantry Fighting Vehicles,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/WzQzjzPz,1975.0,
 1103,1104,BMP-1(P),Infantry Fighting Vehicles,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/BbGmC70C,1975.0,
-1104,1105,BMP-1(P),Infantry Fighting Vehicles,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/cg1vGG9Y,1975.0,
+1104,1105,BMP-1(P),Infantry Fighting Vehicles,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/cg1vGG9Y,1975.0,
 1105,1106,BMP-1(P),Infantry Fighting Vehicles,destroyed,31.0,8.0,22.0,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/sMSrr3Rf,1975.0,2022-08-31
-1106,1107,BMP-1(P),Infantry Fighting Vehicles,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/23YXZk3m,1975.0,
-1107,1108,BMP-1(P),Infantry Fighting Vehicles,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/Cn8bZNw4,1975.0,
+1106,1107,BMP-1(P),Infantry Fighting Vehicles,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/23YXZk3m,1975.0,
+1107,1108,BMP-1(P),Infantry Fighting Vehicles,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/Cn8bZNw4,1975.0,
 1108,1109,BMP-1(P),Infantry Fighting Vehicles,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/XXyF6HtJ,1975.0,
 1109,1110,BMP-1(P),Infantry Fighting Vehicles,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/htkwY7tb,1975.0,
 1110,1111,BMP-1(P),Infantry Fighting Vehicles,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/9QBpVRmj,1975.0,
@@ -1320,10 +1320,10 @@
 1318,1319,BMP-1(P),Infantry Fighting Vehicles,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/nrHwDscN,1975.0,
 1319,1320,BMP-1(P),Infantry Fighting Vehicles,captured,8.0,2.0,23.0,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/LscqvkkQ,1975.0,2023-02-08
 1320,1321,BMP-1(P),Infantry Fighting Vehicles,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/zGh7jxyq,1975.0,
-1321,1322,BMP-1(P),Infantry Fighting Vehicles,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/qN7ZWRy0,1975.0,
-1322,1323,BMP-1(P),Infantry Fighting Vehicles,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/sGZN60hW,1975.0,
-1323,1324,BMP-1(P),Infantry Fighting Vehicles,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/B8LQgJvQ,1975.0,
-1324,1325,BMP-1(P),Infantry Fighting Vehicles,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/xNzxYf2C,1975.0,
+1321,1322,BMP-1(P),Infantry Fighting Vehicles,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/qN7ZWRy0,1975.0,
+1322,1323,BMP-1(P),Infantry Fighting Vehicles,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/sGZN60hW,1975.0,
+1323,1324,BMP-1(P),Infantry Fighting Vehicles,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/B8LQgJvQ,1975.0,
+1324,1325,BMP-1(P),Infantry Fighting Vehicles,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/xNzxYf2C,1975.0,
 1325,1326,BMP-1(P),Infantry Fighting Vehicles,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/T13snM5z,1975.0,
 1326,1327,BMP-1(P),Infantry Fighting Vehicles,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/jSPZq6mT,1975.0,
 1327,1328,BMP-1(P),Infantry Fighting Vehicles,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/yYGWXkfH,1975.0,
@@ -1371,7 +1371,7 @@
 1369,1370,BMP-2(K),Infantry Fighting Vehicles,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/L6pWXxQX,1980.0,
 1370,1371,BMP-2(K),Infantry Fighting Vehicles,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/bNp68sdS,1980.0,
 1371,1372,BMP-2(K),Infantry Fighting Vehicles,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/RhrGDjZZ,1980.0,
-1372,1373,BMP-2(K),Infantry Fighting Vehicles,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/bGFxKfck,1980.0,
+1372,1373,BMP-2(K),Infantry Fighting Vehicles,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/bGFxKfck,1980.0,
 1373,1374,BMP-2(K),Infantry Fighting Vehicles,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/XJ300hWz,1980.0,
 1374,1375,BMP-2(K),Infantry Fighting Vehicles,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://twitter.com/UAWeapons/status/1523007832064503809,1980.0,
 1375,1376,BMP-2(K),Infantry Fighting Vehicles,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/k5p6Kykv,1980.0,
@@ -1382,13 +1382,13 @@
 1380,1381,BMP-2(K),Infantry Fighting Vehicles,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/mrrBtQrM,1980.0,
 1381,1382,BMP-2(K),Infantry Fighting Vehicles,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/hPT95Ly2,1980.0,
 1382,1383,BMP-2(K),Infantry Fighting Vehicles,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/6QRSwSFc,1980.0,
-1383,1384,BMP-2(K),Infantry Fighting Vehicles,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/BXqgy0X7,1980.0,
+1383,1384,BMP-2(K),Infantry Fighting Vehicles,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/BXqgy0X7,1980.0,
 1384,1385,BMP-2(K),Infantry Fighting Vehicles,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/rwp6mVH4,1980.0,
 1385,1386,BMP-2(K),Infantry Fighting Vehicles,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/zX8ZsSS0,1980.0,
 1386,1387,BMP-2(K),Infantry Fighting Vehicles,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/nrtbcv8V,1980.0,
 1387,1388,BMP-2(K),Infantry Fighting Vehicles,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/7ZtX3RB6,1980.0,
 1388,1389,BMP-2(K),Infantry Fighting Vehicles,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/yNVBRkbB,1980.0,
-1389,1390,BMP-2(K),Infantry Fighting Vehicles,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/MMHB68H0,1980.0,
+1389,1390,BMP-2(K),Infantry Fighting Vehicles,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/MMHB68H0,1980.0,
 1390,1391,BMP-2(K),Infantry Fighting Vehicles,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/NF5KFzvs,1980.0,
 1391,1392,BMP-2(K),Infantry Fighting Vehicles,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/J42NgB7m,1980.0,
 1392,1393,BMP-2(K),Infantry Fighting Vehicles,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://twitter.com/UAWeapons/status/1572307996771762178,1980.0,
@@ -1403,8 +1403,8 @@
 1401,1402,BMP-2(K),Infantry Fighting Vehicles,destroyed,14.0,8.0,22.0,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/QxNqbc7Q,1980.0,2022-08-14
 1402,1403,BMP-2(K),Infantry Fighting Vehicles,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/YqZ8Y5qX,1980.0,
 1403,1404,BMP-2(K),Infantry Fighting Vehicles,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/YqYd18fV,1980.0,
-1404,1405,BMP-2(K),Infantry Fighting Vehicles,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/zyYWNbRW,1980.0,
-1405,1406,BMP-2(K),Infantry Fighting Vehicles,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/T52X1kVz,1980.0,
+1404,1405,BMP-2(K),Infantry Fighting Vehicles,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/zyYWNbRW,1980.0,
+1405,1406,BMP-2(K),Infantry Fighting Vehicles,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/T52X1kVz,1980.0,
 1406,1407,BMP-2(K),Infantry Fighting Vehicles,destroyed,19.0,2.0,23.0,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/TPshkGdH,1980.0,2023-02-19
 1407,1408,BMP-2(K),Infantry Fighting Vehicles,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/3RvMKcCz,1980.0,
 1408,1409,BMP-2(K),Infantry Fighting Vehicles,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/NjD24NTh,1980.0,
@@ -1415,7 +1415,7 @@
 1413,1414,BMP-2(K),Infantry Fighting Vehicles,destroyed,20.0,9.0,22.0,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/SJSMYSJX,1980.0,2022-09-20
 1414,1415,BMP-2(K),Infantry Fighting Vehicles,destroyed,4.0,4.0,22.0,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/q7BszL3m,1980.0,2022-04-04
 1415,1416,BMP-2(K),Infantry Fighting Vehicles,destroyed,13.0,6.0,22.0,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/XJp9gYxd,1980.0,2022-06-13
-1416,1417,BMP-2(K),Infantry Fighting Vehicles,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/bdx0KZ50,1980.0,
+1416,1417,BMP-2(K),Infantry Fighting Vehicles,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/bdx0KZ50,1980.0,
 1417,1418,BMP-2(K),Infantry Fighting Vehicles,destroyed,30.0,3.0,22.0,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/V6zdbnV7,1980.0,2022-03-30
 1418,1419,BMP-2(K),Infantry Fighting Vehicles,destroyed,8.0,5.0,22.0,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/FRG1b1th,1980.0,2022-05-08
 1419,1420,BMP-2(K),Infantry Fighting Vehicles,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/9fm0NKbV,1980.0,
@@ -1701,7 +1701,7 @@
 1699,1700,BTR-4,Infantry Fighting Vehicles,destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/ncbZ4y5B,2014.0,
 1700,1701,BTR-4,Infantry Fighting Vehicles,destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/Bn4f4hbN,2014.0,
 1701,1702,BTR-4,Infantry Fighting Vehicles,destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/5t3w4Fgz,2014.0,
-1702,1703,BTR-4,Infantry Fighting Vehicles,destroyed,,,,Ukraine,UA,Ukraine,UA,https://postimg.cc/qtMz8S36,2014.0,
+1702,1703,BTR-4,Infantry Fighting Vehicles,destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/qtMz8S36,2014.0,
 1703,1704,BTR-4,Infantry Fighting Vehicles,destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/W1TXm8gD,2014.0,
 1704,1705,BTR-4,Infantry Fighting Vehicles,destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/3N61mFkq,2014.0,
 1705,1706,BTR-4,Infantry Fighting Vehicles,destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/1XjS39jC,2014.0,
@@ -1716,7 +1716,7 @@
 1714,1715,BTR-4,Infantry Fighting Vehicles,destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/ZRsF6NH2,2014.0,
 1715,1716,BTR-4,Infantry Fighting Vehicles,destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/NftfHnC4,2014.0,
 1716,1717,BTR-4,Infantry Fighting Vehicles,destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/KzKBrYB9,2014.0,
-1717,1718,BTR-4,Infantry Fighting Vehicles,destroyed,,,,Ukraine,UA,Ukraine,UA,https://postimg.cc/F7cY0z3D,2014.0,
+1717,1718,BTR-4,Infantry Fighting Vehicles,destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/F7cY0z3D,2014.0,
 1718,1719,BTR-4,Infantry Fighting Vehicles,destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/5NBGYt4s,2014.0,
 1719,1720,BTR-4,Infantry Fighting Vehicles,destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/SNLgcLXK,2014.0,
 1720,1721,BTR-4,Infantry Fighting Vehicles,destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/G3Kh67Kq,2014.0,
@@ -1744,7 +1744,7 @@
 1742,1743,BTR-4,Infantry Fighting Vehicles,destroyed,21.0,8.0,23.0,Ukraine,UA,Ukraine,UA,https://postlmg.cc/gJ8cSkBR,2014.0,2023-08-21
 1743,1744,BTR-4,Infantry Fighting Vehicles,destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/GhCMbdqm,2014.0,
 1744,1745,BTR-4,Infantry Fighting Vehicles,damaged,,,,Ukraine,UA,Ukraine,UA,https://twitter.com/RALee85/status/1497785823198162944,2014.0,
-1745,1746,BTR-4,Infantry Fighting Vehicles,damaged,,,,Ukraine,UA,Ukraine,UA,https://postimg.cc/cvFdVt3x,2014.0,
+1745,1746,BTR-4,Infantry Fighting Vehicles,damaged,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/cvFdVt3x,2014.0,
 1746,1747,BTR-4,Infantry Fighting Vehicles,damaged,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/htHfNSFr,2014.0,
 1747,1748,BTR-4,Infantry Fighting Vehicles,damaged,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/Vdp6KHxf,2014.0,
 1748,1749,BTR-4,Infantry Fighting Vehicles,abandoned,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/CKpMxfNq,2014.0,
@@ -1780,9 +1780,9 @@
 1778,1779,KTO Rosomak,Infantry Fighting Vehicles,abandoned,,,,Poland,PL,Ukraine,UA,https://postlmg.cc/h4Tn8QJg,2003.0,
 1779,1780,BTR-60PB,Armoured Personnel Carriers,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/wjsNB5WJ,1966.0,
 1780,1781,BTR-60PB,Armoured Personnel Carriers,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/TPn4rKqG,1966.0,
-1781,1782,BTR-60PB,Armoured Personnel Carriers,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/YvQyK3tb,1966.0,
+1781,1782,BTR-60PB,Armoured Personnel Carriers,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/YvQyK3tb,1966.0,
 1782,1783,BTR-60PB,Armoured Personnel Carriers,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://twitter.com/UAWeapons/status/1571108754393042947,1966.0,
-1783,1784,BTR-60PB,Armoured Personnel Carriers,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/hJhgbZNc,1966.0,
+1783,1784,BTR-60PB,Armoured Personnel Carriers,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/hJhgbZNc,1966.0,
 1784,1785,BTR-60PB,Armoured Personnel Carriers,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/CMQ98VXQ,1966.0,
 1785,1786,BTR-60PB,Armoured Personnel Carriers,destroyed,17.0,11.0,22.0,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/2yYDFbFP,1966.0,2022-11-17
 1786,1787,BTR-60PB,Armoured Personnel Carriers,destroyed,15.0,3.0,23.0,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/nhR3zt8L,1966.0,2023-03-15
@@ -1796,17 +1796,17 @@
 1794,1795,BTR-60PB,Armoured Personnel Carriers,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/brZyFMTj,1966.0,
 1795,1796,BTR-60PB,Armoured Personnel Carriers,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/mgns2vNk,1966.0,
 1796,1797,BTR-60PB,Armoured Personnel Carriers,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/7L6YdXNF,1966.0,
-1797,1798,BTR-60PB,Armoured Personnel Carriers,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/MXSdjSqy,1966.0,
-1798,1799,BTR-60PB,Armoured Personnel Carriers,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/MXSdjSqy,1966.0,
+1797,1798,BTR-60PB,Armoured Personnel Carriers,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/MXSdjSqy,1966.0,
+1798,1799,BTR-60PB,Armoured Personnel Carriers,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/MXSdjSqy,1966.0,
 1799,1800,BTR-60PB,Armoured Personnel Carriers,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/W1q2Hf3r,1966.0,
 1800,1801,BTR-60PB,Armoured Personnel Carriers,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/jj3PP8KD,1966.0,
 1801,1802,BTR-70,Armoured Personnel Carriers,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/4yxsJV6h,1972.0,
 1802,1803,BTR-70,Armoured Personnel Carriers,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/ZRcJtVdS,1972.0,
 1803,1804,BTR-70,Armoured Personnel Carriers,destroyed,31.0,12.0,22.0,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/tgwRnrLv,1972.0,2022-12-31
-1804,1805,BTR-70,Armoured Personnel Carriers,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/z3LSv4F5,1972.0,
+1804,1805,BTR-70,Armoured Personnel Carriers,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/z3LSv4F5,1972.0,
 1805,1806,BTR-70,Armoured Personnel Carriers,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/sgH3qCJp,1972.0,
 1806,1807,BTR-70,Armoured Personnel Carriers,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/GpJ50kcM,1972.0,
-1807,1808,BTR-70,Armoured Personnel Carriers,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/pyyk8mxw,1972.0,
+1807,1808,BTR-70,Armoured Personnel Carriers,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/pyyk8mxw,1972.0,
 1808,1809,BTR-70,Armoured Personnel Carriers,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/2SQZvrcd,1972.0,
 1809,1810,BTR-70,Armoured Personnel Carriers,destroyed,13.0,11.0,22.0,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/pLhJqrP7,1972.0,2022-11-13
 1810,1811,BTR-70,Armoured Personnel Carriers,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/XYQLmhNd,1972.0,
@@ -1814,7 +1814,7 @@
 1812,1813,BTR-70,Armoured Personnel Carriers,destroyed,18.0,3.0,23.0,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/xTymXDBt,1972.0,2023-03-18
 1813,1814,BTR-70,Armoured Personnel Carriers,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/rpRk6qmF,1972.0,
 1814,1815,BTR-70,Armoured Personnel Carriers,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/HW2WWCgR,1972.0,
-1815,1816,BTR-70,Armoured Personnel Carriers,damaged,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/rKptXh9Z,1972.0,
+1815,1816,BTR-70,Armoured Personnel Carriers,damaged,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/rKptXh9Z,1972.0,
 1816,1817,BTR-70,Armoured Personnel Carriers,damaged,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/BQG09mbr,1972.0,
 1817,1818,BTR-70,Armoured Personnel Carriers,damaged,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/BQG09mbr,1972.0,
 1818,1819,BTR-70,Armoured Personnel Carriers,damaged,19.0,7.0,23.0,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/GhwgC1Vt,1972.0,2023-07-19
@@ -1825,12 +1825,12 @@
 1823,1824,BTR-70,Armoured Personnel Carriers,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/fTZRgryB,1972.0,
 1824,1825,BTR-70,Armoured Personnel Carriers,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/rFZ5bm4k,1972.0,
 1825,1826,BTR-70,Armoured Personnel Carriers,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/x18j2CdW,1972.0,
-1826,1827,BTR-70,Armoured Personnel Carriers,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/Ln2GtPB6,1972.0,
-1827,1828,BTR-70,Armoured Personnel Carriers,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/v49PCHvS,1972.0,
-1828,1829,BTR-70,Armoured Personnel Carriers,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/hJBjtVt9,1972.0,
+1826,1827,BTR-70,Armoured Personnel Carriers,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/Ln2GtPB6,1972.0,
+1827,1828,BTR-70,Armoured Personnel Carriers,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/v49PCHvS,1972.0,
+1828,1829,BTR-70,Armoured Personnel Carriers,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/hJBjtVt9,1972.0,
 1829,1830,BTR-70M,Armoured Personnel Carriers,destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/MGj5Kcdy,1986.0,
 1830,1831,BTR-70M,Armoured Personnel Carriers,destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/MGj5Kcdy,1986.0,
-1831,1832,BTR-70M,Armoured Personnel Carriers,destroyed,,,,Ukraine,UA,Ukraine,UA,https://postimg.cc/rdFL4FzN,1986.0,
+1831,1832,BTR-70M,Armoured Personnel Carriers,destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/rdFL4FzN,1986.0,
 1832,1833,BTR-70M,Armoured Personnel Carriers,destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/mk6ZFJ85,1986.0,
 1833,1834,BTR-70M,Armoured Personnel Carriers,destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/1tzpDJ3J,1986.0,
 1834,1835,BTR-70M,Armoured Personnel Carriers,abandoned,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/RCWcTD3F,1986.0,
@@ -1842,8 +1842,8 @@
 1840,1841,BTR-7,Armoured Personnel Carriers,destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/xdppgm3K,2011.0,
 1841,1842,BTR-7,Armoured Personnel Carriers,destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/FsJZ542w,2011.0,
 1842,1843,BTR-7,Armoured Personnel Carriers,destroyed,26.0,10.0,22.0,Ukraine,UA,Ukraine,UA,https://postlmg.cc/pdqgwP56,2011.0,2022-10-26
-1843,1844,BTR-7,Armoured Personnel Carriers,captured,,,,Ukraine,UA,Ukraine,UA,https://postimg.cc/JDT8Vg0d,2011.0,
-1844,1845,BTR-7,Armoured Personnel Carriers,captured,,,,Ukraine,UA,Ukraine,UA,https://postimg.cc/75mpKLY8,2011.0,
+1843,1844,BTR-7,Armoured Personnel Carriers,captured,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/JDT8Vg0d,2011.0,
+1844,1845,BTR-7,Armoured Personnel Carriers,captured,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/75mpKLY8,2011.0,
 1845,1846,BTR-7,Armoured Personnel Carriers,captured,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/PfM2xxRx,2011.0,
 1846,1847,BTR-7,Armoured Personnel Carriers,captured,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/DzXKks5m,2011.0,
 1847,1848,BTR-7,Armoured Personnel Carriers,captured,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/DzXKks5m,2011.0,
@@ -1889,23 +1889,23 @@
 1887,1888,BTR-80,Armoured Personnel Carriers,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/4y7TzJ8g,1986.0,
 1888,1889,BTR-80,Armoured Personnel Carriers,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/3r4d2HGN,1986.0,
 1889,1890,BTR-80,Armoured Personnel Carriers,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/SKsgk4GQ,1986.0,
-1890,1891,BTR-80,Armoured Personnel Carriers,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/0zjqChqL,1986.0,
-1891,1892,BTR-80,Armoured Personnel Carriers,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/PP462MbZ,1986.0,
-1892,1893,BTR-80,Armoured Personnel Carriers,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/PP462MbZ,1986.0,
-1893,1894,BTR-80,Armoured Personnel Carriers,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/3WGVCpbC,1986.0,
-1894,1895,BTR-80,Armoured Personnel Carriers,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/cvxJGDGm,1986.0,
+1890,1891,BTR-80,Armoured Personnel Carriers,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/0zjqChqL,1986.0,
+1891,1892,BTR-80,Armoured Personnel Carriers,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/PP462MbZ,1986.0,
+1892,1893,BTR-80,Armoured Personnel Carriers,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/PP462MbZ,1986.0,
+1893,1894,BTR-80,Armoured Personnel Carriers,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/3WGVCpbC,1986.0,
+1894,1895,BTR-80,Armoured Personnel Carriers,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/cvxJGDGm,1986.0,
 1895,1896,BTR-80,Armoured Personnel Carriers,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/yx2Hz9jp,1986.0,
 1896,1897,BTR-80,Armoured Personnel Carriers,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/cH46YBTm,1986.0,
 1897,1898,BTR-80,Armoured Personnel Carriers,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/0Nmz2Wgk,1986.0,
 1898,1899,BTR-80,Armoured Personnel Carriers,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/fTmggWDx,1986.0,
-1899,1900,BTR-80,Armoured Personnel Carriers,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/6ycs37hD,1986.0,
-1900,1901,BTR-80,Armoured Personnel Carriers,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/hJdrQTcM,1986.0,
+1899,1900,BTR-80,Armoured Personnel Carriers,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/6ycs37hD,1986.0,
+1900,1901,BTR-80,Armoured Personnel Carriers,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/hJdrQTcM,1986.0,
 1901,1902,BTR-80,Armoured Personnel Carriers,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/3R39pchL,1986.0,
 1902,1903,BTR-80,Armoured Personnel Carriers,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/3JMzcVWT,1986.0,
 1903,1904,BTR-80,Armoured Personnel Carriers,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/B648FdxH,1986.0,
 1904,1905,BTR-80,Armoured Personnel Carriers,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/q7KJFjY5,1986.0,
 1905,1906,BTR-80,Armoured Personnel Carriers,destroyed,25.0,3.0,22.0,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/5y8YPYzY,1986.0,2022-03-25
-1906,1907,BTR-80,Armoured Personnel Carriers,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/QHNy0yCG,1986.0,
+1906,1907,BTR-80,Armoured Personnel Carriers,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/QHNy0yCG,1986.0,
 1907,1908,BTR-80,Armoured Personnel Carriers,destroyed,2.0,9.0,22.0,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/ht2J3qXr,1986.0,2022-09-02
 1908,1909,BTR-80,Armoured Personnel Carriers,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/cHYsttSw,1986.0,
 1909,1910,BTR-80,Armoured Personnel Carriers,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/cHYsttSw,1986.0,
@@ -1931,12 +1931,12 @@
 1929,1930,BTR-80,Armoured Personnel Carriers,destroyed,24.0,7.0,23.0,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/FFM474zk,1986.0,2023-07-24
 1930,1931,BTR-80,Armoured Personnel Carriers,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/XNsDL2Wt,1986.0,
 1931,1932,BTR-80,Armoured Personnel Carriers,destroyed,5.0,10.0,23.0,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/FHY9wL0x,1986.0,2023-10-05
-1932,1933,BTR-80,Armoured Personnel Carriers,damaged,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/67NyqCSj,1986.0,
+1932,1933,BTR-80,Armoured Personnel Carriers,damaged,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/67NyqCSj,1986.0,
 1933,1934,BTR-80,Armoured Personnel Carriers,damaged,19.0,7.0,23.0,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/pXHTB6yg,1986.0,2023-07-19
 1934,1935,BTR-80,Armoured Personnel Carriers,abandoned,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/DwCc5jVn,1986.0,
-1935,1936,BTR-80,Armoured Personnel Carriers,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/NK7P45WT,1986.0,
+1935,1936,BTR-80,Armoured Personnel Carriers,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/NK7P45WT,1986.0,
 1936,1937,BTR-80,Armoured Personnel Carriers,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/8P16SJKk,1986.0,
-1937,1938,BTR-80,Armoured Personnel Carriers,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/YhJxSHh3,1986.0,
+1937,1938,BTR-80,Armoured Personnel Carriers,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/YhJxSHh3,1986.0,
 1938,1939,BTR-80,Armoured Personnel Carriers,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/90DnYM8h,1986.0,
 1939,1940,BTR-80,Armoured Personnel Carriers,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/xd4xBGTy,1986.0,
 1940,1941,BTR-80,Armoured Personnel Carriers,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/xd4xBGTy,1986.0,
@@ -1962,9 +1962,9 @@
 1960,1961,BTR-80,Armoured Personnel Carriers,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/0jQF7XkN,1986.0,
 1961,1962,BTR-80,Armoured Personnel Carriers,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/KvBwK1YD,1986.0,
 1962,1963,BTR-80,Armoured Personnel Carriers,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/MHmNcy9d,1986.0,
-1963,1964,BTR-80,Armoured Personnel Carriers,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/fJ887NFP,1986.0,
-1964,1965,BTR-80,Armoured Personnel Carriers,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/0MfPyF4s,1986.0,
-1965,1966,BTR-80,Armoured Personnel Carriers,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/WhxgRGWs,1986.0,
+1963,1964,BTR-80,Armoured Personnel Carriers,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/fJ887NFP,1986.0,
+1964,1965,BTR-80,Armoured Personnel Carriers,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/0MfPyF4s,1986.0,
+1965,1966,BTR-80,Armoured Personnel Carriers,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/WhxgRGWs,1986.0,
 1966,1967,BTR-80,Armoured Personnel Carriers,captured,15.0,3.0,22.0,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/wBbm3dHv,1986.0,2022-03-15
 1967,1968,BTR-80,Armoured Personnel Carriers,captured,2.0,6.0,22.0,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/j5wJ7kdh,1986.0,2022-06-02
 1968,1969,BTR-80,Armoured Personnel Carriers,captured,21.0,5.0,22.0,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/rsbFgL7w,1986.0,2022-05-21
@@ -1985,7 +1985,7 @@
 1983,1984,YPR-765,Armoured Personnel Carriers,destroyed,,,,Netherlands,NTHL,Ukraine,UA,https://postlmg.cc/y656j2Kk,1977.0,
 1984,1985,YPR-765,Armoured Personnel Carriers,destroyed,,,,Netherlands,NTHL,Ukraine,UA,https://postlmg.cc/hfVPjV4D,1977.0,
 1985,1986,YPR-765,Armoured Personnel Carriers,destroyed,,,,Netherlands,NTHL,Ukraine,UA,https://postlmg.cc/W1bfhQSP,1977.0,
-1986,1987,YPR-765,Armoured Personnel Carriers,destroyed,,,,Netherlands,NTHL,Ukraine,UA,https://postimg.cc/Lqn563kQ,1977.0,
+1986,1987,YPR-765,Armoured Personnel Carriers,destroyed,,,,Netherlands,NTHL,Ukraine,UA,https://postlmg.cc/Lqn563kQ,1977.0,
 1987,1988,YPR-765,Armoured Personnel Carriers,destroyed,,,,Netherlands,NTHL,Ukraine,UA,https://postlmg.cc/RC7hFcHy,1977.0,
 1988,1989,YPR-765,Armoured Personnel Carriers,destroyed,10.0,6.0,23.0,Netherlands,NTHL,Ukraine,UA,https://postlmg.cc/wT2zX1qj,1977.0,2023-06-10
 1989,1990,YPR-765,Armoured Personnel Carriers,destroyed,,,,Netherlands,NTHL,Ukraine,UA,https://postlmg.cc/Kzs1Nxxp,1977.0,
@@ -2132,7 +2132,7 @@
 2130,2131,Sisu XA-185,Armoured Personnel Carriers,captured,,,,Finland,FIN,Ukraine,UA,https://twitter.com/UAWeapons/status/1602246143030722561,1984.0,
 2131,2132,M1126 Stryker,Armoured Personnel Carriers,destroyed,,,,United States,USA,Ukraine,UA,https://postlmg.cc/s22pYPzt,2002.0,
 2132,2133,M1126 Stryker,Armoured Personnel Carriers,destroyed,,,,United States,USA,Ukraine,UA,https://postlmg.cc/sxcmm3wR,2002.0,
-2133,2134,M1126 Stryker,Armoured Personnel Carriers,destroyed,,,,United States,USA,Ukraine,UA,https://postimg.cc/RJvFrkYQ,2002.0,
+2133,2134,M1126 Stryker,Armoured Personnel Carriers,destroyed,,,,United States,USA,Ukraine,UA,https://postlmg.cc/RJvFrkYQ,2002.0,
 2134,2135,M1126 Stryker,Armoured Personnel Carriers,destroyed,2.0,10.0,23.0,United States,USA,Ukraine,UA,https://postlmg.cc/hjND24ff,2002.0,2023-10-02
 2135,2136,M1126 Stryker,Armoured Personnel Carriers,damaged,,,,United States,USA,Ukraine,UA,https://twitter.com/RALee85/status/1691340418590429184,2002.0,
 2136,2137,Vepr,Mine-Resistant Ambush Protected (MRAP) Vehicles,captured,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/0j3NhvTH,2006.0,
@@ -2146,9 +2146,9 @@
 2144,2145,Mastiff Protected Patrol,Mine-Resistant Ambush Protected (MRAP) Vehicles,destroyed,,,,United Kingdom,UK,Ukraine,UA,https://twitter.com/UAWeapons/status/1577244259799171072,2002.0,
 2145,2146,Mastiff Protected Patrol,Mine-Resistant Ambush Protected (MRAP) Vehicles,destroyed,,,,United Kingdom,UK,Ukraine,UA,https://postlmg.cc/PfyWsW1y,2002.0,
 2146,2147,Mastiff Protected Patrol,Mine-Resistant Ambush Protected (MRAP) Vehicles,destroyed,,,,United Kingdom,UK,Ukraine,UA,https://postlmg.cc/02gb4rBn,2002.0,
-2147,2148,Mastiff Protected Patrol,Mine-Resistant Ambush Protected (MRAP) Vehicles,destroyed,,,,United Kingdom,UK,Ukraine,UA,https://postimg.cc/sQSRFQbR,2002.0,
-2148,2149,Mastiff Protected Patrol,Mine-Resistant Ambush Protected (MRAP) Vehicles,destroyed,,,,United Kingdom,UK,Ukraine,UA,https://postimg.cc/sQSRFQbR,2002.0,
-2149,2150,Mastiff Protected Patrol,Mine-Resistant Ambush Protected (MRAP) Vehicles,destroyed,,,,United Kingdom,UK,Ukraine,UA,https://postimg.cc/sQSRFQbR,2002.0,
+2147,2148,Mastiff Protected Patrol,Mine-Resistant Ambush Protected (MRAP) Vehicles,destroyed,,,,United Kingdom,UK,Ukraine,UA,https://postlmg.cc/sQSRFQbR,2002.0,
+2148,2149,Mastiff Protected Patrol,Mine-Resistant Ambush Protected (MRAP) Vehicles,destroyed,,,,United Kingdom,UK,Ukraine,UA,https://postlmg.cc/sQSRFQbR,2002.0,
+2149,2150,Mastiff Protected Patrol,Mine-Resistant Ambush Protected (MRAP) Vehicles,destroyed,,,,United Kingdom,UK,Ukraine,UA,https://postlmg.cc/sQSRFQbR,2002.0,
 2150,2151,Mastiff Protected Patrol,Mine-Resistant Ambush Protected (MRAP) Vehicles,destroyed,8.0,6.0,23.0,United Kingdom,UK,Ukraine,UA,https://postlmg.cc/ZKJc181s,2002.0,2023-06-08
 2151,2152,Mastiff Protected Patrol,Mine-Resistant Ambush Protected (MRAP) Vehicles,destroyed,11.0,6.0,23.0,United Kingdom,UK,Ukraine,UA,https://postlmg.cc/tgR6Jnh9,2002.0,2023-06-11
 2152,2153,Mastiff Protected Patrol,Mine-Resistant Ambush Protected (MRAP) Vehicles,destroyed,7.0,6.0,23.0,United Kingdom,UK,Ukraine,UA,https://postlmg.cc/zv7nJQ9t,2002.0,2023-06-07
@@ -2280,7 +2280,7 @@
 2278,2279,ATF Dingo,Mine-Resistant Ambush Protected (MRAP) Vehicles,destroyed,30.0,7.0,23.0,Germany,GER,Ukraine,UA,https://postlmg.cc/vB3mczRy,2000.0,2023-07-30
 2279,2280,ATF Dingo,Mine-Resistant Ambush Protected (MRAP) Vehicles,damaged,13.0,5.0,23.0,Germany,GER,Ukraine,UA,https://postlmg.cc/ZKWFdHtt,2000.0,2023-05-13
 2280,2281,ATF Dingo,Mine-Resistant Ambush Protected (MRAP) Vehicles,abandoned,5.0,5.0,23.0,Germany,GER,Ukraine,UA,https://postlmg.cc/TPHHSbrb,2000.0,2023-05-05
-2281,2282,BMC Kirpi,Mine-Resistant Ambush Protected (MRAP) Vehicles,destroyed,,,,Turkey,TRK,Ukraine,UA,https://postimg.cc/K1CLqqs2,2009.0,
+2281,2282,BMC Kirpi,Mine-Resistant Ambush Protected (MRAP) Vehicles,destroyed,,,,Turkey,TRK,Ukraine,UA,https://postlmg.cc/K1CLqqs2,2009.0,
 2282,2283,BMC Kirpi,Mine-Resistant Ambush Protected (MRAP) Vehicles,destroyed,,,,Turkey,TRK,Ukraine,UA,https://postlmg.cc/KcsG3JH2,2009.0,
 2283,2284,BMC Kirpi,Mine-Resistant Ambush Protected (MRAP) Vehicles,destroyed,,,,Turkey,TRK,Ukraine,UA,https://twitter.com/UAWeapons/status/1576618908026486784,2009.0,
 2284,2285,BMC Kirpi,Mine-Resistant Ambush Protected (MRAP) Vehicles,destroyed,,,,Turkey,TRK,Ukraine,UA,https://postlmg.cc/bJrXBz3X,2009.0,
@@ -2319,9 +2319,9 @@
 2317,2318,KrAZ Cobra,Infantry Mobility Vehicles,captured,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/d30jkjsf,,
 2318,2319,KrAZ Cobra,Infantry Mobility Vehicles,captured,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/8cGg52b8,,
 2319,2320,KrAZ Cobra,Infantry Mobility Vehicles,captured,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/t4L7dCLQ,,
-2320,2321,KrAZ Cobra,Infantry Mobility Vehicles,captured,,,,Ukraine,UA,Ukraine,UA,https://postimg.cc/DSSzRC8z,,
+2320,2321,KrAZ Cobra,Infantry Mobility Vehicles,captured,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/DSSzRC8z,,
 2321,2322,KrAZ Cobra,Infantry Mobility Vehicles,captured,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/htY0YYyH,,
-2322,2323,KrAZ Cougar,Infantry Mobility Vehicles,destroyed,,,,Ukraine,UA,Ukraine,UA,https://postimg.cc/2bj6y1j4,,
+2322,2323,KrAZ Cougar,Infantry Mobility Vehicles,destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/2bj6y1j4,,
 2323,2324,KrAZ Cougar,Infantry Mobility Vehicles,destroyed,2.0,1.0,23.0,Ukraine,UA,Ukraine,UA,https://postlmg.cc/CL5WG0Br,,2023-01-02
 2324,2325,KrAZ Cougar,Infantry Mobility Vehicles,captured,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/t4WXZNqX,,
 2325,2326,KrAZ Cougar,Infantry Mobility Vehicles,captured,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/QxSz28RF,,
@@ -2359,7 +2359,7 @@
 2357,2358,Varta,Infantry Mobility Vehicles,destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/MpPNBN48,,
 2358,2359,Varta,Infantry Mobility Vehicles,destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/MHQ7P76Q,,
 2359,2360,Varta,Infantry Mobility Vehicles,destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/tRDKr2Q8,,
-2360,2361,Varta,Infantry Mobility Vehicles,destroyed,,,,Ukraine,UA,Ukraine,UA,https://postimg.cc/bSYn98yJ,,
+2360,2361,Varta,Infantry Mobility Vehicles,destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/bSYn98yJ,,
 2361,2362,Varta,Infantry Mobility Vehicles,destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/rmgYsHpT,,
 2362,2363,Varta,Infantry Mobility Vehicles,destroyed,1.0,5.0,22.0,Ukraine,UA,Ukraine,UA,https://postlmg.cc/yxnBY74p,,2022-05-01
 2363,2364,Varta,Infantry Mobility Vehicles,destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/1RK6C6Qr,,
@@ -2383,7 +2383,7 @@
 2381,2382,Varta,Infantry Mobility Vehicles,captured,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/xT2zK4zR,,
 2382,2383,Varta,Infantry Mobility Vehicles,captured,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/MpqsfLzt,,
 2383,2384,Varta,Infantry Mobility Vehicles,captured,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/T1SXymTX,,
-2384,2385,Varta,Infantry Mobility Vehicles,captured,,,,Ukraine,UA,Ukraine,UA,https://postimg.cc/VrXX4dBz,,
+2384,2385,Varta,Infantry Mobility Vehicles,captured,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/VrXX4dBz,,
 2385,2386,Varta,Infantry Mobility Vehicles,captured,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/Jz3fWZ7K,,
 2386,2387,Varta,Infantry Mobility Vehicles,captured,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/yd79bqQv,,
 2387,2388,Varta,Infantry Mobility Vehicles,captured,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/hj0YkBSj,,
@@ -2448,7 +2448,7 @@
 2446,2447,Kozak-2,Infantry Mobility Vehicles,captured,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/KcBnzr7B,2015.0,
 2447,2448,Kozak-2,Infantry Mobility Vehicles,captured,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/3xB6SYCz,2015.0,
 2448,2449,Kozak-2,Infantry Mobility Vehicles,captured,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/vBGg4Q47,2015.0,
-2449,2450,Kozak-2,Infantry Mobility Vehicles,captured,,,,Ukraine,UA,Ukraine,UA,https://postimg.cc/470fJLsW,2015.0,
+2449,2450,Kozak-2,Infantry Mobility Vehicles,captured,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/470fJLsW,2015.0,
 2450,2451,Kozak-2,Infantry Mobility Vehicles,captured,27.0,4.0,22.0,Ukraine,UA,Ukraine,UA,https://postlmg.cc/XJCpJGQH,2015.0,2022-04-27
 2451,2452,Kozak-2,Infantry Mobility Vehicles,captured,22.0,7.0,22.0,Ukraine,UA,Ukraine,UA,https://postlmg.cc/L6Rn9sfD,2015.0,2022-07-22
 2452,2453,Kozak-2,Infantry Mobility Vehicles,captured,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/xC6W8zKw,2015.0,
@@ -2491,7 +2491,7 @@
 2489,2490,Kozak-7,Infantry Mobility Vehicles,damaged,25.0,4.0,23.0,Ukraine,UA,Ukraine,UA,https://postlmg.cc/gkGLHcxw,,2023-04-25
 2490,2491,Triton-1,Infantry Mobility Vehicles,captured,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/x8sb9gDh,,
 2491,2492,Triton-1,Infantry Mobility Vehicles,captured,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/SNrgtV68,,
-2492,2493,Triton-1,Infantry Mobility Vehicles,captured,,,,Ukraine,UA,Ukraine,UA,https://postimg.cc/2V03L6Hb,,
+2492,2493,Triton-1,Infantry Mobility Vehicles,captured,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/2V03L6Hb,,
 2493,2494,M1114 and M1151 HMMWV,Infantry Mobility Vehicles,destroyed,,,,United States,USA,Ukraine,UA,https://postlmg.cc/bY3x4Pp9,1983.0,
 2494,2495,M1114 and M1151 HMMWV,Infantry Mobility Vehicles,destroyed,,,,United States,USA,Ukraine,UA,https://postlmg.cc/TPmQqZVc,1983.0,
 2495,2496,M1114 and M1151 HMMWV,Infantry Mobility Vehicles,destroyed,,,,United States,USA,Ukraine,UA,https://postlmg.cc/520hs90w,1983.0,
@@ -2656,7 +2656,7 @@
 2654,2655,Husky Tactical Support Vehicle,Infantry Mobility Vehicles,captured,12.0,6.0,23.0,United Kingdom,UK,Ukraine,UA,https://postlmg.cc/y8RKRLyP,,2023-06-12
 2655,2656,Husky Tactical Support Vehicle,Infantry Mobility Vehicles,captured,4.0,6.0,23.0,United Kingdom,UK,Ukraine,UA,https://postlmg.cc/qBP3Vf5F,,2023-06-04
 2656,2657,Iveco LMV,Infantry Mobility Vehicles,destroyed,,,,Italy,ITA,Ukraine,UA,https://postlmg.cc/yYgMB80G,1990.0,
-2657,2658,Iveco LMV,Infantry Mobility Vehicles,destroyed,,,,Italy,ITA,Ukraine,UA,https://postimg.cc/WdNm6PND,1990.0,
+2657,2658,Iveco LMV,Infantry Mobility Vehicles,destroyed,,,,Italy,ITA,Ukraine,UA,https://postlmg.cc/WdNm6PND,1990.0,
 2658,2659,Iveco LMV,Infantry Mobility Vehicles,destroyed,,,,Italy,ITA,Ukraine,UA,https://postlmg.cc/J01jxjW8,1990.0,
 2659,2660,Iveco LMV,Infantry Mobility Vehicles,destroyed,,,,Italy,ITA,Ukraine,UA,https://postlmg.cc/JhH6SrqC,1990.0,
 2660,2661,Iveco LMV,Infantry Mobility Vehicles,destroyed,,,,Italy,ITA,Ukraine,UA,https://postlmg.cc/Tw876z7L,1990.0,
@@ -2728,7 +2728,7 @@
 2726,2727,BAT-2 heavy engineering vehicle,Engineering Vehicles and Equipment,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/2yj5tTbn,1966.0,
 2727,2728,BAT-2 heavy engineering vehicle,Engineering Vehicles and Equipment,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/6Q7pKjZX,1966.0,
 2728,2729,MT-T multi-purpose tracked transporter,Engineering Vehicles and Equipment,damaged,,,,Soviet Union,USSR,Ukraine,UA,https://twitter.com/UAWeapons/status/1592524450830094340,,
-2729,2730,IRM 'Zhuk' engineer reconnaissance vehicle,Engineering Vehicles and Equipment,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/4YzZfG5m,,
+2729,2730,IRM 'Zhuk' engineer reconnaissance vehicle,Engineering Vehicles and Equipment,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/4YzZfG5m,,
 2730,2731,MDK-3 trench-digging vehicle,Engineering Vehicles and Equipment,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/ZYVS4vtw,,
 2731,2732,RKhM 'Kashalot',Engineering Vehicles and Equipment,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/FzPFS9vz,,
 2732,2733,RKhM 'Kashalot',Engineering Vehicles and Equipment,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/FK0113Pj,,
@@ -2749,7 +2749,7 @@
 2747,2748,BREM-1 armoured recovery vehicle,Engineering Vehicles and Equipment,destroyed,8.0,2.0,23.0,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/KvHcBkSZ,1973.0,2023-02-08
 2748,2749,BREM-1 armoured recovery vehicle,Engineering Vehicles and Equipment,destroyed,2.0,8.0,23.0,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/7LQkN135,1973.0,2023-08-02
 2749,2750,BREM-1 armoured recovery vehicle,Engineering Vehicles and Equipment,damaged,,,,Soviet Union,USSR,Ukraine,UA,https://twitter.com/Danspiun/status/1648098258911129600,1973.0,
-2750,2751,BREM-1 armoured recovery vehicle,Engineering Vehicles and Equipment,damaged,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/PNdXDbtv,1973.0,
+2750,2751,BREM-1 armoured recovery vehicle,Engineering Vehicles and Equipment,damaged,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/PNdXDbtv,1973.0,
 2751,2752,BREM-1 armoured recovery vehicle,Engineering Vehicles and Equipment,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/Prww0Ysy,1973.0,
 2752,2753,M88A1 armoured recovery vehicle,Engineering Vehicles and Equipment,destroyed,21.0,7.0,23.0,United States,USA,Ukraine,UA,https://postlmg.cc/SK1WzSS3,,2023-07-21
 2753,2754,M88A1 armoured recovery vehicle,Engineering Vehicles and Equipment,destroyed,24.0,8.0,23.0,United States,USA,Ukraine,UA,https://postlmg.cc/VvQKwbGx,,2023-08-24
@@ -2762,7 +2762,7 @@
 2760,2761,MTO-AT mobile workshop,Engineering Vehicles and Equipment,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://twitter.com/UAWeapons/status/1545021770008240130,,
 2761,2762,MTO-AT mobile workshop,Engineering Vehicles and Equipment,destroyed,15.0,5.0,22.0,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/q73LLhS9,,2022-05-15
 2762,2763,MTO-AT mobile workshop,Engineering Vehicles and Equipment,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/YSjX5Wrj,,
-2763,2764,PTS-2  tracked amphibious transport,Engineering Vehicles and Equipment,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/bsfZ6SXD,,
+2763,2764,PTS-2  tracked amphibious transport,Engineering Vehicles and Equipment,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/bsfZ6SXD,,
 2764,2765,PMP floating bridge,Engineering Vehicles and Equipment,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/zXWfXHm7,,
 2765,2766,PMP floating bridge,Engineering Vehicles and Equipment,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/0y027gyJ,,
 2766,2767,PMP floating bridge,Engineering Vehicles and Equipment,captured,,,,Soviet Union,USSR,Ukraine,UA,https://twitter.com/UAWeapons/status/1545899373724422151,,
@@ -2783,7 +2783,7 @@
 2781,2782,KrAZ-6322 Master mobile workshop,Engineering Vehicles and Equipment,captured,17.0,7.0,22.0,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/zBnh7shQ,1994.0,2022-07-17
 2782,2783,GMZ-3 minelayer,Engineering Vehicles and Equipment,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/W4xyQQTN,1968.0,
 2783,2784,GMZ-3 minelayer,Engineering Vehicles and Equipment,damaged,21.0,6.0,23.0,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/rm70T41G,1968.0,2023-06-21
-2784,2785,GMZ-3 minelayer,Engineering Vehicles and Equipment,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/9wRyy6q6,1968.0,
+2784,2785,GMZ-3 minelayer,Engineering Vehicles and Equipment,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/9wRyy6q6,1968.0,
 2785,2786,GMZ-3 minelayer,Engineering Vehicles and Equipment,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/GhJBg5Fg,1968.0,
 2786,2787,PZM-2 trench-digging vehicle,Engineering Vehicles and Equipment,destroyed,24.0,4.0,22.0,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/4dWvYY0s,,2022-04-24
 2787,2788,PZM-2 trench-digging vehicle,Engineering Vehicles and Equipment,destroyed,3.0,3.0,22.0,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/sgJZ09yh,,2022-03-03
@@ -2823,7 +2823,7 @@
 2821,2822,1V13 battery command and forward observer vehicle,Artillery Support Vehicles and Equipment,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/rsqMDRYM,,
 2822,2823,1V14 battery command and forward observer vehicle,Artillery Support Vehicles and Equipment,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/bwSwXSt1,,
 2823,2824,1V14 battery command and forward observer vehicle,Artillery Support Vehicles and Equipment,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/Y94z13Qq,,
-2824,2825,1V14 battery command and forward observer vehicle,Artillery Support Vehicles and Equipment,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/dDvnqyKd,,
+2824,2825,1V14 battery command and forward observer vehicle,Artillery Support Vehicles and Equipment,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/dDvnqyKd,,
 2825,2826,1V14 battery command and forward observer vehicle,Artillery Support Vehicles and Equipment,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/RVwYRjBx,,
 2826,2827,1V14 battery command and forward observer vehicle,Artillery Support Vehicles and Equipment,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/W4H05Nzk,,
 2827,2828,1V14 battery command and forward observer vehicle,Artillery Support Vehicles and Equipment,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/MHmbxn3Q,,
@@ -2847,7 +2847,7 @@
 2845,2846,100mm BS-3 anti-tank gun,Towed Artillery,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/GmqpYdTn,1944.0,
 2846,2847,100mm MT-12 anti-tank gun,Towed Artillery,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/3x42G0DL,1970.0,
 2847,2848,100mm MT-12 anti-tank gun,Towed Artillery,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://twitter.com/UAWeapons/status/1543548850559926272,1970.0,
-2848,2849,100mm MT-12 anti-tank gun,Towed Artillery,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/TyjH9pKG,1970.0,
+2848,2849,100mm MT-12 anti-tank gun,Towed Artillery,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/TyjH9pKG,1970.0,
 2849,2850,100mm MT-12 anti-tank gun,Towed Artillery,destroyed,24.0,2.0,22.0,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/1RWZFsNX,1970.0,2022-02-24
 2850,2851,100mm MT-12 anti-tank gun,Towed Artillery,destroyed,23.0,4.0,22.0,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/1XrH1kcs,1970.0,2022-04-23
 2851,2852,100mm MT-12 anti-tank gun,Towed Artillery,destroyed,17.0,7.0,23.0,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/66GbgQHF,1970.0,2023-07-17
@@ -2858,7 +2858,7 @@
 2856,2857,100mm MT-12 anti-tank gun,Towed Artillery,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/ZqBJT7JB,1970.0,
 2857,2858,100mm MT-12 anti-tank gun,Towed Artillery,captured,,,,Soviet Union,USSR,Ukraine,UA,https://twitter.com/UAWeapons/status/1561047885692780546,1970.0,
 2858,2859,100mm MT-12 anti-tank gun,Towed Artillery,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/65mdSZ6K,1970.0,
-2859,2860,100mm MT-12 anti-tank gun,Towed Artillery,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/QKxW9nT1,1970.0,
+2859,2860,100mm MT-12 anti-tank gun,Towed Artillery,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/QKxW9nT1,1970.0,
 2860,2861,100mm MT-12 anti-tank gun,Towed Artillery,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/2SgY5HMY,1970.0,
 2861,2862,100mm MT-12 anti-tank gun,Towed Artillery,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/VkJ1my74,1970.0,
 2862,2863,100mm MT-12 anti-tank gun,Towed Artillery,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/DzsT4r3X,1970.0,
@@ -2878,10 +2878,10 @@
 2876,2877,122mm D-30 howitzer,Towed Artillery,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/KzDhJmzc,1960.0,
 2877,2878,130mm M-46 field gun,Towed Artillery,damaged,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/4yg8RSrK,,
 2878,2879,152mm D-20 gun-howitzer,Towed Artillery,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/mrBgqrfC,1950.0,
-2879,2880,152mm D-20 gun-howitzer,Towed Artillery,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/YGTx17tY,1950.0,
-2880,2881,152mm D-20 gun-howitzer,Towed Artillery,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/xkk1NV8K,1950.0,
-2881,2882,152mm D-20 gun-howitzer,Towed Artillery,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/kDytW8qw,1950.0,
-2882,2883,152mm D-20 gun-howitzer,Towed Artillery,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/MckGCKzv,1950.0,
+2879,2880,152mm D-20 gun-howitzer,Towed Artillery,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/YGTx17tY,1950.0,
+2880,2881,152mm D-20 gun-howitzer,Towed Artillery,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/xkk1NV8K,1950.0,
+2881,2882,152mm D-20 gun-howitzer,Towed Artillery,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/kDytW8qw,1950.0,
+2882,2883,152mm D-20 gun-howitzer,Towed Artillery,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/MckGCKzv,1950.0,
 2883,2884,152mm D-20 gun-howitzer,Towed Artillery,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/mrc0LLCp,1950.0,
 2884,2885,152mm D-20 gun-howitzer,Towed Artillery,destroyed,16.0,7.0,23.0,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/tJnqDLjD,1950.0,2023-07-16
 2885,2886,152mm D-20 gun-howitzer,Towed Artillery,destroyed,25.0,5.0,23.0,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/sXGyGFwy,1950.0,2023-05-25
@@ -2909,7 +2909,7 @@
 2907,2908,152mm 2A65 Msta-B howitzer,Towed Artillery,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/3Jq4jMxs,1987.0,
 2908,2909,155mm FH-70 howitzer,Towed Artillery,destroyed,,,,Estonia,EST,Ukraine,UA,https://twitter.com/UAWeapons/status/1588139903099047938,1978.0,
 2909,2910,155mm FH-70 howitzer,Towed Artillery,destroyed,26.0,8.0,23.0,Estonia,EST,Ukraine,UA,https://postlmg.cc/kXt81MtT,1978.0,2023-08-26
-2910,2911,155mm FH-70 howitzer,Towed Artillery,damaged,,,,Estonia,EST,Ukraine,UA,https://postimg.cc/QKV5Q4MK,1978.0,
+2910,2911,155mm FH-70 howitzer,Towed Artillery,damaged,,,,Estonia,EST,Ukraine,UA,https://postlmg.cc/QKV5Q4MK,1978.0,
 2911,2912,155mm FH-70 howitzer,Towed Artillery,damaged,,,,Estonia,EST,Ukraine,UA,https://postlmg.cc/kgHpM08s,1978.0,
 2912,2913,155mm TRF1 howitzer,Towed Artillery,destroyed,,,,France,FR,Ukraine,UA,https://twitter.com/UAWeapons/status/1649422891178500099,1990.0,
 2913,2914,155mm M777A2 howitzer,Towed Artillery,destroyed,,,,United States,USA,Ukraine,UA,https://postlmg.cc/VvnzxRCL,2005.0,
@@ -2923,7 +2923,7 @@
 2921,2922,155mm M777A2 howitzer,Towed Artillery,destroyed,,,,United States,USA,Ukraine,UA,https://postlmg.cc/QtG4XVQx,2005.0,
 2922,2923,155mm M777A2 howitzer,Towed Artillery,destroyed,,,,United States,USA,Ukraine,UA,https://twitter.com/UAWeapons/status/1586328231158112257,2005.0,
 2923,2924,155mm M777A2 howitzer,Towed Artillery,destroyed,,,,United States,USA,Ukraine,UA,https://twitter.com/imp_navigator/status/1589135917553373184,2005.0,
-2924,2925,155mm M777A2 howitzer,Towed Artillery,destroyed,,,,United States,USA,Ukraine,UA,https://postimg.cc/dLyJfk76,2005.0,
+2924,2925,155mm M777A2 howitzer,Towed Artillery,destroyed,,,,United States,USA,Ukraine,UA,https://postlmg.cc/dLyJfk76,2005.0,
 2925,2926,155mm M777A2 howitzer,Towed Artillery,destroyed,,,,United States,USA,Ukraine,UA,https://postlmg.cc/xTQFcbt3,2005.0,
 2926,2927,155mm M777A2 howitzer,Towed Artillery,destroyed,,,,United States,USA,Ukraine,UA,https://twitter.com/UAWeapons/status/1589653846749765637,2005.0,
 2927,2928,155mm M777A2 howitzer,Towed Artillery,destroyed,,,,United States,USA,Ukraine,UA,https://twitter.com/UAWeapons/status/1589653846749765637,2005.0,
@@ -3093,7 +3093,7 @@
 3091,3092,122mm 2S1 Gvozdika,Self Propelled Artillery,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/rFmzzNcR,1972.0,
 3092,3093,122mm 2S1 Gvozdika,Self Propelled Artillery,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/VLVvt0LG,1972.0,
 3093,3094,122mm 2S1 Gvozdika,Self Propelled Artillery,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/Hk8x9Wrp,1972.0,
-3094,3095,122mm 2S1 Gvozdika,Self Propelled Artillery,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/PPLMd7mP,1972.0,
+3094,3095,122mm 2S1 Gvozdika,Self Propelled Artillery,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/PPLMd7mP,1972.0,
 3095,3096,122mm 2S1 Gvozdika,Self Propelled Artillery,captured,,,,Soviet Union,USSR,Ukraine,UA,https://twitter.com/UAWeapons/status/1545899351167352832,1972.0,
 3096,3097,122mm 2S1 Gvozdika,Self Propelled Artillery,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/85JgL5K8,1972.0,
 3097,3098,122mm 2S1 Gvozdika,Self Propelled Artillery,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/WpYJ2frh,1972.0,
@@ -3132,7 +3132,7 @@
 3130,3131,152mm 2S3 Akatsiya,Self Propelled Artillery,damaged,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/zvnfH8Gg,1971.0,
 3131,3132,152mm 2S3 Akatsiya,Self Propelled Artillery,damaged,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/qvLh3Nvf,1971.0,
 3132,3133,152mm 2S3 Akatsiya,Self Propelled Artillery,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/3Nx9KNtf,1971.0,
-3133,3134,152mm 2S3 Akatsiya,Self Propelled Artillery,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/w7CDm5d7,1971.0,
+3133,3134,152mm 2S3 Akatsiya,Self Propelled Artillery,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/w7CDm5d7,1971.0,
 3134,3135,152mm 2S3 Akatsiya,Self Propelled Artillery,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/FRFT3nD2,1971.0,
 3135,3136,152mm 2S3 Akatsiya,Self Propelled Artillery,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/tgGqqF21,1971.0,
 3136,3137,152mm 2S5 Giatsint-S,Self Propelled Artillery,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/PxZcfjr7,1978.0,
@@ -3388,7 +3388,7 @@
 3386,3387,5P851A (Launcher for S-300PT-1A),Surface-To-Air Missile Systems,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/SRSj3fJG,1978.0,
 3387,3388,5P85D (launcher for S-300PS),Surface-To-Air Missile Systems,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/HLc1zZDd,1985.0,
 3388,3389,5P85D (launcher for S-300PS),Surface-To-Air Missile Systems,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/cJJR2T2B,1985.0,
-3389,3390,5P85S (launcher for S-300PS),Surface-To-Air Missile Systems,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/f3wFx8q5,1985.0,
+3389,3390,5P85S (launcher for S-300PS),Surface-To-Air Missile Systems,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/f3wFx8q5,1985.0,
 3390,3391,5P85S (launcher for S-300PS),Surface-To-Air Missile Systems,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/cLVfSxKP,1985.0,
 3391,3392,5P85S (launcher for S-300PS),Surface-To-Air Missile Systems,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/cLVfSxKP,1985.0,
 3392,3393,5P85S (launcher for S-300PS),Surface-To-Air Missile Systems,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/HnLc5z38,1985.0,
@@ -3451,7 +3451,7 @@
 3449,3450,PRV-16 'Thin Skin B',Surface-To-Air Missile Systems,destroyed,1.0,10.0,23.0,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/nrvJTvyP,,2023-10-01
 3450,3451,1L22 'Parol',Surface-To-Air Missile Systems,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/SRjk0C96,,
 3451,3452,1L22 'Parol',Surface-To-Air Missile Systems,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/250CWHfJ,,
-3452,3453,1L22 'Parol',Surface-To-Air Missile Systems,damaged,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/9Dcvz02c,,
+3452,3453,1L22 'Parol',Surface-To-Air Missile Systems,damaged,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/9Dcvz02c,,
 3453,3454,1L22 'Parol',Surface-To-Air Missile Systems,captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/jqHGyDrQ,,
 3454,3455,36D6 'Tin Shield',Surface-To-Air Missile Systems,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/m2kp8gCH,,
 3455,3456,36D6 'Tin Shield',Surface-To-Air Missile Systems,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/QM6YtDQ5,,
@@ -3517,7 +3517,7 @@
 3515,3516,MiG-29 fighter aircraft,Aircraft,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/bYGXz89F,1983.0,
 3516,3517,MiG-29 fighter aircraft,Aircraft,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/tC7ZDK50,1983.0,
 3517,3518,MiG-29 fighter aircraft,Aircraft,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/LsbV0JrJ,1983.0,
-3518,3519,MiG-29 fighter aircraft,Aircraft,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/jnrqwmxR,1983.0,
+3518,3519,MiG-29 fighter aircraft,Aircraft,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/jnrqwmxR,1983.0,
 3519,3520,MiG-29 fighter aircraft,Aircraft,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/KcNhcMtc,1983.0,
 3520,3521,MiG-29 fighter aircraft,Aircraft,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/6q91j7pf,1983.0,
 3521,3522,MiG-29 fighter aircraft,Aircraft,destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/TYpbCRPG,1983.0,
@@ -3794,7 +3794,7 @@
 3792,3793,Shark,Reconnaissance Unmanned Aerial Vehicles,captured,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/pTBKbq8f,,
 3793,3794,Mara-2M,Reconnaissance Unmanned Aerial Vehicles,destroyed,3.0,2.0,23.0,Ukraine,UA,Ukraine,UA,https://postlmg.cc/dt14Bpkw,,2023-02-03
 3794,3795,Mara-2M,Reconnaissance Unmanned Aerial Vehicles,destroyed,1.0,5.0,23.0,Ukraine,UA,Ukraine,UA,https://postlmg.cc/bwndCsyc,,2023-05-01
-3795,3796,Mara-2M,Reconnaissance Unmanned Aerial Vehicles,captured,,,,Ukraine,UA,Ukraine,UA,https://postimg.cc/06C6nXQv,,
+3795,3796,Mara-2M,Reconnaissance Unmanned Aerial Vehicles,captured,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/06C6nXQv,,
 3796,3797,Chaklun,Reconnaissance Unmanned Aerial Vehicles,destroyed,26.0,5.0,23.0,Ukraine,UA,Ukraine,UA,https://postlmg.cc/Z5mRt1Q2,,2023-05-26
 3797,3798,Chaklun,Reconnaissance Unmanned Aerial Vehicles,captured,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/TYZCvCmf,,
 3798,3799,Orlik,Reconnaissance Unmanned Aerial Vehicles,destroyed,,,,Czech Republic,CZ,Ukraine,UA,https://twitter.com/UAWeapons/status/1603468874254790658,,
@@ -3802,7 +3802,7 @@
 3800,3801,Primoco One 150,Reconnaissance Unmanned Aerial Vehicles,destroyed,21.0,8.0,23.0,Czech Republic,CZ,Ukraine,UA,https://postlmg.cc/RCTvb0T1,,2023-08-21
 3801,3802,FlyEye,Reconnaissance Unmanned Aerial Vehicles,destroyed,,,,Poland,PL,Ukraine,UA,https://postlmg.cc/R008sKJv,,
 3802,3803,FlyEye,Reconnaissance Unmanned Aerial Vehicles,destroyed,,,,Poland,PL,Ukraine,UA,https://postlmg.cc/nrJ9rVL3,,
-3803,3804,FlyEye,Reconnaissance Unmanned Aerial Vehicles,destroyed,,,,Poland,PL,Ukraine,UA,https://postimg.cc/v4hMSJW0,,
+3803,3804,FlyEye,Reconnaissance Unmanned Aerial Vehicles,destroyed,,,,Poland,PL,Ukraine,UA,https://postlmg.cc/v4hMSJW0,,
 3804,3805,FlyEye,Reconnaissance Unmanned Aerial Vehicles,captured,1.0,9.0,23.0,Poland,PL,Ukraine,UA,https://postlmg.cc/PJVKQjd4,,2023-09-01
 3805,3806,Penguin C,Reconnaissance Unmanned Aerial Vehicles,captured,,,,Latvia,LTV,Ukraine,UA,https://postlmg.cc/ZKCQ6BwT,,
 3806,3807,Penguin C,Reconnaissance Unmanned Aerial Vehicles,captured,3.0,6.0,23.0,Latvia,LTV,Ukraine,UA,https://postlmg.cc/7LfWG39Y,,2023-06-03
@@ -3819,13 +3819,13 @@
 3817,3818,AeroVironment RQ-20 Puma,Reconnaissance Unmanned Aerial Vehicles,captured,8.0,7.0,23.0,United States,USA,Ukraine,UA,https://postlmg.cc/5tRpYK4b,2008.0,2023-07-08
 3818,3819,AeroVironment RQ-20 Puma,Reconnaissance Unmanned Aerial Vehicles,captured,,,,United States,USA,Ukraine,UA,https://postlmg.cc/y8GDZ84s,2008.0,
 3819,3820,AeroVironment RQ-20 Puma,Reconnaissance Unmanned Aerial Vehicles,captured,,,,United States,USA,Ukraine,UA,https://postlmg.cc/bYWBw9Bx,2008.0,
-3820,3821,AeroVironment RQ-20 Puma,Reconnaissance Unmanned Aerial Vehicles,captured,,,,United States,USA,Ukraine,UA,https://postimg.cc/0zVjWqSp,2008.0,
-3821,3822,AeroVironment RQ-20 Puma,Reconnaissance Unmanned Aerial Vehicles,captured,,,,United States,USA,Ukraine,UA,https://postimg.cc/mPkBr1cH,2008.0,
+3820,3821,AeroVironment RQ-20 Puma,Reconnaissance Unmanned Aerial Vehicles,captured,,,,United States,USA,Ukraine,UA,https://postlmg.cc/0zVjWqSp,2008.0,
+3821,3822,AeroVironment RQ-20 Puma,Reconnaissance Unmanned Aerial Vehicles,captured,,,,United States,USA,Ukraine,UA,https://postlmg.cc/mPkBr1cH,2008.0,
 3822,3823,AeroVironment RQ-20 Puma,Reconnaissance Unmanned Aerial Vehicles,captured,,,,United States,USA,Ukraine,UA,https://postlmg.cc/RhpkjYQX,2008.0,
 3823,3824,AeroVironment Quantix Recon UAV,Reconnaissance Unmanned Aerial Vehicles,captured,29.0,4.0,23.0,United States,USA,Ukraine,UA,https://postlmg.cc/nrBc0m5V,,2023-04-29
 3824,3825,Boeing Insitu ScanEagle 2,Reconnaissance Unmanned Aerial Vehicles,destroyed,15.0,7.0,23.0,United States,USA,Ukraine,UA,https://postlmg.cc/3w9xwX1j,2005.0,2023-07-15
 3825,3826,Boeing Insitu ScanEagle 2,Reconnaissance Unmanned Aerial Vehicles,destroyed,5.0,10.0,23.0,United States,USA,Ukraine,UA,https://postlmg.cc/52PMP9rb,2005.0,2023-10-05
-3826,3827,Boeing Insitu ScanEagle 2,Reconnaissance Unmanned Aerial Vehicles,captured,,,,United States,USA,Ukraine,UA,https://postimg.cc/1g80jZkS,2005.0,
+3826,3827,Boeing Insitu ScanEagle 2,Reconnaissance Unmanned Aerial Vehicles,captured,,,,United States,USA,Ukraine,UA,https://postlmg.cc/1g80jZkS,2005.0,
 3827,3828,Malloy Aeronautics T150 cargo UAV,Reconnaissance Unmanned Aerial Vehicles,captured,,,,United Kingdom,UK,Ukraine,UA,https://postlmg.cc/ZnR7mS1s,,
 3828,3829,Malloy Aeronautics T150 cargo UAV,Reconnaissance Unmanned Aerial Vehicles,captured,31.0,5.0,23.0,United Kingdom,UK,Ukraine,UA,https://postlmg.cc/zGkfJxZB,,2023-05-31
 3829,3830,Malloy Aeronautics T150 cargo UAV,Reconnaissance Unmanned Aerial Vehicles,captured,,,,United Kingdom,UK,Ukraine,UA,https://postlmg.cc/rynQDw0S,,
@@ -3892,15 +3892,15 @@
 3890,3891,KrAZ-255B,"Trucks, Vehicles, and Jeeps",destroyed,12.0,11.0,22.0,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/qRBty9rW,1967.0,2022-11-12
 3891,3892,KrAZ-255B,"Trucks, Vehicles, and Jeeps",destroyed,12.0,11.0,22.0,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/rwSzb8Fv,1967.0,2022-11-12
 3892,3893,KrAZ-255B,"Trucks, Vehicles, and Jeeps",destroyed,24.0,9.0,22.0,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/FKHfghYY,1967.0,2022-09-24
-3893,3894,KrAZ-255B,"Trucks, Vehicles, and Jeeps",destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/qhzGzYkn,1967.0,
-3894,3895,KrAZ-255B,"Trucks, Vehicles, and Jeeps",destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/qhzGzYkn,1967.0,
+3893,3894,KrAZ-255B,"Trucks, Vehicles, and Jeeps",destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/qhzGzYkn,1967.0,
+3894,3895,KrAZ-255B,"Trucks, Vehicles, and Jeeps",destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/qhzGzYkn,1967.0,
 3895,3896,KrAZ-255B,"Trucks, Vehicles, and Jeeps",destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/fTM2FsNZ,1967.0,
 3896,3897,KrAZ-255B,"Trucks, Vehicles, and Jeeps",captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/G2jDGvM1,1967.0,
 3897,3898,KrAZ-255B,"Trucks, Vehicles, and Jeeps",captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/g2gTpp0b,1967.0,
 3898,3899,KrAZ-255B,"Trucks, Vehicles, and Jeeps",captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/5tf3zRcG,1967.0,
 3899,3900,KrAZ-260,"Trucks, Vehicles, and Jeeps",captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/C5r6DZvN,1979.0,
 3900,3901,KrAZ-260,"Trucks, Vehicles, and Jeeps",captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/NjFSSs6g,1979.0,
-3901,3902,KrAZ-260,"Trucks, Vehicles, and Jeeps",captured,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/0zycVdBZ,1979.0,
+3901,3902,KrAZ-260,"Trucks, Vehicles, and Jeeps",captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/0zycVdBZ,1979.0,
 3902,3903,KrAZ-6322,"Trucks, Vehicles, and Jeeps",destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/0QMkBhwk,1994.0,
 3903,3904,KrAZ-6322,"Trucks, Vehicles, and Jeeps",destroyed,3.0,3.0,23.0,Ukraine,UA,Ukraine,UA,https://postlmg.cc/rpSkR4S2,1994.0,2023-03-03
 3904,3905,KrAZ-6322,"Trucks, Vehicles, and Jeeps",destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/gcwyV5Jx,1994.0,
@@ -3933,24 +3933,24 @@
 3931,3932,KrAZ-6322,"Trucks, Vehicles, and Jeeps",destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/NLh3H5Lk,1994.0,
 3932,3933,KrAZ-6322,"Trucks, Vehicles, and Jeeps",destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/NLh3H5Lk,1994.0,
 3933,3934,KrAZ-6322,"Trucks, Vehicles, and Jeeps",destroyed,28.0,2.0,23.0,Ukraine,UA,Ukraine,UA,https://postlmg.cc/yxSqxF6N,1994.0,2023-02-28
-3934,3935,KrAZ-6322,"Trucks, Vehicles, and Jeeps",captured,,,,Ukraine,UA,Ukraine,UA,https://postimg.cc/v4CPT4hN,1994.0,
+3934,3935,KrAZ-6322,"Trucks, Vehicles, and Jeeps",captured,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/v4CPT4hN,1994.0,
 3935,3936,KrAZ-6322,"Trucks, Vehicles, and Jeeps",captured,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/8c7GjB1r,1994.0,
-3936,3937,KrAZ-6322,"Trucks, Vehicles, and Jeeps",captured,,,,Ukraine,UA,Ukraine,UA,https://postimg.cc/jC9nGySm,1994.0,
+3936,3937,KrAZ-6322,"Trucks, Vehicles, and Jeeps",captured,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/jC9nGySm,1994.0,
 3937,3938,KrAZ-6322,"Trucks, Vehicles, and Jeeps",captured,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/m2sVjnKd,1994.0,
 3938,3939,KrAZ-6322,"Trucks, Vehicles, and Jeeps",captured,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/m2sVjnKd,1994.0,
 3939,3940,KrAZ-6322,"Trucks, Vehicles, and Jeeps",captured,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/QMb9yCQx,1994.0,
 3940,3941,KrAZ-6322,"Trucks, Vehicles, and Jeeps",captured,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/hvdD2hLs,1994.0,
 3941,3942,KrAZ-6322,"Trucks, Vehicles, and Jeeps",captured,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/5NWBD7d7,1994.0,
 3942,3943,KrAZ-6322,"Trucks, Vehicles, and Jeeps",captured,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/fTv9pMvy,1994.0,
-3943,3944,KrAZ-6322,"Trucks, Vehicles, and Jeeps",captured,,,,Ukraine,UA,Ukraine,UA,https://postimg.cc/0zzW9YYS,1994.0,
-3944,3945,KrAZ-6322,"Trucks, Vehicles, and Jeeps",captured,,,,Ukraine,UA,Ukraine,UA,https://postimg.cc/G9jSKh34,1994.0,
+3943,3944,KrAZ-6322,"Trucks, Vehicles, and Jeeps",captured,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/0zzW9YYS,1994.0,
+3944,3945,KrAZ-6322,"Trucks, Vehicles, and Jeeps",captured,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/G9jSKh34,1994.0,
 3945,3946,KrAZ-6322,"Trucks, Vehicles, and Jeeps",captured,4.0,3.0,22.0,Ukraine,UA,Ukraine,UA,https://postlmg.cc/BvCS3ctn,1994.0,2022-03-04
 3946,3947,KrAZ-6322,"Trucks, Vehicles, and Jeeps",captured,11.0,6.0,22.0,Ukraine,UA,Ukraine,UA,https://postlmg.cc/CxJcYL9Z,1994.0,2022-06-11
 3947,3948,KrAZ-6322 Raptor,"Trucks, Vehicles, and Jeeps",destroyed,25.0,6.0,22.0,Ukraine,UA,Ukraine,UA,https://postlmg.cc/kgJPxDg1,1994.0,2022-06-25
 3948,3949,KrAZ-6322 Raptor,"Trucks, Vehicles, and Jeeps",destroyed,9.0,7.0,22.0,Ukraine,UA,Ukraine,UA,https://postlmg.cc/fTjhtYDS,1994.0,2022-07-09
 3949,3950,KrAZ-6322 Raptor,"Trucks, Vehicles, and Jeeps",destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/285nK3Pj,1994.0,
-3950,3951,KrAZ-6322 Raptor,"Trucks, Vehicles, and Jeeps",captured,,,,Ukraine,UA,Ukraine,UA,https://postimg.cc/ZW6sBKXz,1994.0,
-3951,3952,KrAZ-6322 Raptor,"Trucks, Vehicles, and Jeeps",captured,,,,Ukraine,UA,Ukraine,UA,https://postimg.cc/9zx6C0Hx,1994.0,
+3950,3951,KrAZ-6322 Raptor,"Trucks, Vehicles, and Jeeps",captured,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/ZW6sBKXz,1994.0,
+3951,3952,KrAZ-6322 Raptor,"Trucks, Vehicles, and Jeeps",captured,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/9zx6C0Hx,1994.0,
 3952,3953,KrAZ-6322 Raptor,"Trucks, Vehicles, and Jeeps",captured,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/pVFKmp2r,1994.0,
 3953,3954,KrAZ-6322 Raptor,"Trucks, Vehicles, and Jeeps",captured,1.0,3.0,22.0,Ukraine,UA,Ukraine,UA,https://postlmg.cc/rwnCQYq6,1994.0,2022-03-01
 3954,3955,KrAZ-6322 Raptor,"Trucks, Vehicles, and Jeeps",captured,26.0,2.0,22.0,Ukraine,UA,Ukraine,UA,https://postlmg.cc/QtPKnKS6,1994.0,2022-02-26
@@ -3982,7 +3982,7 @@
 3980,3981,KrAZ-5233,"Trucks, Vehicles, and Jeeps",captured,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/265Nhxbz,2008.0,
 3981,3982,KrAZ-5233,"Trucks, Vehicles, and Jeeps",captured,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/kgbQvfh1,2008.0,
 3982,3983,KrAZ-5233,"Trucks, Vehicles, and Jeeps",captured,,,,Ukraine,UA,Ukraine,UA,https://twitter.com/UAWeapons/status/1545021775846817792,2008.0,
-3983,3984,KrAZ-5233,"Trucks, Vehicles, and Jeeps",captured,,,,Ukraine,UA,Ukraine,UA,https://postimg.cc/kB31MsSj,2008.0,
+3983,3984,KrAZ-5233,"Trucks, Vehicles, and Jeeps",captured,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/kB31MsSj,2008.0,
 3984,3985,KrAZ-5233,"Trucks, Vehicles, and Jeeps",captured,4.0,6.0,22.0,Ukraine,UA,Ukraine,UA,https://postlmg.cc/2ymcx5p5,2008.0,2022-06-04
 3985,3986,KrAZ-5233,"Trucks, Vehicles, and Jeeps",captured,20.0,6.0,22.0,Ukraine,UA,Ukraine,UA,https://postlmg.cc/mkZZN7gr,2008.0,2022-06-20
 3986,3987,KrAZ-5233,"Trucks, Vehicles, and Jeeps",captured,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/50CwqJ19,2008.0,
@@ -3995,8 +3995,8 @@
 3993,3994,Bogdan-5316,"Trucks, Vehicles, and Jeeps",destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/52g8DrqH,,
 3994,3995,Bogdan-5316,"Trucks, Vehicles, and Jeeps",destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/L6dvbgC5,,
 3995,3996,Bogdan-5316,"Trucks, Vehicles, and Jeeps",destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/mrXBssWx,,
-3996,3997,Bogdan-5316,"Trucks, Vehicles, and Jeeps",destroyed,,,,Ukraine,UA,Ukraine,UA,https://postimg.cc/TyhVz2dc,,
-3997,3998,Bogdan-5316,"Trucks, Vehicles, and Jeeps",destroyed,,,,Ukraine,UA,Ukraine,UA,https://postimg.cc/TyhVz2dc,,
+3996,3997,Bogdan-5316,"Trucks, Vehicles, and Jeeps",destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/TyhVz2dc,,
+3997,3998,Bogdan-5316,"Trucks, Vehicles, and Jeeps",destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/TyhVz2dc,,
 3998,3999,Bogdan-5316,"Trucks, Vehicles, and Jeeps",destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/7hDsysm3,,
 3999,4000,Bogdan-5316,"Trucks, Vehicles, and Jeeps",destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/cC2ZgbyT,,
 4000,4001,Bogdan-5316,"Trucks, Vehicles, and Jeeps",damaged,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/L6ZKgBD7,,
@@ -4012,7 +4012,7 @@
 4010,4011,Bogdan-63172,"Trucks, Vehicles, and Jeeps",destroyed,16.0,3.0,22.0,Ukraine,UA,Ukraine,UA,https://postlmg.cc/Rh2qWKBD,,2022-03-16
 4011,4012,Bogdan-63172,"Trucks, Vehicles, and Jeeps",destroyed,3.0,6.0,22.0,Ukraine,UA,Ukraine,UA,https://postlmg.cc/4NktmXr4,,2022-06-03
 4012,4013,Bogdan-63172,"Trucks, Vehicles, and Jeeps",destroyed,3.0,6.0,22.0,Ukraine,UA,Ukraine,UA,https://postlmg.cc/QC5T0zWr,,2022-06-03
-4013,4014,Bogdan-63172,"Trucks, Vehicles, and Jeeps",destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/RCnKSW-pb,,
+4013,4014,Bogdan-63172,"Trucks, Vehicles, and Jeeps",destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/Vdn5Ps9J,,
 4014,4015,Bogdan-63172,"Trucks, Vehicles, and Jeeps",destroyed,24.0,2.0,22.0,Ukraine,UA,Ukraine,UA,https://postlmg.cc/ZKDN3CCx,,2022-02-24
 4015,4016,Bogdan-63172,"Trucks, Vehicles, and Jeeps",destroyed,26.0,2.0,22.0,Ukraine,UA,Ukraine,UA,https://postlmg.cc/6qtvmMLp,,2022-02-26
 4016,4017,Bogdan-63172,"Trucks, Vehicles, and Jeeps",destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/KK4YbxCx,,
@@ -4041,10 +4041,10 @@
 4039,4040,GAZ-53,"Trucks, Vehicles, and Jeeps",captured,27.0,2.0,22.0,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/J7ZWyZzk,1961.0,2022-02-27
 4040,4041,GAZ-63,"Trucks, Vehicles, and Jeeps",destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/vZ7sdvHn,1948.0,
 4041,4042,GAZ-63,"Trucks, Vehicles, and Jeeps",destroyed,13.0,11.0,22.0,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/bvPSkwr1,1948.0,2022-11-13
-4042,4043,GAZ-66,"Trucks, Vehicles, and Jeeps",destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/PP20VdH5,1964.0,
-4043,4044,GAZ-66,"Trucks, Vehicles, and Jeeps",destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/PP20VdH5,1964.0,
-4044,4045,GAZ-66,"Trucks, Vehicles, and Jeeps",destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/PP20VdH5,1964.0,
-4045,4046,GAZ-66,"Trucks, Vehicles, and Jeeps",destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/PP20VdH5,1964.0,
+4042,4043,GAZ-66,"Trucks, Vehicles, and Jeeps",destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/PP20VdH5,1964.0,
+4043,4044,GAZ-66,"Trucks, Vehicles, and Jeeps",destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/PP20VdH5,1964.0,
+4044,4045,GAZ-66,"Trucks, Vehicles, and Jeeps",destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/PP20VdH5,1964.0,
+4045,4046,GAZ-66,"Trucks, Vehicles, and Jeeps",destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/PP20VdH5,1964.0,
 4046,4047,GAZ-66,"Trucks, Vehicles, and Jeeps",destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/hjdXLc6L,1964.0,
 4047,4048,GAZ-66,"Trucks, Vehicles, and Jeeps",destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/8PzD9FYh,1964.0,
 4048,4049,GAZ-66,"Trucks, Vehicles, and Jeeps",destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/4xrgYWx5,1964.0,
@@ -4149,7 +4149,7 @@
 4147,4148,GAZ-66,"Trucks, Vehicles, and Jeeps",captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/ZKrb3H8r,1964.0,
 4148,4149,GAZ-66,"Trucks, Vehicles, and Jeeps",captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/ZKrb3H8r,1964.0,
 4149,4150,GAZ-66,"Trucks, Vehicles, and Jeeps",captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/R0vMzqRd,1964.0,
-4150,4151,GAZ-66,"Trucks, Vehicles, and Jeeps",captured,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/JsnnQ5TW,1964.0,
+4150,4151,GAZ-66,"Trucks, Vehicles, and Jeeps",captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/JsnnQ5TW,1964.0,
 4151,4152,GAZ-66,"Trucks, Vehicles, and Jeeps",captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/yNymWq1g,1964.0,
 4152,4153,GAZ-66,"Trucks, Vehicles, and Jeeps",captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/qR4Nyztq,1964.0,
 4153,4154,GAZ-66,"Trucks, Vehicles, and Jeeps",captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/P5ksMxmY,1964.0,
@@ -4199,13 +4199,13 @@
 4197,4198,ZiL-131,"Trucks, Vehicles, and Jeeps",destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/4ygjV7j4,1964.0,
 4198,4199,ZiL-131,"Trucks, Vehicles, and Jeeps",destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/4ygjV7j4,1964.0,
 4199,4200,ZiL-131,"Trucks, Vehicles, and Jeeps",destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/4ygjV7j4,1964.0,
-4200,4201,ZiL-131,"Trucks, Vehicles, and Jeeps",destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/njV33h6t,1964.0,
+4200,4201,ZiL-131,"Trucks, Vehicles, and Jeeps",destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/njV33h6t,1964.0,
 4201,4202,ZiL-131,"Trucks, Vehicles, and Jeeps",destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/CKNMhdv2,1964.0,
 4202,4203,ZiL-131,"Trucks, Vehicles, and Jeeps",destroyed,27.0,9.0,22.0,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/0NBngdSQ,1964.0,2022-09-27
 4203,4204,ZiL-131,"Trucks, Vehicles, and Jeeps",destroyed,27.0,9.0,22.0,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/0NBngdSQ,1964.0,2022-09-27
 4204,4205,ZiL-131,"Trucks, Vehicles, and Jeeps",destroyed,27.0,9.0,22.0,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/G2CKKhn3,1964.0,2022-09-27
 4205,4206,ZiL-131,"Trucks, Vehicles, and Jeeps",destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/xjvjNhqv,1964.0,
-4206,4207,ZiL-131,"Trucks, Vehicles, and Jeeps",destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/RWqQbqqK,1964.0,
+4206,4207,ZiL-131,"Trucks, Vehicles, and Jeeps",destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/RWqQbqqK,1964.0,
 4207,4208,ZiL-131,"Trucks, Vehicles, and Jeeps",destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/Cx5mHb2y,1964.0,
 4208,4209,ZiL-131,"Trucks, Vehicles, and Jeeps",destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/CRBsBVwd,1964.0,
 4209,4210,ZiL-131,"Trucks, Vehicles, and Jeeps",destroyed,13.0,11.0,22.0,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/GtfsyPTp,1964.0,2022-11-13
@@ -4226,9 +4226,9 @@
 4224,4225,ZiL-131,"Trucks, Vehicles, and Jeeps",destroyed,24.0,2.0,22.0,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/MH9Q9Gtx,1964.0,2022-02-24
 4225,4226,ZiL-131,"Trucks, Vehicles, and Jeeps",destroyed,22.0,12.0,22.0,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/VNKCnVtP,1964.0,2022-12-22
 4226,4227,ZiL-131,"Trucks, Vehicles, and Jeeps",destroyed,25.0,2.0,22.0,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/mZ63GKbY,1964.0,2022-02-25
-4227,4228,ZiL-131,"Trucks, Vehicles, and Jeeps",destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/2VyHQjMk,1964.0,
-4228,4229,ZiL-131,"Trucks, Vehicles, and Jeeps",destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/2VyHQjMk,1964.0,
-4229,4230,ZiL-131,"Trucks, Vehicles, and Jeeps",destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/m12m6TrS,1964.0,
+4227,4228,ZiL-131,"Trucks, Vehicles, and Jeeps",destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/2VyHQjMk,1964.0,
+4228,4229,ZiL-131,"Trucks, Vehicles, and Jeeps",destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/2VyHQjMk,1964.0,
+4229,4230,ZiL-131,"Trucks, Vehicles, and Jeeps",destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/m12m6TrS,1964.0,
 4230,4231,ZiL-131,"Trucks, Vehicles, and Jeeps",destroyed,13.0,4.0,22.0,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/BvRtxyXG,1964.0,2022-04-13
 4231,4232,ZiL-131,"Trucks, Vehicles, and Jeeps",destroyed,6.0,8.0,22.0,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/T1fV0k8S,1964.0,2022-08-06
 4232,4233,ZiL-131,"Trucks, Vehicles, and Jeeps",destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/ncqjQ8S5,1964.0,
@@ -4312,7 +4312,7 @@
 4310,4311,ZiL-131,"Trucks, Vehicles, and Jeeps",captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/7LSW8dKp,1964.0,
 4311,4312,ZiL-131,"Trucks, Vehicles, and Jeeps",captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/fL9yXJ40,1964.0,
 4312,4313,ZiL-131,"Trucks, Vehicles, and Jeeps",captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/Bb3Fnx8v,1964.0,
-4313,4314,ZiL-131,"Trucks, Vehicles, and Jeeps",captured,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/87Yh4HSS,1964.0,
+4313,4314,ZiL-131,"Trucks, Vehicles, and Jeeps",captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/87Yh4HSS,1964.0,
 4314,4315,ZiL-131,"Trucks, Vehicles, and Jeeps",captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/fLFKfwz9,1964.0,
 4315,4316,ZiL-131,"Trucks, Vehicles, and Jeeps",captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/cChFLXF9,1964.0,
 4316,4317,ZiL-131,"Trucks, Vehicles, and Jeeps",captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/vH6XjZGt,1964.0,
@@ -4336,7 +4336,7 @@
 4334,4335,ZiL-4331,"Trucks, Vehicles, and Jeeps",captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/jdwPsc1f,,
 4335,4336,Ural-375D,"Trucks, Vehicles, and Jeeps",destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/wMdN04Dt,1961.0,
 4336,4337,Ural-375D,"Trucks, Vehicles, and Jeeps",destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/Cxn2nXFK,1961.0,
-4337,4338,Ural-375D,"Trucks, Vehicles, and Jeeps",destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/zLGjfVk0,1961.0,
+4337,4338,Ural-375D,"Trucks, Vehicles, and Jeeps",destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/zLGjfVk0,1961.0,
 4338,4339,Ural-375D,"Trucks, Vehicles, and Jeeps",captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/90crT04r,1961.0,
 4339,4340,Ural-375D,"Trucks, Vehicles, and Jeeps",captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/cHZMXQ6m,1961.0,
 4340,4341,Ural-375D,"Trucks, Vehicles, and Jeeps",captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/3wrx1NYG,1961.0,
@@ -4344,7 +4344,7 @@
 4342,4343,Ural-375D,"Trucks, Vehicles, and Jeeps",captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/tT4XMQ4W,1961.0,
 4343,4344,Ural-375D,"Trucks, Vehicles, and Jeeps",captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/vHvy3FYx,1961.0,
 4344,4345,Ural-375D,"Trucks, Vehicles, and Jeeps",captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/P5WfMppV,1961.0,
-4345,4346,Ural-4320,"Trucks, Vehicles, and Jeeps",destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/yJNnspb7,,
+4345,4346,Ural-4320,"Trucks, Vehicles, and Jeeps",destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/yJNnspb7,,
 4346,4347,Ural-4320,"Trucks, Vehicles, and Jeeps",destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/vmqnP67C,,
 4347,4348,Ural-4320,"Trucks, Vehicles, and Jeeps",destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/rshQS3MH,,
 4348,4349,Ural-4320,"Trucks, Vehicles, and Jeeps",destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/GmRQzM1X,,
@@ -4352,8 +4352,8 @@
 4350,4351,Ural-4320,"Trucks, Vehicles, and Jeeps",destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/ygc8qzLD,,
 4351,4352,Ural-4320,"Trucks, Vehicles, and Jeeps",destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/TY5V8GDn,,
 4352,4353,Ural-4320,"Trucks, Vehicles, and Jeeps",destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/JzB6VTpG,,
-4353,4354,Ural-4320,"Trucks, Vehicles, and Jeeps",destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/K17djsQB,,
-4354,4355,Ural-4320,"Trucks, Vehicles, and Jeeps",destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/K17djsQB,,
+4353,4354,Ural-4320,"Trucks, Vehicles, and Jeeps",destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/K17djsQB,,
+4354,4355,Ural-4320,"Trucks, Vehicles, and Jeeps",destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/K17djsQB,,
 4355,4356,Ural-4320,"Trucks, Vehicles, and Jeeps",destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/W1yLc2Qj,,
 4356,4357,Ural-4320,"Trucks, Vehicles, and Jeeps",destroyed,16.0,9.0,22.0,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/rm84TwFg,,2022-09-16
 4357,4358,Ural-4320,"Trucks, Vehicles, and Jeeps",destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/6p203Qjd,,
@@ -4396,7 +4396,7 @@
 4394,4395,Ural-4320,"Trucks, Vehicles, and Jeeps",captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/JnpvdY9K,,
 4395,4396,Ural-4320,"Trucks, Vehicles, and Jeeps",captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/JnpvdY9K,,
 4396,4397,Ural-4320,"Trucks, Vehicles, and Jeeps",captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/gjmtgKPy,,
-4397,4398,Ural-4320,"Trucks, Vehicles, and Jeeps",captured,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/dLpRmzC7,,
+4397,4398,Ural-4320,"Trucks, Vehicles, and Jeeps",captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/dLpRmzC7,,
 4398,4399,Ural-4320,"Trucks, Vehicles, and Jeeps",captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/jdRM3Vky,,
 4399,4400,Ural-4320,"Trucks, Vehicles, and Jeeps",captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/4y6PXBMj,,
 4400,4401,Ural tanker,"Trucks, Vehicles, and Jeeps",destroyed,13.0,11.0,22.0,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/J7FyKqtr,,2022-11-13
@@ -4429,10 +4429,10 @@
 4427,4428,KamAZ 6x6,"Trucks, Vehicles, and Jeeps",destroyed,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/J4RXX01Z,,
 4428,4429,KamAZ 6x6,"Trucks, Vehicles, and Jeeps",damaged,21.0,9.0,22.0,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/tJHJYQBt,,2022-09-21
 4429,4430,KamAZ 6x6,"Trucks, Vehicles, and Jeeps",captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/yx42BBdm,,
-4430,4431,KamAZ 6x6,"Trucks, Vehicles, and Jeeps",captured,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/zLGjfVk0,,
+4430,4431,KamAZ 6x6,"Trucks, Vehicles, and Jeeps",captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/zLGjfVk0,,
 4431,4432,KamAZ 6x6,"Trucks, Vehicles, and Jeeps",captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/2yMp268K,,
 4432,4433,KamAZ 6x6,"Trucks, Vehicles, and Jeeps",captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/cLZWjvBp,,
-4433,4434,KamAZ 6x6,"Trucks, Vehicles, and Jeeps",captured,,,,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/yD5fb39R,,
+4433,4434,KamAZ 6x6,"Trucks, Vehicles, and Jeeps",captured,,,,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/yD5fb39R,,
 4434,4435,KamAZ 6x6,"Trucks, Vehicles, and Jeeps",captured,28.0,3.0,22.0,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/Lsc0nTNL,,2022-03-28
 4435,4436,KamAZ 6x6,"Trucks, Vehicles, and Jeeps",captured,4.0,3.0,22.0,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/bNGwntVm,,2022-03-04
 4436,4437,KamAZ 6x6,"Trucks, Vehicles, and Jeeps",captured,25.0,7.0,22.0,Soviet Union,USSR,Ukraine,UA,https://postlmg.cc/KYP5YYX1,,2022-07-25
@@ -4573,7 +4573,7 @@
 4571,4572,Unknown truck,"Trucks, Vehicles, and Jeeps",destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/xdxy9bDS,,
 4572,4573,Unknown truck,"Trucks, Vehicles, and Jeeps",destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/nzXKrcp9,,
 4573,4574,Unknown truck,"Trucks, Vehicles, and Jeeps",destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/mg7VFFRp,,
-4574,4575,Unknown truck,"Trucks, Vehicles, and Jeeps",destroyed,,,,Ukraine,UA,Ukraine,UA,https://postimg.cc/67ZynDH1,,
+4574,4575,Unknown truck,"Trucks, Vehicles, and Jeeps",destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/67ZynDH1,,
 4575,4576,Unknown truck,"Trucks, Vehicles, and Jeeps",destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/8CzFgs7w,,
 4576,4577,Unknown truck,"Trucks, Vehicles, and Jeeps",destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/4nRZf2Bs,,
 4577,4578,Unknown truck,"Trucks, Vehicles, and Jeeps",destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/zvgJtQfW,,
@@ -4583,9 +4583,9 @@
 4581,4582,Unknown truck,"Trucks, Vehicles, and Jeeps",destroyed,27.0,2.0,23.0,Ukraine,UA,Ukraine,UA,https://postlmg.cc/wBz7ZMVW,,2023-02-27
 4582,4583,Unknown truck,"Trucks, Vehicles, and Jeeps",destroyed,12.0,1.0,23.0,Ukraine,UA,Ukraine,UA,https://postlmg.cc/cLZKyxxH,,2023-01-12
 4583,4584,Unknown truck,"Trucks, Vehicles, and Jeeps",destroyed,,,,Ukraine,UA,Ukraine,UA,https://twitter.com/UAWeapons/status/1550486419243761666,,
-4584,4585,Unknown truck,"Trucks, Vehicles, and Jeeps",destroyed,,,,Ukraine,UA,Ukraine,UA,https://postimg.cc/0zmXQ3ph,,
-4585,4586,Unknown truck,"Trucks, Vehicles, and Jeeps",destroyed,,,,Ukraine,UA,Ukraine,UA,https://postimg.cc/YLhbwyrn,,
-4586,4587,Unknown truck,"Trucks, Vehicles, and Jeeps",destroyed,,,,Ukraine,UA,Ukraine,UA,https://postimg.cc/1fVJCTY4,,
+4584,4585,Unknown truck,"Trucks, Vehicles, and Jeeps",destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/0zmXQ3ph,,
+4585,4586,Unknown truck,"Trucks, Vehicles, and Jeeps",destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/YLhbwyrn,,
+4586,4587,Unknown truck,"Trucks, Vehicles, and Jeeps",destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/1fVJCTY4,,
 4587,4588,Unknown truck,"Trucks, Vehicles, and Jeeps",destroyed,,,,Ukraine,UA,Ukraine,UA,https://twitter.com/UAWeapons/status/1552699448614060033,,
 4588,4589,Unknown truck,"Trucks, Vehicles, and Jeeps",destroyed,,,,Ukraine,UA,Ukraine,UA,https://twitter.com/UAWeapons/status/1554424738914734081,,
 4589,4590,Unknown truck,"Trucks, Vehicles, and Jeeps",destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/15GCKJtS,,
@@ -4658,4 +4658,4 @@
 4656,4657,Unknown vehicle,"Trucks, Vehicles, and Jeeps",destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/K8GfvVxC,,
 4657,4658,Unknown vehicle,"Trucks, Vehicles, and Jeeps",destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/bY1908vK,,
 4658,4659,Unknown vehicle,"Trucks, Vehicles, and Jeeps",destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/Xv1XW6wq,,
-4659,4660,Unknown vehicle,"Trucks, Vehicles, and Jeeps",destroyed,,,,Ukraine,UA,Ukraine,UA,https://postimg.cc/QFzg9x1V,,
+4659,4660,Unknown vehicle,"Trucks, Vehicles, and Jeeps",destroyed,,,,Ukraine,UA,Ukraine,UA,https://postlmg.cc/QFzg9x1V,,
