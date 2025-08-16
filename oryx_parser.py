@@ -7,7 +7,7 @@ import requests
 import pandas as pd
 from bs4 import BeautifulSoup
 import re
-from global_vars import *
+import global_vars
 from parser_helpers import *
 from df_cleaner import swap_ddmmyy
 
@@ -18,6 +18,8 @@ MiG-29As/UB,1983.0
 MiG-29,1983.0
 """
 
+TIMEOUT_LIMIT = 100
+
 def parse_oryx_donations(link: str, user: str, vehicle_types: dict) -> []:
     """
     Text.
@@ -27,11 +29,11 @@ def parse_oryx_donations(link: str, user: str, vehicle_types: dict) -> []:
     """
     #df_year_made = pd.read_csv("donated_vehicles_years.csv")
     df_list = [] # list to be converted into a df and stored in a csv later
-    r = requests.get(link)
+    r = requests.get(link, timeout=TIMEOUT_LIMIT)
     soup = BeautifulSoup(r.content, 'html.parser')
     article = soup.find('article') # main article of the Oryx page
     lists = article.find_all('ul')
-    id = 0
+    oryxid = 0
     vehicle_type = ""
 
     for vehicle_name_group in lists:
@@ -39,7 +41,7 @@ def parse_oryx_donations(link: str, user: str, vehicle_types: dict) -> []:
         for vehicle in donated_vehicles:
             vehicle_str = str(vehicle)
 
-            for index in range(len(vehicle_str)):
+            for index in enumerate(vehicle_str):
                 if not vehicle_str[index].isascii(): # some of the entries have invisible ascii characters breaking regex
                     vehicle_str = vehicle_str[:index] + " " + vehicle_str[index+1:]
             #print(vehicle_str)
@@ -52,30 +54,34 @@ def parse_oryx_donations(link: str, user: str, vehicle_types: dict) -> []:
             flag_country = None # Manufacturer ("Soviet Union")
             flag_country_abbr = None #Manufacturer abbr ("USSR")
 
-            if flag != None:
+            if flag is not None:
                 flag_found = False
-                for target in manufacturer_dict:
+                for target in global_vars.manufacturer_dict.items():
+                    target = target[0]
                     if target in flag.get('src'):
                         flag_found = True
                         flag_country = target.replace("_", " ")
-                        flag_country_abbr = manufacturer_dict[target]
+                        flag_country_abbr = global_vars.manufacturer_dict[target]
                         break
                 if not flag_found:
                     flag_country = "NONE"
                     flag_country_abbr = "NONE"
-            
+
             for vehicle_name_count in vehicle_name_counts:
                 #print(flag)
                 #print(vehicle_name_count)
 
                 count = re.search(r"[0-9]+[+]*\s", vehicle_name_count)
                 #print(count)
-                if count is None: count = 0
+                if count is None:
+                    count = 0
                 else: count = count.group(0)
                 #print(count)
-                if type(count) is not int:
-                    if count == '': count = 0 # when it doesn't specify how many donated, default to 0
-                    if '+' in count: count = count[:len(count)-2]
+                if not isinstance(count, int):
+                    if count == '':
+                        count = 0 # when it doesn't specify how many donated, default to 0
+                    if '+' in count:
+                        count = count[:len(count)-2]
                 #print(count)
                 count = int(count)
 
@@ -95,17 +101,18 @@ def parse_oryx_donations(link: str, user: str, vehicle_types: dict) -> []:
                 #print([count, name, proof, flag_country, flag_country_abbr])
                 #print("-"*50)
 
-                if name in donated_vehicle_types: vehicle_type = donated_vehicle_types[name]
+                if name in global_vars.donated_vehicle_types:
+                    vehicle_type = global_vars.donated_vehicle_types[name]
                 is_delivered = not ("[to be delivered]" in vehicle.text or "pledged" in vehicle.text)
                 is_soviet = False
 
-                line = [id, name, vehicle_type, flag_country, flag_country_abbr, 
+                line = [oryxid, name, vehicle_type, flag_country, flag_country_abbr, 
                         "Ukraine", "UA", count, is_delivered, is_soviet, proof]
                 df_list.append(line)
-                id += 1
-                #if id > 10: return []
+                oryxid += 1
+                #if oryxid > 10: return []
 
-    df = pd.DataFrame(df_list, columns=df_donations_colnames)
+    df = pd.DataFrame(df_list, columns=global_vars.df_donations_colnames)
     df.to_csv("donated_vehicles.csv", index=False)
 
 def parse_oryx(link: str, user: str, vehicle_types: dict) -> []:
@@ -122,18 +129,18 @@ def parse_oryx(link: str, user: str, vehicle_types: dict) -> []:
     # load a df of known vehicle names and their years of first production.
     df_year_made = None
     if user == "Russia":
-        df_year_made = pd.read_csv("ru_unique_vehicles_years.csv", index_col="name")
+        df_year_made = pd.read_csv("reference_data/ru_unique_vehicles_years.csv", index_col="name")
     else:
-        df_year_made = pd.read_csv("ua_unique_vehicles.csv", index_col="name")
+        df_year_made = pd.read_csv("reference_data/ua_unique_vehicles.csv", index_col="name")
 
     twitter_link_count = 0
     df_list = [] # list to be converted into a df and stored in a csv later
     twitter_links_list = [] # list of twitter links to be scraped another time
-    id = 1 # generic id number, incremented with each loss counted
-    user_abbr = manufacturer_dict[user] # Abbreviation of the country operating the lost vehicle ("Russia")
+    oryxid = 1 # generic id number, incremented with each loss counted
+    user_abbr = global_vars.manufacturer_dict[user] # abbrv. of country operating the lost vehicle ("Russia")
 
     # Get the raw HTML from the provided Oryx blog page and process it using bs4.
-    r = requests.get(link)
+    r = requests.get(link, timeout=TIMEOUT_LIMIT)
     soup = BeautifulSoup(r.content, 'html.parser')
 
     # The Oryx webpage has the main article contents stored under an <article> tag.
@@ -144,16 +151,20 @@ def parse_oryx(link: str, user: str, vehicle_types: dict) -> []:
     vehicle_type = "" # Type of the vehicle ("Tanks")
 
     for vehicle_name_group in lists:
+        # Each element in the list is an HTML list containing a unique vehicle type
+        # and many images of individual losses. Each unique vehicle 
+        # and accompanying images/losses gets its own <li> tag.
 
         vehicles = vehicle_name_group.find_all('li')
 
         for vehicle in vehicles:
             # Search for the name of the vehicle.
             vehicle_name = re.search(r"\S[\w\s\(\)\-\"\'\,\.\/]*", vehicle.text).group(0)
-            # The Unknown T-54/55 entry in the Oryx blog breaks the regex
-            # by not having a colon that ends the regex.
-            # This is manually fixed here.
-            if "Unknown T-54/55" in vehicle.text: vehicle_name = "1 Unknown T-54/55"
+            # The Unknown T-54/55 entry in the Oryx blog once broke the regex
+            # it used to not have a colon that ends the regex
+            # Oryx fixed this so this code is unnecessary
+            # if "Unknown T-54/55" in vehicle.text:
+            #     vehicle_name = "1 Unknown T-54/55"
             vehicle_name = name_parsing(vehicle_name) # Name of the vehicle ("T-72B3")
             #print(vehicle_name)
 
@@ -161,18 +172,20 @@ def parse_oryx(link: str, user: str, vehicle_types: dict) -> []:
             if vehicle_name in vehicle_types:
                 vehicle_type = vehicle_types[vehicle_name]
 
-            # Identify a country and abbreviation using a flag image link.
+            # The oryx website shows a little country flag next to each vehicle name.
+            # This identififes the country name and abbreviation using the flag img.
             flag = vehicle.find('img', class_='thumbborder')
             flag_country = None # Manufacturer ("Soviet Union")
             flag_country_abbr = None #Manufacturer abbr ("USSR")
 
-            if flag != None:
+            if flag is not None:
                 flag_found = False
-                for target in manufacturer_dict:
-                    if target in flag.get('src'):
+                for country in global_vars.manufacturer_dict.items():
+                    country_name, abbr = country[0], country[1]
+                    if country_name in flag.get('src'):
                         flag_found = True
-                        flag_country = target.replace("_", " ")
-                        flag_country_abbr = manufacturer_dict[target]
+                        flag_country = country_name.replace("_", " ")
+                        flag_country_abbr = abbr
                         break
                 if not flag_found:
                     flag_country = "NONE"
@@ -180,6 +193,9 @@ def parse_oryx(link: str, user: str, vehicle_types: dict) -> []:
             
             # For every ([numbers], [status]) link: extract status, date, and number of vehicles
             # described in that link.
+            # Example: (18, destroyed) yields a status of destroyed and a number of 1
+            # Example: (5,6,7,8, captured) yields status captured and number 4
+            # date depends on the postimg link embedded
             raw_links = vehicle.find_all('a') # a collection of (number, status) links
             for raw_link in raw_links:
                 day, month, year = None, None, None
@@ -191,7 +207,7 @@ def parse_oryx(link: str, user: str, vehicle_types: dict) -> []:
 
                 # Collecting a list of Twitter posts
                 # to scrape for datetime data later
-                if "twitter" in proof or "x.com" in proof: 
+                if "twitter" in proof or "x.com" in proof:
                     twitter_links_list.append([proof, None, None, None])
                     twitter_link_count += 1
 
@@ -203,10 +219,10 @@ def parse_oryx(link: str, user: str, vehicle_types: dict) -> []:
                 # those multiple-number proofs will result in adding multiple lines into the df.
                 for i in range(status_count):
                     #if proof not in existing_proofs: # add only losses not already in the db
-                    df_list.append([id, vehicle_name, vehicle_type, status,
+                    df_list.append([oryxid, vehicle_name, vehicle_type, status,
                                     day, month, year, flag_country,
                                     flag_country_abbr, user, user_abbr, proof, year_made])
-                    id += 1
+                    oryxid += 1
                     print(df_list[len(df_list)-1])
                     
                 #print(df_list[len(df_list)-1])
@@ -219,7 +235,7 @@ def main():
     # parse_oryx_donations(ua_supplies, "Ukraine", donated_vehicle_types)
     donations = pd.read_csv("donated_vehicles.csv")
     donations = donations[donations["vehicle_name"] != "Ringtausch"]
-    donations["id"] = donations.index
+    donations["oryxid"] = donations.index
     donations = donations.to_csv("donated_vehicles.csv", index=False)
     #donations["vehicle_name"].to_csv("donated_vehicles_years.csv", index=False)
 
@@ -227,22 +243,22 @@ def main_old():
     """
     Main function.
     """
-    df_list, twitter_link_count, twitter_links_list = parse_oryx(ru_losses, "Russia", ru_vehicle_types)
+    df_list, twitter_link_count, twitter_links_list = parse_oryx(global_vars.ru_losses, "Russia", global_vars.ru_vehicle_types)
     # print(twitter_link_count)
-    df_ru = pd.DataFrame(df_list, columns=df_colnames)
+    df_ru = pd.DataFrame(df_list, columns=global_vars.df_colnames)
     df_ru[["day", "month", "year"]] = df_ru[["day", "month", "year"]].apply(swap_ddmmyy, axis=1)
     # print(df.head())
-    df_ru.to_csv("ru_losses.csv", index=False)
+    df_ru.to_csv("data/ru_losses.csv", index=False)
 
     # df_twitter_ru = pd.DataFrame(twitter_links_list, columns=["link", "day", "month", "year"])
     # print(df_twitter_ru.head())
     # df_twitter_ru.to_csv("ru_losses_twitter_links.csv", index=False)
 
-    df_list, twitter_link_count, twitter_links_list = parse_oryx(ua_losses, "Ukraine", ua_vehicle_types)
-    df_ua = pd.DataFrame(df_list, columns=df_colnames)
+    df_list, twitter_link_count, twitter_links_list = parse_oryx(global_vars.ua_losses, "Ukraine", global_vars.ua_vehicle_types)
+    df_ua = pd.DataFrame(df_list, columns=global_vars.df_colnames)
     df_ua[["day", "month", "year"]] = df_ua[["day", "month", "year"]].apply(swap_ddmmyy, axis=1)
     # print(df.head())
-    df_ua.to_csv("ua_losses.csv", index=False)
+    df_ua.to_csv("data/ua_losses.csv", index=False)
 
     # df_twitter_ua = pd.DataFrame(twitter_links_list, columns=["link", "day", "month", "year"])
     # print(df_twitter_ua.head())
@@ -257,4 +273,4 @@ def main_old():
 
 
 if __name__ == "__main__":
-    main()
+    main_old()

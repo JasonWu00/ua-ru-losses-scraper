@@ -4,6 +4,9 @@ through a HuggingFace model back into the main CSV files.
 
 Link to the Python Notebook (run on Google Colab):
 https://colab.research.google.com/drive/1REOL2GeIDLx34k-lOtKwT6yQ-bwOxxLE?usp=sharing
+
+Notebook 2.0 (using a new OCR model):
+https://colab.research.google.com/drive/1GEgXRAkQ8ceYAxAlHOrlmo4sSrEXGKmE?usp=sharing
 """
 
 import requests
@@ -23,7 +26,7 @@ def convert_to_datetime(raw_date: str):
         if raw_date[2] == '/' and raw_date[7] == '/':
             raw_date = raw_date[:3] + raw_date[8:] + raw_date[2:7]
         
-        date = pd.to_datetime(raw_date, format=f"%d/%m/%Y")
+        date = pd.to_datetime(raw_date, format="%d/%m/%Y")
 
         # the OCR I used tends to read 2022 as 2020.
         # this is a quick and dirty "fix" to the issue.
