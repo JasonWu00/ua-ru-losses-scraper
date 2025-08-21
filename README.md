@@ -1,6 +1,17 @@
-# ua-ru-losses-scraper
-A little experiment to see if I can scrape the Oryx blog webpage for RU and UA vehicle losses.
+# UA/RU Losses Scraper
 
-The file placement is currently a bit of a mess. I will fix this into the future and shuffle files into an organized directory.
+## Description
+This project contains a data pipeline that scrapes the open-source intelligence [Oryx blog](https://www.oryxspioenkop.com/) for the latest dataset of confirmed vehicle losses sustained during Russia's imperial aggression. The pipeline applies OCR models to extract text data directly from images and compiles all information into formatted Excel files.
 
-The important files are `losses_ru.csv` and `losses_ua.csv`, containing the main bulk of scraped data.
+## Technologies
+This pipeline makes use of the following languages, applications, and libraries:
+* Python
+  * requests
+  * pandas
+  * BeautifulSoup
+* Object Character Recognition
+  * PaddleOCR (in the form of a Python library)
+* Jupyter Notebooks (run through Kaggle)
+
+## Running the Project
+This pipeline includes components run via Kaggle Notebooks due to hardware limitations. These components will be made available soon. Further instructions will be posted when this occurs.
