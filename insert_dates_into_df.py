@@ -151,4 +151,52 @@ def main4():
     ru_losses.to_csv("ru_losses.csv", index=False)
     ua_losses.to_csv("ua_losses.csv", index=False)
 
-main4()
+def grab_fulldates(inp):
+    """
+    Placeholder
+    """
+    olddate = None
+    if pd.notna(inp["day"]):
+        day = int(inp["day"])
+        month = int(inp["month"])
+        year = int(inp["year"])
+        if year in [22, 23, 24]:
+            year += 2000
+        if year < 2022 and year > 24:
+            year = year % 100 + 2000
+        if month > 12:
+            month = 12
+        if month not in [1,3,5,7,8,10,12] and day >= 31:
+            day = 30
+        if month == 2 and day > 28:
+            day = 28
+        olddate = str(day) + "/" + str(month) + "/" + str(year)
+        return pd.to_datetime(olddate, format="mixed", dayfirst=True)
+    #print(olddate)
+    raw = inp["fulldate"]
+    if pd.isna(raw):
+        return pd.to_datetime(olddate, format="mixed", dayfirst=True)
+    dates_pattern = r"\W([0-9]{1,2}[./-][0-9]{1,2}[./-][0-9]{2,4})\W"
+    alldates = re.findall(dates_pattern, raw)
+    if not alldates:
+        return pd.to_datetime(olddate, format="mixed", dayfirst=True)
+    for date in alldates:
+        testdate = pd.to_datetime(date, format="mixed", dayfirst=True, errors="coerce")
+        if testdate is not None:
+            return pd.to_datetime(testdate, format="mixed", dayfirst=True)
+    return pd.to_datetime(olddate, format="mixed", dayfirst=True)
+
+def main():
+    """
+    Placeholder
+    """
+    ru_ocr = pd.read_csv("data_partial/ru_losses_ocr2.csv")
+    ua_ocr = pd.read_csv("data_partial/ua_losses_ocr2.csv")
+    #print(ru_ocr.dtypes)
+    ru_ocr["fulldate_regex"] = ru_ocr[["day", "month", "year", "fulldate"]].apply(grab_fulldates, axis=1)
+    ua_ocr["fulldate_regex"] = ua_ocr[["day", "month", "year", "fulldate"]].apply(grab_fulldates, axis=1)
+    ru_ocr.to_csv("data_partial/ru_losses_ocr3.csv", index=False)
+    ua_ocr.to_csv("data_partial/ua_losses_ocr3.csv", index=False)
+
+if __name__ == "__main__":
+    main()
