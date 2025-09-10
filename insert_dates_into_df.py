@@ -160,12 +160,12 @@ def grab_fulldates(inp):
         day = int(inp["day"])
         month = int(inp["month"])
         year = int(inp["year"])
+        month = min(month, 12)
+        year = min(year, 2025)
         if year in [22, 23, 24]:
             year += 2000
-        if year < 2022 and year > 24:
+        if 24 < year < 2022:
             year = year % 100 + 2000
-        if month > 12:
-            month = 12
         if month not in [1,3,5,7,8,10,12] and day >= 31:
             day = 30
         if month == 2 and day > 28:

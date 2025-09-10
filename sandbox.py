@@ -38,19 +38,39 @@ def random_apply2(inp):
 
 #print(pd.to_datetime(None, format="mixed", dayfirst=True))
 
-ru_losses = pd.read_csv("data_partial/ru_losses_ocr3.csv")
-ua_losses = pd.read_csv("data_partial/ua_losses_ocr3.csv")
+def final_clean():
+    """
+    Placeholder
+    """
+    ru_losses = pd.read_csv("data_partial/ru_losses_ocr3.csv")
+    ua_losses = pd.read_csv("data_partial/ua_losses_ocr3.csv")
 
-ru_losses_new = ru_losses[["id", "name", "type", "status",
-                           "manufacturer", "manufacturer_abbr", "user", "user_abbr",
-                           "proof", "directproof", "year_first_produced", "fulldate_regex"]]
-ru_losses_new.rename(columns={"proof": "image_proof_link", "directproof": "image_proof_link_direct",
-                              "fulldate_regex": "confirmed_lost_date"}, inplace=True)
-ru_losses_new.to_csv("data/ru_losses_final.csv", index=False)
+    ru_losses_new = ru_losses[["id", "name", "type", "status",
+                            "manufacturer", "manufacturer_abbr", "user", "user_abbr",
+                            "proof", "directproof", "year_first_produced", "fulldate_regex"]]
+    ru_losses_new.rename(columns={"proof": "image_proof_link", "directproof": "image_proof_link_direct",
+                                "fulldate_regex": "confirmed_lost_date"}, inplace=True)
+    ru_losses_new.to_csv("data/ru_losses_final.csv", index=False)
 
-ua_losses_new = ua_losses[["id", "name", "type", "status",
-                           "manufacturer", "manufacturer_abbr", "user", "user_abbr",
-                           "proof", "directproof", "year_first_produced", "fulldate_regex"]]
-ua_losses_new.rename(columns={"proof": "image_proof_link", "directproof": "image_proof_link_direct",
-                              "fulldate_regex": "confirmed_lost_date"}, inplace=True)
-ua_losses_new.to_csv("data/ua_losses_final.csv", index=False)
+    ua_losses_new = ua_losses[["id", "name", "type", "status",
+                            "manufacturer", "manufacturer_abbr", "user", "user_abbr",
+                            "proof", "directproof", "year_first_produced", "fulldate_regex"]]
+    ua_losses_new.rename(columns={"proof": "image_proof_link", "directproof": "image_proof_link_direct",
+                                "fulldate_regex": "confirmed_lost_date"}, inplace=True)
+    ua_losses_new.to_csv("data/ua_losses_final.csv", index=False)
+
+def csv_to_excel():
+    """
+    Combines all data into one Excel file.
+    """
+    writer = pd.ExcelWriter('data/total_losses.xlsx', engine='openpyxl')
+    ru_losses = pd.read_csv("data/ru_losses_final.csv")
+    ua_losses = pd.read_csv("data/ua_losses_final.csv")
+    ua_losses["id"] += ru_losses["id"].max()
+    totallosses = pd.concat([ru_losses, ua_losses])
+    #totallosses
+    print(totallosses.tail(5))
+    totallosses.to_excel(writer, index=False)
+    writer.close()
+
+csv_to_excel()
