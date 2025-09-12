@@ -217,6 +217,8 @@ def parse_oryx(link: str, user: str, vehicle_types: dict) -> []:
                 # add data to the df
                 # since each proof can have multiple numbers e.g. (30, 31 and 32: destroyed)
                 # those multiple-number proofs will result in adding multiple lines into the df.
+                # However some proofs have "false numbers"
+                # like: (1, "BG 103", sunk); these seem exclusive to ships
                 for i in range(status_count):
                     #if proof not in existing_proofs: # add only losses not already in the db
                     df_list.append([oryxid, vehicle_name, vehicle_type, status,

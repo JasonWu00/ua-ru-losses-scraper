@@ -156,6 +156,7 @@ def grab_fulldates(inp):
     Placeholder
     """
     olddate = None
+    # if DDMMYY data exists from earlier parsing: clean it up, use it
     if pd.notna(inp["day"]):
         day = int(inp["day"])
         month = int(inp["month"])
@@ -173,10 +174,11 @@ def grab_fulldates(inp):
         olddate = str(day) + "/" + str(month) + "/" + str(year)
         return pd.to_datetime(olddate, format="mixed", dayfirst=True)
     #print(olddate)
+    # otherwise: check to see if the OCR returned anything
     raw = inp["fulldate"]
     if pd.isna(raw):
         return pd.to_datetime(olddate, format="mixed", dayfirst=True)
-    dates_pattern = r"\W([0-9]{1,2}[./-][0-9]{1,2}[./-][0-9]{2,4})\W"
+    dates_pattern = r"[\W]{0,}([0-9]{1,2}[./-][0-9]{1,2}[./-][0-9]{2,4})[\W]{0,}"
     alldates = re.findall(dates_pattern, raw)
     if not alldates:
         return pd.to_datetime(olddate, format="mixed", dayfirst=True)

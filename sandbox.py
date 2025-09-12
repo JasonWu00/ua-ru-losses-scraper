@@ -66,11 +66,12 @@ def csv_to_excel():
     writer = pd.ExcelWriter('data/total_losses.xlsx', engine='openpyxl')
     ru_losses = pd.read_csv("data/ru_losses_final.csv")
     ua_losses = pd.read_csv("data/ua_losses_final.csv")
-    ua_losses["id"] += ru_losses["id"].max()
+    #ua_losses["id"] += ru_losses["id"].max()
     totallosses = pd.concat([ru_losses, ua_losses])
     #totallosses
     print(totallosses.tail(5))
     totallosses.to_excel(writer, index=False)
     writer.close()
 
+final_clean()
 csv_to_excel()
