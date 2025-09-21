@@ -413,7 +413,7 @@ id,name,type,status,manufacturer,manufacturer_abbr,user,user_abbr,image_proof_li
 412,T-64BV,Tanks,captured,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/vBKh2yVG,https://i.postimg.cc/vBKh2yVG/2016-t64bv-capt-04-02-23.jpg,1976.0,2023-02-04
 413,T-64BV,Tanks,captured,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/6QbtWYWJ,https://i.postimg.cc/6QbtWYWJ/446.png,1976.0,2022-04-20
 414,T-64BV,Tanks,captured,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/zvptnPV0,https://i.postimg.cc/zvptnPV0/468.png,1976.0,2022-04-20
-415,T-64BV,Tanks,captured,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/V6mxyh0W,https://i.postimg.cc/V6mxyh0W/499.png,1976.0,2010-04-22
+415,T-64BV,Tanks,captured,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/V6mxyh0W,https://i.postimg.cc/V6mxyh0W/499.png,1976.0,2022-04-20
 416,T-64BV,Tanks,captured,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/qqYpK8YH,https://i.postimg.cc/qqYpK8YH/d7.jpg,1976.0,2022-05-08
 417,T-64BV,Tanks,captured,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/d1Tdz9Vt,https://i.postimg.cc/d1Tdz9Vt/133.png,1976.0,2022-05-09
 418,T-64BV,Tanks,captured,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/RVmydn25,https://i.postimg.cc/RVmydn25/15.png,1976.0,2022-05-09
@@ -5056,7 +5056,7 @@ id,name,type,status,manufacturer,manufacturer_abbr,user,user_abbr,image_proof_li
 5055,Kozak-2,Infantry Mobility Vehicles,destroyed,Ukraine,UA,Ukraine,UA,https://postimg.cc/cLQVKjFQ,https://i.postimg.cc/cLQVKjFQ/2021-Kozak-2-destr-22-06-25.jpg,2015.0,2025-06-22
 5056,Kozak-2,Infantry Mobility Vehicles,damaged and abandoned,Ukraine,UA,Ukraine,UA,https://postimg.cc/HxGrnjLh,https://i.postimg.cc/HxGrnjLh/2038-Kozak-2-dam-aband-19-03-25.jpg,2015.0,2025-03-19
 5057,Kozak-2,Infantry Mobility Vehicles,damaged and captured,Ukraine,UA,Ukraine,UA,https://postimg.cc/1XzJ7nhW,https://i.postimg.cc/1XzJ7nhW/d2g.png,2015.0,2022-03-04
-5058,Kozak-2,Infantry Mobility Vehicles,captured,Ukraine,UA,Ukraine,UA,https://postimg.cc/2yTDYrFb,https://i.postimg.cc/2yTDYrFb/762.png,2015.0,2017-03-22
+5058,Kozak-2,Infantry Mobility Vehicles,captured,Ukraine,UA,Ukraine,UA,https://postimg.cc/2yTDYrFb,https://i.postimg.cc/2yTDYrFb/762.png,2015.0,2022-03-12
 5059,Kozak-2,Infantry Mobility Vehicles,captured,Ukraine,UA,Ukraine,UA,https://postimg.cc/3JFW2v5Y,https://i.postimg.cc/3JFW2v5Y/13.png,2015.0,2022-03-18
 5060,Kozak-2,Infantry Mobility Vehicles,captured,Ukraine,UA,Ukraine,UA,https://postimg.cc/rFc2Qn20,https://i.postimg.cc/rFc2Qn20/763.png,2015.0,2022-03-02
 5061,Kozak-2,Infantry Mobility Vehicles,captured,Ukraine,UA,Ukraine,UA,https://postimg.cc/Sx36XxJL,https://i.postimg.cc/Sx36XxJL/431.png,2015.0,2022-03-30
@@ -5611,7 +5611,7 @@ id,name,type,status,manufacturer,manufacturer_abbr,user,user_abbr,image_proof_li
 5610,HMMWV Ambulance,Infantry Mobility Vehicles,damaged,United States,USA,Ukraine,UA,https://postimg.cc/DZ1WBZFK,https://i.postimg.cc/DZ1WBZFK/2001-HMMWV-Ambulance-dam-31-05-23.jpg,1983.0,2023-05-31
 5611,HMMWV Ambulance,Infantry Mobility Vehicles,damaged and captured,United States,USA,Ukraine,UA,https://postimg.cc/y88wjYxy,https://i.postimg.cc/y88wjYxy/d12.png,1983.0,2022-03-28
 5612,HMMWV Ambulance,Infantry Mobility Vehicles,damaged and captured,United States,USA,Ukraine,UA,https://postimg.cc/zX4hRNMG,https://i.postimg.cc/zX4hRNMG/4799.png,1983.0,2022-03-14
-5613,HMMWV Ambulance,Infantry Mobility Vehicles,damaged and captured,United States,USA,Ukraine,UA,https://postimg.cc/MHHmB5bG,https://i.postimg.cc/MHHmB5bG/48800.png,1983.0,2022-02-14
+5613,HMMWV Ambulance,Infantry Mobility Vehicles,damaged and captured,United States,USA,Ukraine,UA,https://postimg.cc/MHHmB5bG,https://i.postimg.cc/MHHmB5bG/48800.png,1983.0,2022-02-24
 5614,HMMWV Ambulance,Infantry Mobility Vehicles,captured,United States,USA,Ukraine,UA,https://postimg.cc/XvyMfKLQ,https://i.postimg.cc/XvyMfKLQ/4799.png,1983.0,2022-04-12
 5615,HMMWV Ambulance,Infantry Mobility Vehicles,captured,United States,USA,Ukraine,UA,https://postimg.cc/MK2kh9D5,https://i.postimg.cc/MK2kh9D5/669.png,1983.0,2022-04-28
 5616,HMMWV Ambulance,Infantry Mobility Vehicles,captured,United States,USA,Ukraine,UA,https://postimg.cc/KzG3bJS5,https://i.postimg.cc/KzG3bJS5/2012-HMMWV-ambulance-capt-02-06-22.jpg,1983.0,2022-06-02
@@ -7425,7 +7425,7 @@ id,name,type,status,manufacturer,manufacturer_abbr,user,user_abbr,image_proof_li
 7424,5P851A (Launcher for S-300PT-1A),Surface-To-Air Missile Systems,destroyed,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/dQmDnYGX,https://i.postimg.cc/dQmDnYGX/2014-5-P851-A-launcher-for-70-P6-1-S-300-PT-1-A-destr-12-06-24.jpg,1978.0,2024-06-12
 7425,5P851A (Launcher for S-300PT-1A),Surface-To-Air Missile Systems,destroyed,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/fTXVCPLS,https://i.postimg.cc/fTXVCPLS/2017-5-P851-A-launcher-for-70-P6-1-S-300-PT-1-A-destr-19-08-24.jpg,1978.0,2024-08-19
 7426,5P85D (launcher for S-300PS),Surface-To-Air Missile Systems,destroyed,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/HLc1zZDd,https://i.postimg.cc/HLc1zZDd/549.png,1985.0,2022-02-24
-7427,5P85D (launcher for S-300PS),Surface-To-Air Missile Systems,captured,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/cJJR2T2B,https://i.postimg.cc/cJJR2T2B/58kj.png,1985.0,2022-02-14
+7427,5P85D (launcher for S-300PS),Surface-To-Air Missile Systems,captured,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/cJJR2T2B,https://i.postimg.cc/cJJR2T2B/58kj.png,1985.0,2022-02-24
 7428,5P85S (launcher for S-300PS),Surface-To-Air Missile Systems,destroyed,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/f3wFx8q5,https://i.postimg.cc/tgPjGf30/4j.png,1985.0,2022-02-24
 7429,5P85S (launcher for S-300PS),Surface-To-Air Missile Systems,destroyed,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/cLVfSxKP,https://i.postimg.cc/cLVfSxKP/Screenshot-9316.png,1985.0,2022-03-17
 7430,5P85S (launcher for S-300PS),Surface-To-Air Missile Systems,destroyed,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/cLVfSxKP,https://i.postimg.cc/cLVfSxKP/Screenshot-9316.png,1985.0,2022-03-17
@@ -9051,7 +9051,7 @@ id,name,type,status,manufacturer,manufacturer_abbr,user,user_abbr,image_proof_li
 9078,Ural-375D,"Trucks, Vehicles, and Jeeps",captured,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/vHvy3FYx,https://i.postimg.cc/vHvy3FYx/31.png,1961.0,2022-05-02
 9079,Ural-375D,"Trucks, Vehicles, and Jeeps",captured,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/P5WfMppV,https://i.postimg.cc/P5WfMppV/399.png,1961.0,2022-05-11
 9080,Ural-4320,"Trucks, Vehicles, and Jeeps",destroyed,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/yJNnspb7,https://i.postimg.cc/3wXqjPj0/Screenshot-8077.png,,2022-02-25
-9081,Ural-4320,"Trucks, Vehicles, and Jeeps",destroyed,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/vmqnP67C,https://i.postimg.cc/vmqnP67C/223.png,,2022-02-03
+9081,Ural-4320,"Trucks, Vehicles, and Jeeps",destroyed,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/vmqnP67C,https://i.postimg.cc/vmqnP67C/223.png,,2022-03-02
 9082,Ural-4320,"Trucks, Vehicles, and Jeeps",destroyed,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/rshQS3MH,https://i.postimg.cc/rshQS3MH/f4.png,,2022-03-02
 9083,Ural-4320,"Trucks, Vehicles, and Jeeps",destroyed,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/GmRQzM1X,https://i.postimg.cc/GmRQzM1X/g8k.png,,2022-03-06
 9084,Ural-4320,"Trucks, Vehicles, and Jeeps",destroyed,Soviet Union,USSR,Ukraine,UA,https://postimg.cc/YStP5QYc,https://i.postimg.cc/YStP5QYc/16.png,,2022-03-30

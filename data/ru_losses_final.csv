@@ -485,7 +485,7 @@ id,name,type,status,manufacturer,manufacturer_abbr,user,user_abbr,image_proof_li
 484,T-72AV,Tanks,captured,Soviet Union,USSR,Russia,RU,https://postimg.cc/HLP22qvC,https://i.postimg.cc/HLP22qvC/4880.png,1979.0,2022-04-02
 485,T-72AV,Tanks,captured,Soviet Union,USSR,Russia,RU,https://postimg.cc/fR99sv0Q,https://i.postimg.cc/fR99sv0Q/1019-t72av-capt.jpg,1979.0,2022-10-12
 486,T-72B,Tanks,destroyed,Soviet Union,USSR,Russia,RU,https://postimg.cc/1XwLVN2J,https://i.postimg.cc/1XwLVN2J/1366.png,1985.0,2022-03-07
-487,T-72B,Tanks,destroyed,Soviet Union,USSR,Russia,RU,https://postimg.cc/PJyDTMvz,https://i.postimg.cc/PJyDTMvz/3f.png,1985.0,2022-02-03
+487,T-72B,Tanks,destroyed,Soviet Union,USSR,Russia,RU,https://postimg.cc/PJyDTMvz,https://i.postimg.cc/PJyDTMvz/3f.png,1985.0,2022-03-02
 488,T-72B,Tanks,destroyed,Soviet Union,USSR,Russia,RU,https://postimg.cc/nVC3Hb5N,https://i.postimg.cc/nVC3Hb5N/v90.png,1985.0,2022-03-28
 489,T-72B,Tanks,destroyed,Soviet Union,USSR,Russia,RU,https://postimg.cc/1z0hr1Ck,https://i.postimg.cc/1z0hr1Ck/5gg.png,1985.0,2022-03-04
 490,T-72B,Tanks,destroyed,Soviet Union,USSR,Russia,RU,https://postimg.cc/ZRSh28Hf,https://i.postimg.cc/ZRSh28Hf/1019-t72b-destr-18-06-23.png,1985.0,2023-06-18
@@ -730,7 +730,7 @@ id,name,type,status,manufacturer,manufacturer_abbr,user,user_abbr,image_proof_li
 729,T-72B,Tanks,destroyed,Soviet Union,USSR,Russia,RU,https://postimg.cc/Y92wwppF,https://i.postimg.cc/Y92wwppF/1031-T-72-B-destr-16-06-24.jpg,1985.0,2024-06-16
 730,T-72B,Tanks,destroyed,Soviet Union,USSR,Russia,RU,https://postimg.cc/KcNY1cj1,https://i.postimg.cc/KcNY1cj1/1047-T72-B-destr-20-06-24.jpg,1985.0,2024-06-20
 731,T-72B,Tanks,destroyed,Soviet Union,USSR,Russia,RU,https://postimg.cc/RZV5jgHG,https://i.postimg.cc/RZV5jgHG/1005-T-72-B-destr-19-06-24.jpg,1985.0,2024-06-19
-732,T-72B,Tanks,destroyed,Soviet Union,USSR,Russia,RU,https://postimg.cc/xCXPxnKM,https://i.postimg.cc/xCXPxnKM/g3.png,1985.0,2022-02-03
+732,T-72B,Tanks,destroyed,Soviet Union,USSR,Russia,RU,https://postimg.cc/xCXPxnKM,https://i.postimg.cc/xCXPxnKM/g3.png,1985.0,2022-03-02
 733,T-72B,Tanks,destroyed,Soviet Union,USSR,Russia,RU,https://postimg.cc/mk5gmdn7,https://i.postimg.cc/mk5gmdn7/1004-T-72-B-destr-07-07-25.jpg,1985.0,2025-07-07
 734,T-72B,Tanks,destroyed,Soviet Union,USSR,Russia,RU,https://postimg.cc/RC8V8nZH,https://i.postimg.cc/RC8V8nZH/1055-T-72-B-destr-30-10-24.jpg,1985.0,2024-10-30
 735,T-72B,Tanks,destroyed,Soviet Union,USSR,Russia,RU,https://postimg.cc/kGLr7sJq,https://i.postimg.cc/kGLr7sJq/1004-T-72-B-destr-02-11-24.jpg,1985.0,2024-11-02
@@ -797,7 +797,7 @@ id,name,type,status,manufacturer,manufacturer_abbr,user,user_abbr,image_proof_li
 796,T-72B,Tanks,captured,Soviet Union,USSR,Russia,RU,https://postimg.cc/d1WfHr51,https://i.postimg.cc/d1WfHr51/lk.png,1985.0,2022-03-27
 797,T-72B,Tanks,captured,Soviet Union,USSR,Russia,RU,https://postimg.cc/Ssrz1DC1,https://i.postimg.cc/Ssrz1DC1/5g5.jpg,1985.0,2022-04-01
 798,T-72B,Tanks,captured,Soviet Union,USSR,Russia,RU,https://postimg.cc/vZbBJZJf,https://i.postimg.cc/vZbBJZJf/1026-t72b-capt.jpg,1985.0,
-799,T-72B,Tanks,captured,Soviet Union,USSR,Russia,RU,https://postimg.cc/K1DWKr21,https://i.postimg.cc/52hWRnKS/366.jpg,1985.0,2022-01-31
+799,T-72B,Tanks,captured,Soviet Union,USSR,Russia,RU,https://postimg.cc/K1DWKr21,https://i.postimg.cc/52hWRnKS/366.jpg,1985.0,2022-11-31
 800,T-72B,Tanks,captured,Soviet Union,USSR,Russia,RU,https://postimg.cc/k4jjk5XP,https://i.postimg.cc/k4jjk5XP/4433.jpg,1985.0,2022-04-01
 801,T-72B,Tanks,captured,Soviet Union,USSR,Russia,RU,https://postimg.cc/cHZwX5sc,https://i.postimg.cc/cHZwX5sc/438k.png,1985.0,2022-04-01
 802,T-72B,Tanks,captured,Soviet Union,USSR,Russia,RU,https://postimg.cc/X77rqZ1S,https://i.postimg.cc/X77rqZ1S/g6.jpg,1985.0,2022-04-03
@@ -4353,7 +4353,7 @@ id,name,type,status,manufacturer,manufacturer_abbr,user,user_abbr,image_proof_li
 4352,MT-LB,Armored Fighting Vehicles,destroyed,Soviet Union,USSR,Russia,RU,https://postimg.cc/fy0Tpsxg,https://i.postimg.cc/fy0Tpsxg/1016-mtlb-destr-14-03-23.jpg,1970.0,2023-03-14
 4353,MT-LB,Armored Fighting Vehicles,destroyed,Soviet Union,USSR,Russia,RU,https://postimg.cc/mZ3TDLpT,https://i.postimg.cc/mZ3TDLpT/1014-MT-LB-destr-10-08-23.jpg,1970.0,2023-08-10
 4354,MT-LB,Armored Fighting Vehicles,destroyed,Soviet Union,USSR,Russia,RU,https://postimg.cc/KjyqwqSL,https://i.postimg.cc/KjyqwqSL/1005-mtlb-destr.jpg,1970.0,2022-11-13
-4355,MT-LB,Armored Fighting Vehicles,destroyed,Soviet Union,USSR,Russia,RU,https://postimg.cc/RhNFDv9N,https://i.postimg.cc/RhNFDv9N/2022-11-12-MT-LB.jpg,1970.0,2012-11-22
+4355,MT-LB,Armored Fighting Vehicles,destroyed,Soviet Union,USSR,Russia,RU,https://postimg.cc/RhNFDv9N,https://i.postimg.cc/RhNFDv9N/2022-11-12-MT-LB.jpg,1970.0,2022-12-11
 4356,MT-LB,Armored Fighting Vehicles,destroyed,Soviet Union,USSR,Russia,RU,https://postimg.cc/tTDZcrxm,https://i.postimg.cc/tTDZcrxm/2022-11-12-MT-LB-2.jpg,1970.0,
 4357,MT-LB,Armored Fighting Vehicles,destroyed,Soviet Union,USSR,Russia,RU,https://postimg.cc/ZnTzY6K2,https://i.postimg.cc/ZnTzY6K2/1010-mtlb-destr.jpg,1970.0,2022-11-16
 4358,MT-LB,Armored Fighting Vehicles,destroyed,Soviet Union,USSR,Russia,RU,https://postimg.cc/3NTNtCKK,https://i.postimg.cc/3NTNtCKK/1004-mtlb-destr.jpg,1970.0,2022-11-21
@@ -5775,7 +5775,7 @@ id,name,type,status,manufacturer,manufacturer_abbr,user,user_abbr,image_proof_li
 5774,MT-LBVM and MT-LBVMK,Armored Fighting Vehicles,captured,Soviet Union,USSR,Russia,RU,https://postimg.cc/kVkQ4mk3,https://i.postimg.cc/qR7j1BwR/572date.png,2000.0,2022-05-18
 5775,MT-LBVM and MT-LBVMK,Armored Fighting Vehicles,captured,Soviet Union,USSR,Russia,RU,https://postimg.cc/VS2TwTRd,https://i.postimg.cc/pTdtfM5Y/640date.png,2000.0,2022-07-05
 5776,MT-LBVM and MT-LBVMK,Armored Fighting Vehicles,captured,Soviet Union,USSR,Russia,RU,https://postimg.cc/Pq8mrMPV,https://i.postimg.cc/Pq8mrMPV/698.jpg,2000.0,2022-05-12
-5777,MT-LBVM and MT-LBVMK,Armored Fighting Vehicles,captured,Soviet Union,USSR,Russia,RU,https://postimg.cc/nsVzGDZH,https://i.postimg.cc/JhZkmN2B/529update.png,2000.0,2022-02-03
+5777,MT-LBVM and MT-LBVMK,Armored Fighting Vehicles,captured,Soviet Union,USSR,Russia,RU,https://postimg.cc/nsVzGDZH,https://i.postimg.cc/JhZkmN2B/529update.png,2000.0,2022-03-02
 5778,MT-LBVM and MT-LBVMK,Armored Fighting Vehicles,captured,Soviet Union,USSR,Russia,RU,https://postimg.cc/FztFks9X,https://i.postimg.cc/FztFks9X/46.png,2000.0,2022-02-28
 5779,MT-LBVM and MT-LBVMK,Armored Fighting Vehicles,captured,Soviet Union,USSR,Russia,RU,https://postimg.cc/kRxTbKK0,https://i.postimg.cc/d3fpg91V/262-Kharkiv.png,2000.0,2022-05-12
 5780,MT-LBVM and MT-LBVMK,Armored Fighting Vehicles,captured,Soviet Union,USSR,Russia,RU,https://postimg.cc/MXQ6LHzg,https://i.postimg.cc/448YmHq4/datebobrivka.png,2000.0,2022-04-16
@@ -6109,7 +6109,7 @@ id,name,type,status,manufacturer,manufacturer_abbr,user,user_abbr,image_proof_li
 6108,Unknown AFV,Armored Fighting Vehicles,destroyed,Russia,RU,Russia,RU,https://postimg.cc/NjjYqSTK,https://i.postimg.cc/NjjYqSTK/1039-unkn-afv-destr-16-03-23.jpg,,2023-03-16
 6109,Unknown AFV,Armored Fighting Vehicles,destroyed,Russia,RU,Russia,RU,https://postimg.cc/661Bdx0g,https://i.postimg.cc/661Bdx0g/1000-unkn-afv-destr-20-03-23.jpg,,2023-03-20
 6110,Unknown AFV,Armored Fighting Vehicles,destroyed,Russia,RU,Russia,RU,https://twitter.com/UAWeapons/status/1638659416051400705,https://twitter.com/UAWeapons/status/1638659416051400705,,
-6111,Unknown AFV,Armored Fighting Vehicles,destroyed,Russia,RU,Russia,RU,https://postimg.cc/9MBF1VTg,https://i.postimg.cc/9MBF1VTg/3360.png,,2032-03-22
+6111,Unknown AFV,Armored Fighting Vehicles,destroyed,Russia,RU,Russia,RU,https://postimg.cc/9MBF1VTg,https://i.postimg.cc/9MBF1VTg/3360.png,,2022-03-22
 6112,Unknown AFV,Armored Fighting Vehicles,destroyed,Russia,RU,Russia,RU,https://postimg.cc/hjS9MJMV,https://i.postimg.cc/hjS9MJMV/1048-unkn-afv-destr-20-05-23.png,,2023-05-20
 6113,Unknown AFV,Armored Fighting Vehicles,destroyed,Russia,RU,Russia,RU,https://postimg.cc/SsG5VD9C,https://i.postimg.cc/SsG5VD9C/4315.png,,2023-03-23
 6114,Unknown AFV,Armored Fighting Vehicles,destroyed,Russia,RU,Russia,RU,https://postimg.cc/L6jn3LqV,https://i.postimg.cc/L6jn3LqV/7640.png,,2023-03-26
@@ -7302,7 +7302,7 @@ id,name,type,status,manufacturer,manufacturer_abbr,user,user_abbr,image_proof_li
 7301,BMP-1AM,Infantry Fighting Vehicles,destroyed,Russia,RU,Russia,RU,https://postimg.cc/sgCPYz3m,https://i.postimg.cc/sgCPYz3m/315234247-3330800447199285-3742808101932339868-n.jpg,2018.0,2022-11-20
 7302,BMP-1AM,Infantry Fighting Vehicles,destroyed,Russia,RU,Russia,RU,https://postimg.cc/FsDV2V2h,https://i.postimg.cc/FsDV2V2h/6h5.png,2018.0,2022-12-18
 7303,BMP-1AM,Infantry Fighting Vehicles,destroyed,Russia,RU,Russia,RU,https://postimg.cc/QdWGPmGZ,https://i.postimg.cc/QdWGPmGZ/3116.png,2018.0,2023-03-21
-7304,BMP-1AM,Infantry Fighting Vehicles,destroyed,Russia,RU,Russia,RU,https://postimg.cc/BQvvTDWx,https://i.postimg.cc/BQvvTDWx/1028-bmp1am-destr-24-04-03.jpg,2018.0,2003-04-24
+7304,BMP-1AM,Infantry Fighting Vehicles,destroyed,Russia,RU,Russia,RU,https://postimg.cc/BQvvTDWx,https://i.postimg.cc/BQvvTDWx/1028-bmp1am-destr-24-04-03.jpg,2018.0,2023-04-24
 7305,BMP-1AM,Infantry Fighting Vehicles,destroyed,Russia,RU,Russia,RU,https://postimg.cc/ZKfC2HP7,https://i.postimg.cc/ZKfC2HP7/1007-bmp1am-destr-25-04-23.jpg,2018.0,2023-04-25
 7306,BMP-1AM,Infantry Fighting Vehicles,destroyed,Russia,RU,Russia,RU,https://postimg.cc/mD0ss1zB,https://i.postimg.cc/mD0ss1zB/1010-BMP-1-AM-destr-26-05-23.jpg,2018.0,2023-05-26
 7307,BMP-1AM,Infantry Fighting Vehicles,destroyed,Russia,RU,Russia,RU,https://postimg.cc/J4nZfKcC,https://i.postimg.cc/J4nZfKcC/1018-BMP-1-AM-Basurmanin-destr-27-07-24.jpg,2018.0,2024-07-27
@@ -8783,7 +8783,7 @@ id,name,type,status,manufacturer,manufacturer_abbr,user,user_abbr,image_proof_li
 8782,BMP-2(K),Infantry Fighting Vehicles,captured,Soviet Union,USSR,Russia,RU,https://postimg.cc/j53xY9qG,https://i.postimg.cc/j53xY9qG/1004-bmp2.jpg,1980.0,2022-08-26
 8783,BMP-2(K),Infantry Fighting Vehicles,captured,Soviet Union,USSR,Russia,RU,https://twitter.com/Danspiun/status/1563617152309297153,https://twitter.com/Danspiun/status/1563617152309297153,1980.0,
 8784,BMP-2(K),Infantry Fighting Vehicles,captured,Soviet Union,USSR,Russia,RU,https://postimg.cc/HxnzqZkg,https://i.postimg.cc/HxnzqZkg/1002-BMP-2-capt-10-05-23.jpg,1980.0,2023-05-10
-8785,BMP-2(K),Infantry Fighting Vehicles,captured,Soviet Union,USSR,Russia,RU,https://postimg.cc/9fnnKPMd,https://i.postimg.cc/9fnnKPMd/1002-bmp2.jpg,1980.0,2020-09-02
+8785,BMP-2(K),Infantry Fighting Vehicles,captured,Soviet Union,USSR,Russia,RU,https://postimg.cc/9fnnKPMd,https://i.postimg.cc/9fnnKPMd/1002-bmp2.jpg,1980.0,
 8786,BMP-2(K),Infantry Fighting Vehicles,captured,Soviet Union,USSR,Russia,RU,https://postimg.cc/5yk1NcwX,https://i.postimg.cc/5yk1NcwX/1013-bmp2-capt.jpg,1980.0,2022-10-29
 8787,BMP-2(K),Infantry Fighting Vehicles,captured,Soviet Union,USSR,Russia,RU,https://twitter.com/UAWeapons/status/1566036414084546560,https://twitter.com/UAWeapons/status/1566036414084546560,1980.0,
 8788,BMP-2(K),Infantry Fighting Vehicles,captured,Soviet Union,USSR,Russia,RU,https://twitter.com/UAWeapons/status/1566036414084546560,https://twitter.com/UAWeapons/status/1566036414084546560,1980.0,
@@ -9811,7 +9811,7 @@ id,name,type,status,manufacturer,manufacturer_abbr,user,user_abbr,image_proof_li
 9810,Unknown BMP-1/2 675-sb3KDZ,Infantry Fighting Vehicles,destroyed,Russia,RU,Russia,RU,https://postimg.cc/MHpvVXGc,https://i.postimg.cc/MHpvVXGc/1007-BMP-1or2-675-sb3-KDZ-destr-17-04-25.jpg,,2025-04-17
 9811,Unknown BMP-1/2 675-sb3KDZ,Infantry Fighting Vehicles,destroyed,Russia,RU,Russia,RU,https://postimg.cc/59XMLhfb,https://i.postimg.cc/59XMLhfb/1014-BMP-1-or-2-675-sb3-KDZ-destr-05-08-25.jpg,,2025-08-05
 9812,Unknown BMP-1/2 675-sb3KDZ,Infantry Fighting Vehicles,abandoned,Russia,RU,Russia,RU,https://postimg.cc/1tHBcVCj,https://i.postimg.cc/1tHBcVCj/1020-BMP-1-or-2-675-sb3-KDZ-aband-30-08-24.jpg,,2024-08-30
-9813,BMP-3,Infantry Fighting Vehicles,destroyed,Russia,RU,Russia,RU,https://postimg.cc/ZRpWnkwZ,https://i.postimg.cc/ZRpWnkwZ/n89.png,1987.0,2022-02-03
+9813,BMP-3,Infantry Fighting Vehicles,destroyed,Russia,RU,Russia,RU,https://postimg.cc/ZRpWnkwZ,https://i.postimg.cc/ZRpWnkwZ/n89.png,1987.0,2022-03-02
 9814,BMP-3,Infantry Fighting Vehicles,destroyed,Russia,RU,Russia,RU,https://postimg.cc/yxCSy6Dk,https://i.postimg.cc/yxCSy6Dk/f6.png,1987.0,2022-03-02
 9815,BMP-3,Infantry Fighting Vehicles,destroyed,Russia,RU,Russia,RU,https://postimg.cc/Bv2RqWVx,https://i.postimg.cc/Bv2RqWVx/j7.png,1987.0,2022-03-03
 9816,BMP-3,Infantry Fighting Vehicles,destroyed,Russia,RU,Russia,RU,https://postimg.cc/zD9kdGPS,https://i.postimg.cc/zD9kdGPS/d2.png,1987.0,2022-03-06
@@ -12689,7 +12689,7 @@ id,name,type,status,manufacturer,manufacturer_abbr,user,user_abbr,image_proof_li
 12688,BTR-80,Armoured Personnel Carriers,captured,Soviet Union,USSR,Russia,RU,https://postimg.cc/3N6D3bDN,https://i.postimg.cc/3N6D3bDN/1053-btr80-capt-30-11-22.jpg,1986.0,2022-11-30
 12689,BTR-80,Armoured Personnel Carriers,captured,Soviet Union,USSR,Russia,RU,https://postimg.cc/858P5L8g,https://i.postimg.cc/858P5L8g/Screenshot-8471.png,1986.0,2022-02-28
 12690,BTR-80,Armoured Personnel Carriers,captured,Soviet Union,USSR,Russia,RU,https://postimg.cc/8cymMnKf,https://i.postimg.cc/8cymMnKf/4433.png,1986.0,2022-03-02
-12691,BTR-80,Armoured Personnel Carriers,captured,Soviet Union,USSR,Russia,RU,https://postimg.cc/J7gs84ZC,https://i.postimg.cc/J7gs84ZC/456.png,1986.0,2022-02-03
+12691,BTR-80,Armoured Personnel Carriers,captured,Soviet Union,USSR,Russia,RU,https://postimg.cc/J7gs84ZC,https://i.postimg.cc/J7gs84ZC/456.png,1986.0,2022-03-02
 12692,BTR-80,Armoured Personnel Carriers,captured,Soviet Union,USSR,Russia,RU,https://postimg.cc/15nsWPhH,https://i.postimg.cc/15nsWPhH/67.png,1986.0,2022-04-03
 12693,BTR-80,Armoured Personnel Carriers,captured,Soviet Union,USSR,Russia,RU,https://postimg.cc/xCd1nMS7,https://i.postimg.cc/xCd1nMS7/1010-btr80-capt-03-10-22.png,1986.0,2022-10-03
 12694,BTR-80,Armoured Personnel Carriers,captured,Soviet Union,USSR,Russia,RU,https://postimg.cc/zvHPLhtq,https://i.postimg.cc/zvHPLhtq/1002-btr80.jpg,1986.0,2022-08-02
@@ -13289,7 +13289,7 @@ id,name,type,status,manufacturer,manufacturer_abbr,user,user_abbr,image_proof_li
 13288,ASN-233115 'Tigr-M SpN',Infantry Mobility Vehicles,destroyed,Russia,RU,Russia,RU,https://postimg.cc/7YDqZt1H,https://i.postimg.cc/7YDqZt1H/4435.png,,2022-02-27
 13289,ASN-233115 'Tigr-M SpN',Infantry Mobility Vehicles,destroyed,Russia,RU,Russia,RU,https://postimg.cc/pVGgCB1P,https://i.postimg.cc/pVGgCB1P/449.png,,2022-02-27
 13290,ASN-233115 'Tigr-M SpN',Infantry Mobility Vehicles,destroyed,Russia,RU,Russia,RU,https://postimg.cc/f3bh0QRp,https://i.postimg.cc/Zq8Y2Ttb/Screenshot-8240.png,,2022-02-24
-13291,ASN-233115 'Tigr-M SpN',Infantry Mobility Vehicles,destroyed,Russia,RU,Russia,RU,https://postimg.cc/W1VpzFcv,https://i.postimg.cc/W1VpzFcv/5578.png,,2222-02-24
+13291,ASN-233115 'Tigr-M SpN',Infantry Mobility Vehicles,destroyed,Russia,RU,Russia,RU,https://postimg.cc/W1VpzFcv,https://i.postimg.cc/W1VpzFcv/5578.png,,2022-02-24
 13292,ASN-233115 'Tigr-M SpN',Infantry Mobility Vehicles,destroyed,Russia,RU,Russia,RU,https://postimg.cc/zDdcTNN2,https://i.postimg.cc/zDdcTNN2/1024-GAZ-Tigr-M-destr-28-10-24.jpg,,2024-10-28
 13293,ASN-233115 'Tigr-M SpN',Infantry Mobility Vehicles,destroyed,Russia,RU,Russia,RU,https://postimg.cc/dtdY6kSj,https://i.postimg.cc/dtdY6kSj/1062-ASN-233115-Tigr-M-Sp-N-destr-15-01-25.jpg,,2025-01-15
 13294,ASN-233115 'Tigr-M SpN',Infantry Mobility Vehicles,destroyed,Russia,RU,Russia,RU,https://postimg.cc/bJR6bYD1,https://i.postimg.cc/bJR6bYD1/1003-GAZ-Tigr-M-destr-23-09-24.jpg,,2024-09-23
@@ -15363,7 +15363,7 @@ id,name,type,status,manufacturer,manufacturer_abbr,user,user_abbr,image_proof_li
 15362,122mm 2S1 Gvozdika,Self Propelled Artillery,destroyed,Soviet Union,USSR,Russia,RU,https://postimg.cc/bYxTvknx,https://i.postimg.cc/bYxTvknx/54g0.png,1972.0,2023-08-02
 15363,122mm 2S1 Gvozdika,Self Propelled Artillery,destroyed,Soviet Union,USSR,Russia,RU,https://twitter.com/naalsio26/status/1696920434363580869,https://twitter.com/naalsio26/status/1696920434363580869,1972.0,
 15364,122mm 2S1 Gvozdika,Self Propelled Artillery,destroyed,Soviet Union,USSR,Russia,RU,https://postimg.cc/dQkT9sNR,https://i.postimg.cc/dQkT9sNR/290.png,1972.0,2023-08-30
-15365,122mm 2S1 Gvozdika,Self Propelled Artillery,destroyed,Soviet Union,USSR,Russia,RU,https://postimg.cc/5yzdG0m3,https://i.postimg.cc/5yzdG0m3/554.png,1972.0,1906-07-21
+15365,122mm 2S1 Gvozdika,Self Propelled Artillery,destroyed,Soviet Union,USSR,Russia,RU,https://postimg.cc/5yzdG0m3,https://i.postimg.cc/5yzdG0m3/554.png,1972.0,2023-11-09
 15366,122mm 2S1 Gvozdika,Self Propelled Artillery,destroyed,Soviet Union,USSR,Russia,RU,https://postimg.cc/g0ZM4DyS,https://i.postimg.cc/g0ZM4DyS/298.png,1972.0,2023-09-07
 15367,122mm 2S1 Gvozdika,Self Propelled Artillery,destroyed,Soviet Union,USSR,Russia,RU,https://twitter.com/UAWeapons/status/1704108316660543615,https://twitter.com/UAWeapons/status/1704108316660543615,1972.0,
 15368,122mm 2S1 Gvozdika,Self Propelled Artillery,destroyed,Soviet Union,USSR,Russia,RU,https://postimg.cc/HkV31X17,https://i.postimg.cc/HkV31X17/425.png,1972.0,2023-09-24
@@ -15737,7 +15737,7 @@ id,name,type,status,manufacturer,manufacturer_abbr,user,user_abbr,image_proof_li
 15736,152mm 2S5 Giatsint-S,Self Propelled Artillery,captured,Soviet Union,USSR,Russia,RU,https://twitter.com/UAWeapons/status/1571185439502962688,https://twitter.com/UAWeapons/status/1571185439502962688,,
 15737,152mm 2S5 Giatsint-S,Self Propelled Artillery,captured,Soviet Union,USSR,Russia,RU,https://postimg.cc/X7Y4HBp7,https://i.postimg.cc/X7Y4HBp7/1001-2s5.jpg,,2022-09-17
 15738,152mm 2S5 Giatsint-S,Self Propelled Artillery,captured,Soviet Union,USSR,Russia,RU,https://postimg.cc/05JZpQJZ,https://i.postimg.cc/05JZpQJZ/1025-2-S5-Giatsint-S-capt-08-01-23.jpg,,2023-01-08
-15739,152mm 2S19 Msta-S,Self Propelled Artillery,destroyed,Soviet Union,USSR,Russia,RU,https://postimg.cc/pXqsWfDd,https://i.postimg.cc/pXqsWfDd/f68.png,1989.0,2022-02-03
+15739,152mm 2S19 Msta-S,Self Propelled Artillery,destroyed,Soviet Union,USSR,Russia,RU,https://postimg.cc/pXqsWfDd,https://i.postimg.cc/pXqsWfDd/f68.png,1989.0,2022-03-02
 15740,152mm 2S19 Msta-S,Self Propelled Artillery,destroyed,Soviet Union,USSR,Russia,RU,https://postimg.cc/43R30CTS,https://i.postimg.cc/43R30CTS/350.png,1989.0,2022-03-10
 15741,152mm 2S19 Msta-S,Self Propelled Artillery,abandoned and destroyed,Soviet Union,USSR,Russia,RU,https://postimg.cc/Nf5WZ40V,https://i.postimg.cc/Nf5WZ40V/32da.png,1989.0,2022-03-12
 15742,152mm 2S19 Msta-S,Self Propelled Artillery,destroyed,Soviet Union,USSR,Russia,RU,https://postimg.cc/jdg79FvL,https://i.postimg.cc/jdg79FvL/07.png,1989.0,2022-03-17
@@ -15861,7 +15861,7 @@ id,name,type,status,manufacturer,manufacturer_abbr,user,user_abbr,image_proof_li
 15860,152mm 2S19 Msta-S,Self Propelled Artillery,destroyed,Soviet Union,USSR,Russia,RU,https://postimg.cc/Hk3PpYrh,https://i.postimg.cc/Hk3PpYrh/1042-2-S19-Msta-S-destr-15-12-23.jpg,1989.0,2023-12-15
 15861,152mm 2S19 Msta-S,Self Propelled Artillery,destroyed,Soviet Union,USSR,Russia,RU,https://postimg.cc/Hxt4Mq34,https://i.postimg.cc/Hxt4Mq34/1047-msta-s-destr-24-07-23.jpg,1989.0,2023-07-24
 15862,152mm 2S19 Msta-S,Self Propelled Artillery,destroyed,Soviet Union,USSR,Russia,RU,https://postimg.cc/dVwTyKh6,https://i.postimg.cc/dVwTyKh6/1041-Msta-S-destr-06-07-23.jpg,1989.0,2023-07-06
-15863,152mm 2S19 Msta-S,Self Propelled Artillery,destroyed,Soviet Union,USSR,Russia,RU,https://postimg.cc/yY8p4RrL,https://i.postimg.cc/yY8p4RrL/1050-msta-s-destr-26-12-233.jpg,1989.0,2033-12-26
+15863,152mm 2S19 Msta-S,Self Propelled Artillery,destroyed,Soviet Union,USSR,Russia,RU,https://postimg.cc/yY8p4RrL,https://i.postimg.cc/yY8p4RrL/1050-msta-s-destr-26-12-233.jpg,1989.0,2023-12-26
 15864,152mm 2S19 Msta-S,Self Propelled Artillery,destroyed,Soviet Union,USSR,Russia,RU,https://twitter.com/bayraktar_1love/status/1741157545555775986,https://twitter.com/bayraktar_1love/status/1741157545555775986,1989.0,
 15865,152mm 2S19 Msta-S,Self Propelled Artillery,destroyed,Soviet Union,USSR,Russia,RU,https://twitter.com/naalsio26/status/1743710017734189199,https://twitter.com/naalsio26/status/1743710017734189199,1989.0,
 15866,152mm 2S19 Msta-S,Self Propelled Artillery,destroyed,Soviet Union,USSR,Russia,RU,https://postimg.cc/mD2phRz2,https://i.postimg.cc/mD2phRz2/1005-msta-s-destr-05-01-24.jpg,1989.0,2024-01-05
@@ -16029,7 +16029,7 @@ id,name,type,status,manufacturer,manufacturer_abbr,user,user_abbr,image_proof_li
 16028,152mm 2S33 Msta-SM2,Self Propelled Artillery,captured,Russia,RU,Russia,RU,https://twitter.com/UAWeapons/status/1571545765138382852,https://twitter.com/UAWeapons/status/1571545765138382852,2013.0,
 16029,152mm 2S33 Msta-SM2,Self Propelled Artillery,captured,Russia,RU,Russia,RU,https://twitter.com/UAWeapons/status/1568901256038567938,https://twitter.com/UAWeapons/status/1568901256038567938,2013.0,
 16030,152mm 2S33 Msta-SM2,Self Propelled Artillery,captured,Russia,RU,Russia,RU,https://twitter.com/UAWeapons/status/1574853608344064000,https://twitter.com/UAWeapons/status/1574853608344064000,2013.0,
-16031,152mm 2S33 Msta-SM2,Self Propelled Artillery,captured,Russia,RU,Russia,RU,https://postimg.cc/HWwF34nD,https://i.postimg.cc/HWwF34nD/1021-msta-sm2.jpg,2013.0,1714-09-22
+16031,152mm 2S33 Msta-SM2,Self Propelled Artillery,captured,Russia,RU,Russia,RU,https://postimg.cc/HWwF34nD,https://i.postimg.cc/HWwF34nD/1021-msta-sm2.jpg,2013.0,2022-09-17
 16032,152mm 2S33 Msta-SM2,Self Propelled Artillery,captured,Russia,RU,Russia,RU,https://postimg.cc/QNkX76Bg,https://i.postimg.cc/QNkX76Bg/MSTA-SM2-Kharkiv-region.png,2013.0,2022-09-30
 16033,152mm 2S33 Msta-SM2,Self Propelled Artillery,damaged and captured,Russia,RU,Russia,RU,https://twitter.com/UAWeapons/status/1586070919994576896,https://twitter.com/UAWeapons/status/1586070919994576896,2013.0,
 16034,152mm 2S33 Msta-SM2,Self Propelled Artillery,captured,Russia,RU,Russia,RU,https://postimg.cc/BbH5pwWP,https://i.postimg.cc/BbH5pwWP/1018-msta-sm2-capt-and-destr-Kamaz.jpg,2013.0,2022-11-17
@@ -16226,7 +16226,7 @@ id,name,type,status,manufacturer,manufacturer_abbr,user,user_abbr,image_proof_li
 16225,122mm BM-21 Grad,Multiple Rocket Launchers,destroyed,Soviet Union,USSR,Russia,RU,https://postimg.cc/fyGzcP0n,https://i.postimg.cc/fyGzcP0n/1015-bm21-destr-14-03-23.png,1963.0,2023-03-14
 16226,122mm BM-21 Grad,Multiple Rocket Launchers,destroyed,Soviet Union,USSR,Russia,RU,https://twitter.com/UAWeapons/status/1636712779888443392,https://twitter.com/UAWeapons/status/1636712779888443392,1963.0,
 16227,122mm BM-21 Grad,Multiple Rocket Launchers,destroyed,Soviet Union,USSR,Russia,RU,https://postimg.cc/SxpyT7Mp,https://i.postimg.cc/SxpyT7Mp/1014-bm21-destr-19-03-23.jpg,1963.0,2023-03-19
-16228,122mm BM-21 Grad,Multiple Rocket Launchers,destroyed,Soviet Union,USSR,Russia,RU,https://postimg.cc/R0NhTqLP,https://i.postimg.cc/R0NhTqLP/4437.png,1963.0,2032-03-23
+16228,122mm BM-21 Grad,Multiple Rocket Launchers,destroyed,Soviet Union,USSR,Russia,RU,https://postimg.cc/R0NhTqLP,https://i.postimg.cc/R0NhTqLP/4437.png,1963.0,2022-03-23
 16229,122mm BM-21 Grad,Multiple Rocket Launchers,destroyed,Soviet Union,USSR,Russia,RU,https://postimg.cc/9MqrDphc,https://i.postimg.cc/9MqrDphc/461.png,1963.0,2023-03-25
 16230,122mm BM-21 Grad,Multiple Rocket Launchers,destroyed,Soviet Union,USSR,Russia,RU,https://postimg.cc/5NNqzxJL,https://i.postimg.cc/5NNqzxJL/44655.png,1963.0,2023-04-02
 16231,122mm BM-21 Grad,Multiple Rocket Launchers,destroyed,Soviet Union,USSR,Russia,RU,https://postimg.cc/prMfqVSf,https://i.postimg.cc/prMfqVSf/443.png,1963.0,2023-01-16
@@ -19096,7 +19096,7 @@ id,name,type,status,manufacturer,manufacturer_abbr,user,user_abbr,image_proof_li
 19101,Ural-4320,"Trucks, Vehicles, and Jeeps",destroyed,Russia,RU,Russia,RU,https://postlmg.cc/yW3KhX2W,https://postlmg.cc/yW3KhX2W,1977.0,
 19102,Ural-4320,"Trucks, Vehicles, and Jeeps",destroyed,Russia,RU,Russia,RU,https://postimg.cc/7Z7Brk7P,https://i.postimg.cc/7Z7Brk7P/42.png,1977.0,2023-03-22
 19103,Ural-4320,"Trucks, Vehicles, and Jeeps",destroyed,Russia,RU,Russia,RU,https://postimg.cc/4xfn8p5z,https://i.postimg.cc/4xfn8p5z/43ff.png,1977.0,2023-03-20
-19104,Ural-4320,"Trucks, Vehicles, and Jeeps",destroyed,Russia,RU,Russia,RU,https://postimg.cc/FsPWFVkH,https://i.postimg.cc/FsPWFVkH/421.png,1977.0,2022-01-30
+19104,Ural-4320,"Trucks, Vehicles, and Jeeps",destroyed,Russia,RU,Russia,RU,https://postimg.cc/FsPWFVkH,https://i.postimg.cc/FsPWFVkH/421.png,1977.0,2022-11-30
 19105,Ural-4320,"Trucks, Vehicles, and Jeeps",destroyed,Russia,RU,Russia,RU,https://twitter.com/naalsio26/status/1640515392148852736,https://twitter.com/naalsio26/status/1640515392148852736,1977.0,
 19106,Ural-4320,"Trucks, Vehicles, and Jeeps",destroyed,Russia,RU,Russia,RU,https://twitter.com/naalsio26/status/1640515392148852736,https://twitter.com/naalsio26/status/1640515392148852736,1977.0,
 19107,Ural-4320,"Trucks, Vehicles, and Jeeps",destroyed,Russia,RU,Russia,RU,https://postimg.cc/B6PtYKXg,https://i.postimg.cc/B6PtYKXg/3d.png,1977.0,2023-03-28
