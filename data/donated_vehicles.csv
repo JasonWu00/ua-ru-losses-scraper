@@ -1,0 +1,381 @@
+id,vehicle_name,vehicle_type,supplier,supplier_abbr,recipient,recipient_abbr,count,is_delivered,is_soviet,proof
+0,Su-25,Aircraft,Macedonia,MAC,Ukraine,UA,4,True,False,https://i.postimg.cc/9fFtzknc/47j.png
+1,MiG-29AS'/UBS',Aircraft,Slovakia,SLVK,Ukraine,UA,10,True,False,https://i.postimg.cc/BbwRwDPK/87500.png
+2,MiG-29As/UB,Aircraft,Slovakia,SLVK,Ukraine,UA,3,True,False,https://i.postimg.cc/mgrKWmyF/87500.png
+3,MiG-29,Aircraft,Poland,PL,Ukraine,UA,14,True,False,https://i.postimg.cc/x17pDndW/8740.png
+4,F-16A/B,Aircraft,Netherlands,NTHL,Ukraine,UA,24,True,False,https://i.postimg.cc/WbLWWzmG/30765
+5,F-16AM/BM,Aircraft,Denmark,DEN,Ukraine,UA,19,True,False,https://i.postimg.cc/WbLWWzmG/30765
+6,F-16AM/BM,Aircraft,Norway,NOR,Ukraine,UA,14,True,False,https://i.postimg.cc/nzS84vvB/658
+7,F-16AM/BM,Aircraft,Belgium,BLG,Ukraine,UA,30,True,False,https://i.postimg.cc/nzS84vvB/658
+8,Mirage 2000-5 fighter jet,Aircraft,France,FR,Ukraine,UA,6,True,False,https://i.postimg.cc/5t9gqkv2/mirage2000
+9,An-32B,Aircraft,Croatia,CRO,Ukraine,UA,2,True,False,https://i.postimg.cc/tTkfkjZ7/an32b.jpg
+10,Mi-17V5,Helicopters,United States,USA,Ukraine,UA,20,True,False,https://i.postimg.cc/RV5jF49Q/image.jpg
+11,Mi-8MT,Helicopters,United States,USA,Ukraine,UA,1,True,False,https://i.postimg.cc/2S62YqVS/image.jpg
+12,Mi-24V,Helicopters,Czech Republic,CZ,Ukraine,UA,8,False,False,https://i.postimg.cc/zBtTMPNc/image.jpg
+13,Mi-2,Helicopters,Slovakia,SLVK,Ukraine,UA,1,True,False,https://i.postimg.cc/L6J37yqF/6689.png
+14,Mi-17,Helicopters,Slovakia,SLVK,Ukraine,UA,4,True,False,https://i.postimg.cc/SxpDHwwY/886.png
+15,Mi-2,Helicopters,Latvia,LTV,Ukraine,UA,2,True,False,https://i.postimg.cc/qMqGkSW0/image.jpg
+16,Mi-17,Helicopters,Latvia,LTV,Ukraine,UA,4,True,False,https://i.postimg.cc/d1YNhVXj/image.jpg
+17,Westland Sea King,Helicopters,United Kingdom,UK,Ukraine,UA,3,True,False,https://i.postimg.cc/nzVD3QJZ/image.jpg
+18,Mi-8T,Helicopters,Croatia,CRO,Ukraine,UA,2,True,False,https://i.postimg.cc/mDYGgVpN/873.png
+19,Mi-8PS,Helicopters,Croatia,CRO,Ukraine,UA,1,True,False,https://i.postimg.cc/1tq3cpCf/487.png
+20,Mi-8MTV-1,Helicopters,Croatia,CRO,Ukraine,UA,10,True,False,https://i.postimg.cc/bYgGwRtR/38kp.png
+21,Mi-8MTV-1VA,Helicopters,Croatia,CRO,Ukraine,UA,1,True,False,https://i.postimg.cc/NGJVtWp7/3u7.png
+22,Mi-24V,Helicopters,Poland,PL,Ukraine,UA,12,True,False,https://i.postimg.cc/kgrpz8QX/image.jpg
+23,Mi-8,Helicopters,Poland,PL,Ukraine,UA,2,True,False,https://postimg.cc/K1YtCpyR
+24,Mi-2AM-1 medevac helicopter,Helicopters,Poland,PL,Ukraine,UA,1,True,False,https://i.postimg.cc/8cWpMvGc/Mi
+25,Bell 412-HP Medium Transport Helicopter,Helicopters,Poland,PL,Ukraine,UA,1,True,False,https://x.com/Jeff21461/status/1870454539243188346
+26,Mi-8,Helicopters,Lithuania,LITH,Ukraine,UA,2,True,False,https://postimg.cc/K1YtCpyR
+27,Mi-171E transport helicopter,Helicopters,NONE,NONE,Ukraine,UA,2,True,False,https://postimg.cc/K1YtCpyR
+28,Mi-24V,Helicopters,Macedonia,MAC,Ukraine,UA,10,True,False,https://i.postimg.cc/cCxNzw1x/35y.png
+29,Mi-24K,Helicopters,Macedonia,MAC,Ukraine,UA,2,True,False,https://i.postimg.cc/Wbs3RqYJ/387k.png
+30,Ka-32A11BC,Helicopters,Portugal,POR,Ukraine,UA,6,True,False,https://i.postimg.cc/xj7bC4RB/468.png
+31,Sea King helicopter,Helicopters,Germany,GER,Ukraine,UA,6,True,False,https://i.postimg.cc/Xvj5QHGF/sea
+32,Bayraktar TB2,Unmanned Combat Aerial Vehicles,Turkey,TRK,Ukraine,UA,35,True,False,https://i.postimg.cc/N0n17mfj/ezgif
+33,T-72M1,Tanks,Germany,GER,Ukraine,UA,20,True,False,https://i.postimg.cc/W4cTJ6wp/image.jpg
+34,Ringtausch,Tanks,Germany,GER,Ukraine,UA,0,True,False,https://www.oryxspioenkop.com/2022/09/flawed
+35,T-72M(1),Tanks,Czech Republic,CZ,Ukraine,UA,98,True,False,https://postimg.cc/Q9qCLVn4
+36,T-72M(R)s and T-72M1(R),Tanks,Poland,PL,Ukraine,UA,280,True,False,https://i.postimg.cc/N0Bdqc24/image.jpg
+37,T-72A,Tanks,Macedonia,MAC,Ukraine,UA,31,True,False,https://twitter.com/UAWeapons/status/1552975117336076290
+38,M-55S',Tanks,Germany,GER,Ukraine,UA,28,True,False,https://i.postimg.cc/HsbNf3PT/luuf95ms2x9a1.jpg
+39,Ringtausch,Tanks,Germany,GER,Ukraine,UA,0,True,False,https://www.oryxspioenkop.com/2022/09/flawed
+40,T-72EA,Tanks,Netherlands,NTHL,Ukraine,UA,45,True,False,https://i.postimg.cc/Sxc8ZhbN/T
+41,T-72,Tanks,Netherlands,NTHL,Ukraine,UA,30,True,False,https://i.postimg.cc/KjygcsNq/ea
+42,T-72EA,Tanks,United States,USA,Ukraine,UA,45,True,False,https://i.postimg.cc/Sxc8ZhbN/T
+43,Leopard 2A4,Tanks,Poland,PL,Ukraine,UA,14,True,False,https://i.postimg.cc/CMDHQWVS/image.jpg
+44,Leopard 2A4,Tanks,Canada,CAN,Ukraine,UA,8,True,False,https://i.postimg.cc/m2ynMfLn/image.jpg
+45,Leopard 2A4,Tanks,Norway,NOR,Ukraine,UA,8,False,False,https://i.postimg.cc/sDKPLNRF/image.jpg
+46,Leopard 2A6,Tanks,Germany,GER,Ukraine,UA,18,True,False,https://i.postimg.cc/5NgW8H6x/German
+47,Leopard 2A6,Tanks,Portugal,POR,Ukraine,UA,3,False,False,https://i.postimg.cc/YSwNkSzW/Portuguese
+48,Challenger 2,Tanks,United Kingdom,UK,Ukraine,UA,14,True,False,https://i.postimg.cc/vmwZGPGX/Defence
+49,PT-91,Tanks,Poland,PL,Ukraine,UA,60,True,False,https://i.postimg.cc/xdh81wQM/image.jpg
+50,Leopard 2A4,Tanks,Spain,SP,Ukraine,UA,29,True,False,https://i.postimg.cc/tJfPcRg7/Spanish
+51,Strv 122,Tanks,Sweden,SWE,Ukraine,UA,10,True,False,https://i.postimg.cc/sDv4gfZD/744.png
+52,Leopard 1A5,Tanks,Netherlands,NTHL,Ukraine,UA,170,True,False,https://i.postimg.cc/Bbc9YbpB/German
+53,Leopard 1A5BE,Tanks,Netherlands,NTHL,Ukraine,UA,0,True,False,https://i.postimg.cc/K8xnNB03/6717119885
+54,M1A1 Abrams',Tanks,United States,USA,Ukraine,UA,31,True,False,https://i.postimg.cc/902s7V2R/American
+55,Leopard 2A4,Tanks,Netherlands,NTHL,Ukraine,UA,14,True,False,https://i.postimg.cc/X7qZPyz7/52.png
+56,T-72EA,Tanks,Denmark,DEN,Ukraine,UA,25,True,False,https://i.postimg.cc/Sxc8ZhbN/T
+57,M1A1 Abram,Tanks,Australia,AUS,Ukraine,UA,49,True,False,https://i.postimg.cc/902s7V2R/American
+58,Fennek,Armored Fighting Vehicles,Netherlands,NTHL,Ukraine,UA,9,True,False,https://i.postimg.cc/hGRN1RXB/image.jpg
+59,AMX-10 RC(R),Armored Fighting Vehicles,France,FR,Ukraine,UA,40,True,False,https://i.postimg.cc/43ww7Dtw/287.png
+60,BPzV Svatava,Armored Fighting Vehicles,Czech Republic,CZ,Ukraine,UA,0,True,False,https://i.postimg.cc/3NL0v8Gn/Czech
+61,FV107 Scimitar Mk II,Armored Fighting Vehicles,United Kingdom,UK,Ukraine,UA,23,True,False,https://i.postimg.cc/s2kMG9mt/251.png
+62,Combat And Logistics Vehicle,Armored Fighting Vehicles,United Kingdom,UK,Ukraine,UA,47,True,False,https://i.postimg.cc/hPQfFk76/image.jpg
+63,BRDM-2,Armored Fighting Vehicles,Poland,PL,Ukraine,UA,9,True,False,https://i.postimg.cc/3RTtLBcz/Polish
+64,BVP-1,Infantry Fighting Vehicles,Czech Republic,CZ,Ukraine,UA,50,True,False,https://i.postimg.cc/hGNxmY3z/image.jpg
+65,Pbv 501A,Infantry Fighting Vehicles,Czech Republic,CZ,Ukraine,UA,56,True,False,https://postlmg.cc/Js708DVC
+66,BWP-1,Infantry Fighting Vehicles,Poland,PL,Ukraine,UA,250,True,False,https://twitter.com/UAWeapons/status/1549451122804391938
+67,BVP M-80A,Infantry Fighting Vehicles,Slovenia,SLVN,Ukraine,UA,38,True,False,https://i.postimg.cc/qBKbQ5dB/image.jpg
+68,BVP M-80A,Infantry Fighting Vehicles,Germany,GER,Ukraine,UA,30,True,False,https://i.postimg.cc/qBKbQ5dB/image.jpg
+69,BMP-1A1,Infantry Fighting Vehicles,Germany,GER,Ukraine,UA,40,True,False,https://twitter.com/BuschModelar/status/1650887278728806400
+70,Ringtausch,Infantry Fighting Vehicles,Germany,GER,Ukraine,UA,0,True,False,https://www.oryxspioenkop.com/2022/09/flawed
+71,BVP-1,Infantry Fighting Vehicles,Germany,GER,Ukraine,UA,30,True,False,https://i.postimg.cc/CMWqBn6p/336.png
+72,Ringtausch,Infantry Fighting Vehicles,Germany,GER,Ukraine,UA,0,True,False,https://www.oryxspioenkop.com/2022/09/flawed
+73,Marder 1A3,Infantry Fighting Vehicles,Germany,GER,Ukraine,UA,190,False,False,https://i.postimg.cc/t4sVt8L2/4h8.png
+74,M2A2 ODS Bradley,Infantry Fighting Vehicles,United States,USA,Ukraine,UA,300,True,False,https://i.postimg.cc/T12KysVj/image.jpg
+75,M7 BFIST,Infantry Fighting Vehicles,United States,USA,Ukraine,UA,4,True,False,https://i.postimg.cc/KvdwmWmy/image.jpg
+76,CV9040C,Infantry Fighting Vehicles,Sweden,SWE,Ukraine,UA,50,True,False,https://i.postimg.cc/rskRznhC/image.jpg
+77,CV9035NL,Infantry Fighting Vehicles,Denmark,DEN,Ukraine,UA,35,True,False,https://i.postimg.cc/rskRznhC/image.jpg
+78,CV9035,Infantry Fighting Vehicles,Denmark,DEN,Ukraine,UA,40,True,False,https://i.postimg.cc/rskRznhC/image.jpg
+79,KTO Rosomaks**,Infantry Fighting Vehicles,Poland,PL,Ukraine,UA,200,True,False,https://i.postimg.cc/T1HqXqtd/Polish
+80,AIFV-B-C25,Infantry Fighting Vehicles,NONE,NONE,Ukraine,UA,0,True,False,https://i.postimg.cc/vB1Sbrv6/24k.png
+81,BMP-1A1,Infantry Fighting Vehicles,Greece,GRE,Ukraine,UA,0,True,False,https://twitter.com/BuschModelar/status/1650887278728806400
+82,LAV-2 Coyote Reconnaissance Vehicle,Infantry Fighting Vehicles,Canada,CAN,Ukraine,UA,64,True,False,https://x.com/Jeff21461/status/1832038188421931249
+83,YPR-765,Armored Personnel Carriers,Netherlands,NTHL,Ukraine,UA,348,False,False,https://i.postimg.cc/MZBfxcCd/54g.png
+84,YPR-765 PRGWT,Armored Personnel Carriers,Netherlands,NTHL,Ukraine,UA,25,True,False,https://i.postimg.cc/MZBfxcCd/54g.png
+85,M113,Armored Personnel Carriers,Lithuania,LITH,Ukraine,UA,100,True,False,https://postlmg.cc/DSdGnJ98
+86,M577,Armored Personnel Carriers,Lithuania,LITH,Ukraine,UA,0,True,False,https://i.postimg.cc/c4w5X5wM/428.png
+87,FV103 Spartan,Armored Personnel Carriers,United Kingdom,UK,Ukraine,UA,35,True,False,https://i.postimg.cc/1XZYQGZN/image.jpg
+88,M113AS4,Armored Personnel Carriers,Australia,AUS,Ukraine,UA,56,True,False,https://i.postimg.cc/m2B6pywv/image.jpg
+89,M113G3DK/G4DK,Armored Personnel Carriers,Denmark,DEN,Ukraine,UA,54,True,False,https://i.postimg.cc/TP1ppf6s/26.png
+90,M113,Armored Personnel Carriers,United States,USA,Ukraine,UA,900,True,False,https://twitter.com/UAWeapons/status/1547293090565816320
+91,M113 Armoured Medical Treatment Vehicle,Armored Personnel Carriers,United States,USA,Ukraine,UA,300,True,False,https://twitter.com/JackDetsch/status/1556686677464293382
+92,M113,Armored Personnel Carriers,Portugal,POR,Ukraine,UA,48,True,False,https://i.postimg.cc/cCjHmbwF/image.jpg
+93,VAB,Armored Personnel Carriers,France,FR,Ukraine,UA,284,True,False,https://twitter.com/UAWeapons/status/1552795141215248384
+94,Sisu XA-185,Armored Personnel Carriers,Finland,FIN,Ukraine,UA,20,True,False,https://i.postimg.cc/cLb6MZBw/image.jpg
+95,FV104 Samaritan,Armored Personnel Carriers,United Kingdom,UK,Ukraine,UA,40,True,False,https://i.postimg.cc/hv68DVsB/mfikyhlwz
+96,TAB-71M,Armored Personnel Carriers,Romania,ROM,Ukraine,UA,0,True,False,https://i.postimg.cc/8P21Fmrv/29425632.jpg
+97,M113,Armored Personnel Carriers,Spain,SP,Ukraine,UA,72,True,False,https://i.postimg.cc/NFPR3yP2/1657640830.jpg
+98,M113,Armored Personnel Carriers,United Kingdom,UK,Ukraine,UA,46,True,False,https://twitter.com/DefenceHQ/status/1612457937074622464
+99,Bandvagn BvS 10,Armored Personnel Carriers,Netherlands,NTHL,Ukraine,UA,28,True,False,https://i.postimg.cc/j5kM6BK8/6h6.jpg
+100,Bandvagn BV 206S',Armored Personnel Carriers,Italy,ITA,Ukraine,UA,0,True,False,https://i.postimg.cc/cHghXrrY/image.jpg
+101,Bandvagn BV 206S',Armored Personnel Carriers,Belgium,BLG,Ukraine,UA,11,True,False,https://i.postimg.cc/cHghXrrY/image.jpg
+102,Stryker,Armored Personnel Carriers,United States,USA,Ukraine,UA,400,True,False,https://i.postimg.cc/Bv41HpwP/a1.png
+103,Valuk,Armored Personnel Carriers,Slovenia,SLVN,Ukraine,UA,20,True,False,https://i.postimg.cc/4NqbLPKw/Slovenian
+104,Bandvagn BV 206S',Armored Personnel Carriers,Germany,GER,Ukraine,UA,78,True,False,https://i.postimg.cc/NM88mhmJ/maschinengewehr
+105,GTK Boxer,Armored Personnel Carriers,Germany,GER,Ukraine,UA,0,True,False,https://i.postimg.cc/8c4XxdyP/GTK
+106,M113,Armored Personnel Carriers,Belgium,BLG,Ukraine,UA,40,True,False,https://i.postimg.cc/rFLQ2sXB/13.webp
+107,VCC-2 (a modified version of the M113A1),Armored Personnel Carriers,Italy,ITA,Ukraine,UA,10,True,False,https://x.com/Jeff21461/status/1799211093673267312
+108,M1117 ASV,Armored Personnel Carriers,United States,USA,Ukraine,UA,400,True,False,https://i.postimg.cc/qRdDXhYv/46.png
+109,CVRT family armored vehicle,Armored Personnel Carriers,United Kingdom,UK,Ukraine,UA,424,True,False,https://i.postimg.cc/yxMpNDXw/321.png
+110,BTR-60PB,Armored Personnel Carriers,Bulgaria,BUL,Ukraine,UA,110,True,False,https://i.postimg.cc/2SGFGJH1/image.jpg
+111,MT-LB,Armored Personnel Carriers,Poland,PL,Ukraine,UA,60,True,False,https://i.postimg.cc/pTCrD8HJ/3200.jpg
+112,Patria 6x6 Common Armoured Vehicle System Armoured Personnel Carrier,Armored Personnel Carriers,Latvia,LTV,Ukraine,UA,42,True,False,https://x.com/Jeff21461/status/1833959692244263212
+113,RG-31 Nyala Ambulance,MRAP Vehicles,Spain,SP,Ukraine,UA,1,True,False,https://i.postimg.cc/gjfXDMMZ/Spanish
+114,Armoured ambulances based on the BMR APC,MRAP Vehicles,Spain,SP,Ukraine,UA,2,True,False,https://i.postimg.cc/YSMn84jd/4000.jpg
+115,Bushmaster Protected Mobility Vehicle,MRAP Vehicles,Australia,AUS,Ukraine,UA,120,True,False,https://i.postimg.cc/mr2pnvmc/image.jpg
+116,Alvis 4s ''Mamba'',MRAP Vehicles,Estonia,EST,Ukraine,UA,7,True,False,https://i.postimg.cc/SNZj5ph0/image.jpg
+117,Wolfhound Heavy Tactical Support Vehicle,MRAP Vehicles,United Kingdom,UK,Ukraine,UA,0,True,False,https://i.postimg.cc/tTS2HNbD/98e6297850dd76d6.jpg
+118,Mastiff Protected Patrol Vehicle,MRAP Vehicles,United Kingdom,UK,Ukraine,UA,39,True,False,https://i.postimg.cc/NGdWgRD3/288680229
+119,International M1224 MaxxPro,MRAP Vehicles,United States,USA,Ukraine,UA,440,True,False,https://i.postimg.cc/90DZ0QBK/image.jpg
+120,BMC Kirpi**,MRAP Vehicles,Turkey,TRK,Ukraine,UA,200,True,False,https://twitter.com/UAWeapons/status/1556763621002297345
+121,Dingo,MRAP Vehicles,Germany,GER,Ukraine,UA,50,True,False,https://i.postimg.cc/Fzx8bqFP/German
+122,Cougar 4x4,MRAP Vehicles,United States,USA,Ukraine,UA,37,True,False,https://i.postimg.cc/g0sLDhfS/a2.png
+123,Cougar 6x6,MRAP Vehicles,United States,USA,Ukraine,UA,0,True,False,https://i.postimg.cc/T2rKMFWN/image.jpg
+124,Oshkosh M-ATV,MRAP Vehicles,United States,USA,Ukraine,UA,0,True,False,https://twitter.com/Tendar/status/1637003471764299776
+125,International M1224 MaxxPro,MRAP Vehicles,Albania,ALB,Ukraine,UA,22,True,False,https://i.postimg.cc/0Q2yMCB0/3288.png
+126,Unknown MRAP,MRAP Vehicles,United States,USA,Ukraine,UA,520,True,False,https://www.defense.gov/News/Releases/Release/Article/3261263/more
+127,Dingo 2s Equipped With CORTEX Typhon RWS To Counter Uncrewed Aerial Systems (C-UAS),MRAP Vehicles,Norway,NOR,Ukraine,UA,0,True,False,https://i.postimg.cc/sfkRv3YC/226.jpg
+128,FFG MRAP/APC,MRAP Vehicles,Germany,GER,Ukraine,UA,400,False,False,https://www.bundesregierung.de/breg
+129,HMMWV,Infantry Mobility Vehicles,United States,USA,Ukraine,UA,5000,True,False,https://i.postimg.cc/P5Z3yFMz/American
+130,Husky Tactical Support Vehicle,Infantry Mobility Vehicles,United Kingdom,UK,Ukraine,UA,400,False,False,https://i.postimg.cc/B6Bf5yxb/FVM857
+131,Roshel Senator,Infantry Mobility Vehicles,Canada,CAN,Ukraine,UA,330,True,False,https://i.postimg.cc/DfDVRNDs/image.jpg
+132,Roshel Senator,Infantry Mobility Vehicles,United States,USA,Ukraine,UA,300,True,False,https://i.postimg.cc/yYmdHjY8/78463b00388d3723.jpg
+133,Roshel Senator,Infantry Mobility Vehicles,Czech Republic,CZ,Ukraine,UA,70,True,False,https://i.postimg.cc/yYmdHjY8/78463b00388d3723.jpg
+134,Roshel Senator,Infantry Mobility Vehicles,NONE,NONE,Ukraine,UA,1110,True,False,https://i.postimg.cc/DfDVRNDs/image.jpg
+135,AMZ Dzik-2,Infantry Mobility Vehicles,Poland,PL,Ukraine,UA,19,True,False,https://i.postimg.cc/pLcgFstM/image.jpg
+136,VTLM Lince,Infantry Mobility Vehicles,Italy,ITA,Ukraine,UA,0,True,False,https://twitter.com/UAWeapons/status/1541017838202359809
+137,Iveco LAV III,Infantry Mobility Vehicles,Norway,NOR,Ukraine,UA,14,True,False,https://twitter.com/UAWeapons/status/1585641573433298945
+138,HMMWV,Infantry Mobility Vehicles,Luxembourg,LUX,Ukraine,UA,28,True,False,https://i.postimg.cc/sfZqtknC/image.jpg
+139,Inkas Titan-S 4x4,Infantry Mobility Vehicles,NONE,NONE,Ukraine,UA,0,True,False,https://twitter.com/praisethesteph/status/1600479852724830208
+140,HMMWV,Infantry Mobility Vehicles,Slovenia,SLVN,Ukraine,UA,20,True,False,https://twitter.com/clashreport/status/1633527609953771522
+141,BATT UMG,Infantry Mobility Vehicles,NONE,NONE,Ukraine,UA,100,True,False,https://twitter.com/praisethesteph/status/1604570764606308355
+142,Panthera T6,Infantry Mobility Vehicles,NONE,NONE,Ukraine,UA,0,True,False,https://i.postimg.cc/vBRVNZmH/image.jpg
+143,LMV Lynx,Infantry Mobility Vehicles,Belgium,BLG,Ukraine,UA,360,True,False,https://i.postimg.cc/MHjw2hRJ/Iveco
+144,Otokar Cobra IIs**,Infantry Mobility Vehicles,Turkey,TRK,Ukraine,UA,20,True,False,https://i.postimg.cc/hjR3mCLh/76hp.png
+145,BATT UMG,Infantry Mobility Vehicles,Germany,GER,Ukraine,UA,66,True,False,https://i.postimg.cc/mrhRsbRk/1692d4886e3417a1cad6372930a8256d.png
+146,Light Tactical Vehicle,Infantry Mobility Vehicles,United States,USA,Ukraine,UA,200,True,False,https://i.postimg.cc/HLLJbnT8/558.png
+147,Caracal 4x4,Infantry Mobility Vehicles,Germany,GER,Ukraine,UA,25,True,False,https://i.postimg.cc/13Pf7tYJ/1000
+148,Ghurka LAPV,Infantry Mobility Vehicles,Canada,CAN,Ukraine,UA,13,True,False,https://i.postimg.cc/Xvf5qrK2/ghurka.jpg
+149,BOV Armoured Personnel Carrier,Infantry Mobility Vehicles,Slovenia,SLVN,Ukraine,UA,26,True,False,https://x.com/Jeff21461/status/1801271483886338255
+150,Coyote tactical support vehicle,Infantry Mobility Vehicles,United Kingdom,UK,Ukraine,UA,1,True,False,https://x.com/TemaTemnyj/status/1859660903177912723
+151,122mm D-30,Towed Artillery,Estonia,EST,Ukraine,UA,20,True,False,https://i.postimg.cc/qqh7wzwc/5422.jpg
+152,155mm M777,Towed Artillery,United States,USA,Ukraine,UA,187,True,False,https://i.postimg.cc/RF9wv2RQ/653.jpg
+153,155mm M777,Towed Artillery,Australia,AUS,Ukraine,UA,6,True,False,https://i.postimg.cc/x1G5C9rX/79.png
+154,155mm M777,Towed Artillery,Canada,CAN,Ukraine,UA,4,True,False,https://i.postimg.cc/CKP5Zgdh/37h.png
+155,Including,Towed Artillery,Canada,CAN,Ukraine,UA,0,True,False,https://www.cbc.ca/news/politics/ukraine
+156,152mm D-20,Towed Artillery,Czech Republic,CZ,Ukraine,UA,0,True,False,https://i.postimg.cc/XJgn78sw/image.jpg
+157,155mm FH-70,Towed Artillery,Estonia,EST,Ukraine,UA,24,True,False,https://i.postimg.cc/wv7KPdBJ/image.jpg
+158,155mm FH-70,Towed Artillery,Italy,ITA,Ukraine,UA,0,True,False,https://i.postimg.cc/Jh5jGT6S/image.jpg
+159,130mm M-46,Towed Artillery,Croatia,CRO,Ukraine,UA,15,True,False,https://i.postimg.cc/43xn2zsC/Haubice
+160,105mm L118/L119,Towed Artillery,United Kingdom,UK,Ukraine,UA,36,True,False,https://i.postimg.cc/cLssyy3J/image.jpg
+161,105mm M119,Towed Artillery,United States,USA,Ukraine,UA,72,True,False,https://twitter.com/SecDef/status/1560962109713833985
+162,155mm TRF1s*,Towed Artillery,France,FR,Ukraine,UA,21,True,False,https://i.postimg.cc/xCs3mYBQ/33800.png
+163,105mm M101,Towed Artillery,Slovenia,SLVN,Ukraine,UA,16,True,False,https://i.postimg.cc/B6J0jggs/photo
+164,105mm M101A1,Towed Artillery,Portugal,POR,Ukraine,UA,9,True,False,https://i.postimg.cc/B6J0jggs/photo
+165,105mm OTO Melara Mod 56,Towed Artillery,Spain,SP,Ukraine,UA,10,True,False,https://i.postimg.cc/DwTpfxrP/My
+166,122mm D-30,Towed Artillery,Croatia,CRO,Ukraine,UA,25,True,False,https://i.postimg.cc/zvxt53LF/a8c76607751f9dfb1e83.jpg
+167,152mm 152 K89s (2A36 Giatsint-Bs),Towed Artillery,Finland,FIN,Ukraine,UA,152,True,False,https://twitter.com/UAWeapons/status/1646193566299963411
+168,152mm M1981s (D-20s),Towed Artillery,Romania,ROM,Ukraine,UA,0,True,False,https://twitter.com/UAWeapons/status/1658496648366940160
+169,130mm 130 K54s (M-46s),Towed Artillery,Finland,FIN,Ukraine,UA,130,True,False,https://twitter.com/UAWeapons/status/1707353673750229261
+170,152mm DANA M2,Towed Artillery,Czech Republic,CZ,Ukraine,UA,30,True,False,https://i.postimg.cc/xCMW88wV/Czech
+171,122mm 2S1 Gvozdika,Towed Artillery,Czech Republic,CZ,Ukraine,UA,1,True,False,https://i.postimg.cc/d0k0bCNv/76y.png
+172,122mm 2S1 Gvozdika,Towed Artillery,Bulgaria,BUL,Ukraine,UA,1,True,False,https://i.postimg.cc/d0k0bCNv/76y.png
+173,122mm 2S1 Go dzik,Towed Artillery,Poland,PL,Ukraine,UA,70,True,False,https://twitter.com/UAWeapons/status/1539936503568257025
+174,155mm Caesar 6x6,Towed Artillery,France,FR,Ukraine,UA,160,True,False,https://i.postimg.cc/tTpYHMmv/image.jpg
+175,155mm Caesar 8x8,Towed Artillery,Denmark,DEN,Ukraine,UA,19,True,False,https://i.postimg.cc/J7TsKhyQ/Danish
+176,155mm Caesar,Towed Artillery,Belgium,BLG,Ukraine,UA,3,True,False,https://i.postimg.cc/tTpYHMmv/image.jpg
+177,155mm Caesar,Towed Artillery,France,FR,Ukraine,UA,72,True,False,https://i.postimg.cc/tTpYHMmv/image.jpg
+178,155mm M109A3GN,Towed Artillery,Norway,NOR,Ukraine,UA,23,True,False,https://i.postimg.cc/0j17nhQD/image.jpg
+179,155mm PzH 2000,Towed Artillery,Netherlands,NTHL,Ukraine,UA,8,True,False,https://i.postimg.cc/nzB2tF3S/683.png
+180,155mm M109,Towed Artillery,Netherlands,NTHL,Ukraine,UA,0,True,False,https://i.postimg.cc/tg85Cc7Q/65g.png
+181,155mm PzH 2000,Towed Artillery,Germany,GER,Ukraine,UA,0,False,False,https://i.postimg.cc/1R0kZg0p/German
+182,155mm PzH 2000,Towed Artillery,Italy,ITA,Ukraine,UA,6,True,False,https://i.postimg.cc/1R0kZg0p/German
+183,155mm AHS Krab,Towed Artillery,Poland,PL,Ukraine,UA,54,True,False,https://i.postimg.cc/SxHT9q7S/Polish
+184,LPG WDSz,Towed Artillery,Poland,PL,Ukraine,UA,0,True,False,https://i.postimg.cc/d3ktgHtZ/image.jpg
+185,155mm ShKH Zuzana 2s*,Towed Artillery,Slovakia,SLVK,Ukraine,UA,16,False,False,https://i.postimg.cc/sgPJ6D6F/image.jpg
+186,155mm M109A5,Towed Artillery,Latvia,LTV,Ukraine,UA,6,True,False,https://i.postimg.cc/tg85Cc7Q/65g.png
+187,155mm M109L,Towed Artillery,Italy,ITA,Ukraine,UA,100,True,False,https://twitter.com/UAWeapons/status/1586001454426619906
+188,120mm Panzerm rser M113,Towed Artillery,Lithuania,LITH,Ukraine,UA,12,True,False,https://i.postimg.cc/sDLv5Wrn/image.jpg
+189,122mm 2S1 Gvozdika,Towed Artillery,NONE,NONE,Ukraine,UA,1,True,False,https://i.postimg.cc/ncHX2LN1/Bulgarian
+190,155mm M109A4BE,Towed Artillery,United Kingdom,UK,Ukraine,UA,28,True,False,https://i.postimg.cc/jSZK8crc/34.png
+191,81mm/120mm M113 Mortar Variant,Towed Artillery,Spain,SP,Ukraine,UA,5,True,False,https://i.postimg.cc/NFPR3yP2/1657640830.jpg
+192,155mm AS-90,Towed Artillery,United Kingdom,UK,Ukraine,UA,68,True,False,https://i.postimg.cc/ZKrzkRnt/1302.jpg
+193,155mm M109A6,Towed Artillery,United States,USA,Ukraine,UA,18,True,False,https://i.postimg.cc/WpWB7bMy/Fv
+194,120mm Alakran Mortar On Toyota Land Cruisers**,Towed Artillery,Spain,SP,Ukraine,UA,0,True,False,https://i.postimg.cc/vZtHqq7F/3277.png
+195,122mm 122 PSH 74s (2S1 Gvozdikas),Towed Artillery,Finland,FIN,Ukraine,UA,122,True,False,https://i.postimg.cc/YCXN9Yg4/6530.png
+196,155mm Archer Artillery System,Towed Artillery,Sweden,SWE,Ukraine,UA,8,False,False,https://i.postimg.cc/tTBFhNQ3/Swedish
+197,155mm RCH-155s*,Towed Artillery,Germany,GER,Ukraine,UA,54,True,False,https://i.postimg.cc/9MQM59xQ/559.png
+198,120mm M120 Raks*,Towed Artillery,Poland,PL,Ukraine,UA,24,True,False,https://i.postimg.cc/s2cWr42k/Polish
+199,VAMTAC vehicles with deployable mortar,Towed Artillery,Spain,SP,Ukraine,UA,1,True,False,https://x.com/Militarylandnet/status/1859877123927965884
+200,122mm RM-70,Towed Artillery,Czech Republic,CZ,Ukraine,UA,20,True,False,https://twitter.com/UAWeapons/status/1524811909710610432
+201,122mm BM-21 Grad,Towed Artillery,Czech Republic,CZ,Ukraine,UA,21,True,False,https://i.postimg.cc/T191FG8v/image.jpg
+202,122mm RM-70 Vampir,Towed Artillery,Czech Republic,CZ,Ukraine,UA,70,True,False,https://twitter.com/UAWeapons/status/1546455028554244096
+203,122mm BM-21 Grad,Towed Artillery,Poland,PL,Ukraine,UA,30,True,False,https://i.postimg.cc/c495sfv8/Polish
+204,227mm HIMARS,Towed Artillery,United States,USA,Ukraine,UA,40,True,False,https://i.postimg.cc/PrzgLX7k/f332.jpg
+205,227mm HIMARS,Towed Artillery,Germany,GER,Ukraine,UA,3,True,False,https://i.postimg.cc/PrzgLX7k/f332.jpg
+206,227mm M270B1 MLRS,Towed Artillery,United Kingdom,UK,Ukraine,UA,14,True,False,https://twitter.com/Militarylandnet/status/1552916272899301377
+207,227mm M270 MARS MLRS,Towed Artillery,Germany,GER,Ukraine,UA,5,True,False,https://i.postimg.cc/dt8gFDMF/65300.jpg
+208,227mm M270A1 MLRS-I,Towed Artillery,Italy,ITA,Ukraine,UA,2,True,False,https://twitter.com/Militarylandnet/status/1552916272899301377
+209,227mm LRU MLRS,Towed Artillery,France,FR,Ukraine,UA,4,True,False,https://i.postimg.cc/66HLnjD4/image.jpg
+210,128mm RAK SA-12,Towed Artillery,Croatia,CRO,Ukraine,UA,0,True,False,https://i.postimg.cc/HstK1t6T/2500.jpg
+211,122mm APR-40,Towed Artillery,Romania,ROM,Ukraine,UA,0,True,False,https://i.postimg.cc/J0hWJRm9/image.jpg
+212,Laser-guided rocket launcher,Towed Artillery,United States,USA,Ukraine,UA,0,True,False,https://i.postimg.cc/Y9D5MX3z/image.png
+213,APKWS,Towed Artillery,United States,USA,Ukraine,UA,0,True,False,https://i.postimg.cc/J04nkpDF/36h.png
+214,70mm Laser-Guided Rocket Launchers On Pick-Up Truck,Towed Artillery,Germany,GER,Ukraine,UA,0,True,False,https://www.bundesregierung.de/breg
+215,23 ItK 61,Anti-Aircraft Guns,Finland,FIN,Ukraine,UA,23,True,False,https://i.postimg.cc/1zkmL6rW/image.jpg
+216,Zu-23-2CP autocannon,Anti-Aircraft Guns,Poland,PL,Ukraine,UA,0,True,False,https://i.postimg.cc/D07nzsMv/zu232.jpg
+217,Zastava M55,Anti-Aircraft Guns,Slovenia,SLVN,Ukraine,UA,200,True,False,https://i.postimg.cc/Z5wSvbxt/Fg
+218,Zastava M75,Anti-Aircraft Guns,Slovenia,SLVN,Ukraine,UA,0,True,False,https://i.postimg.cc/vZJvz9zW/653.png
+219,Bofors 40L70,Anti-Aircraft Guns,Lithuania,LITH,Ukraine,UA,36,True,False,https://i.postimg.cc/bwLhXpkL/1300.jpg
+220,Bofors 40L70,Anti-Aircraft Guns,Netherlands,NTHL,Ukraine,UA,17,True,False,https://i.postimg.cc/8PfXgrD5/image.jpg
+221,AZP S-60,Anti-Aircraft Guns,Poland,PL,Ukraine,UA,0,True,False,https://i.postimg.cc/C1KmVSNx/1318.jpg
+222,''Anti-Aircraft Guns'',Anti-Aircraft Guns,United States,USA,Ukraine,UA,0,True,False,https://media.defense.gov/2023/Feb/24/2003167682/
+223,CORTEX Typhon integrated anti-drone system,Anti-Aircraft Guns,Norway,NOR,Ukraine,UA,0,False,False,https://i.postimg.cc/mgbBjtwB/1400.jpg
+224,Terrahawk Paladin AA gun,Anti-Aircraft Guns,United Kingdom,UK,Ukraine,UA,1,True,False,https://i.postimg.cc/HW5hZ86v/3600.jpg
+225,Flakpanzer Gepard,Anti-Aircraft Guns,Germany,GER,Ukraine,UA,78,True,False,https://i.postimg.cc/B6FGFM1y/German
+226,ZSU-23-4 Shilka,Anti-Aircraft Guns,Poland,PL,Ukraine,UA,4,True,False,https://i.postimg.cc/T3643pRL/image.jpg
+227,Hibneryt self-propelled anti-aircraft gun,Anti-Aircraft Guns,Poland,PL,Ukraine,UA,0,True,False,https://i.postimg.cc/jSZNX9xt/3200.jpg
+228,Oerlikon Skynex System,Anti-Aircraft Guns,Germany,GER,Ukraine,UA,4,True,False,https://postlmg.cc/qN36cyjB
+229,Kongsbergs CORTEX Typhoon C-UAS,Anti-Aircraft Guns,Germany,GER,Ukraine,UA,1,True,False,https://i.postimg.cc/prR10cJ6/Kongsbergs
+230,S-300PMU Battery,Surface-To-Air Missile Systems,Slovakia,SLVK,Ukraine,UA,1,True,False,https://youtu.be/HPww4iMXsRc
+231,9K35 Strela-10M,Surface-To-Air Missile Systems,Czech Republic,CZ,Ukraine,UA,12,True,False,https://i.postimg.cc/qMZxcG4M/image.jpg
+232,Stormer HVM,Surface-To-Air Missile Systems,United Kingdom,UK,Ukraine,UA,6,True,False,https://i.postimg.cc/XN9CrXJn/3327.jpg
+233,IRIS-T SLS/SLM System,Surface-To-Air Missile Systems,Germany,GER,Ukraine,UA,18,True,False,https://i.postimg.cc/mrw3sXYh/image.jpg
+234,NASAMS Batterie,Surface-To-Air Missile Systems,United States,USA,Ukraine,UA,12,True,False,https://i.postimg.cc/bwq2WPb7/f43.png
+235,Spada 2000 Battery,Surface-To-Air Missile Systems,Spain,SP,Ukraine,UA,1,True,False,https://i.postimg.cc/D0kKbJcX/476.png
+236,Crotale NG Batterie,Surface-To-Air Missile Systems,France,FR,Ukraine,UA,2,True,False,https://i.postimg.cc/h4x3CFX1/446.png
+237,MIM-23 Hawk Phase I/III (21) Battery,Surface-To-Air Missile Systems,Spain,SP,Ukraine,UA,3,False,False,https://i.postimg.cc/2jBSH8QX/26.png
+238,MIM-23 Hawk Firing Unit,Surface-To-Air Missile Systems,United States,USA,Ukraine,UA,2,True,False,https://i.postimg.cc/2jBSH8QX/26.png
+239,AN/TWQ-1 Avenger,Surface-To-Air Missile Systems,United States,USA,Ukraine,UA,20,True,False,https://i.postimg.cc/76ZrmjNJ/688.png
+240,S-125 Newa SC,Surface-To-Air Missile Systems,Poland,PL,Ukraine,UA,125,True,False,https://i.postimg.cc/xdqqBSJV/image.jpg
+241,PR-14SC transloader vehicles for S-125,Surface-To-Air Missile Systems,Poland,PL,Ukraine,UA,0,True,False,https://i.postimg.cc/mDD40MhK/PR
+242,9K33 Osa-AK(M),Surface-To-Air Missile Systems,Poland,PL,Ukraine,UA,33,True,False,https://twitter.com/UAWeapons/status/1609182934816231425
+243,Osa-AKM-P1   d o,Surface-To-Air Missile Systems,Poland,PL,Ukraine,UA,1,True,False,https://twitter.com/UAWeapons/status/1616133892993318912
+244,SkyGuard Aspide,Surface-To-Air Missile Systems,Italy,ITA,Ukraine,UA,0,True,False,https://i.postimg.cc/D0kKbJcX/476.png
+245,Spada,Surface-To-Air Missile Systems,Italy,ITA,Ukraine,UA,0,True,False,https://i.postimg.cc/YCkWhmR7/1300
+246,Patriot Battery,Surface-To-Air Missile Systems,Germany,GER,Ukraine,UA,3,False,False,https://i.postimg.cc/7Lr06qRP/6y.png
+247,Patriot Launcher,Surface-To-Air Missile Systems,Germany,GER,Ukraine,UA,6,False,False,https://postlmg.cc/68zybxwF
+248,Patriot Battery,Surface-To-Air Missile Systems,Germany,GER,Ukraine,UA,2,True,False,https://i.postimg.cc/7Lr06qRP/6y.png
+249,Patriot Launcher,Surface-To-Air Missile Systems,Netherlands,NTHL,Ukraine,UA,5,False,False,https://i.postimg.cc/7Lr06qRP/6y.png
+250,Patriot Battery,Surface-To-Air Missile Systems,United States,USA,Ukraine,UA,3,False,False,https://i.postimg.cc/gJfhjdqv/image.jpg
+251,Patriot Battery,Surface-To-Air Missile Systems,Romania,ROM,Ukraine,UA,1,True,False,https://i.postimg.cc/gJfhjdqv/image.jpg
+252,SAMP/T Battery,Surface-To-Air Missile Systems,Italy,ITA,Ukraine,UA,1,True,False,https://i.postimg.cc/CLp0F5hB/3400.jpg
+253,SAMP/T Battery,Surface-To-Air Missile Systems,Italy,ITA,Ukraine,UA,2,False,False,https://i.postimg.cc/CLp0F5hB/3400.jpg
+254,Raven Short Range Air Defence Systems (Supacat HMT 600 with AIM-132 ASRAAM),Surface-To-Air Missile Systems,United Kingdom,UK,Ukraine,UA,13,False,False,https://i.postimg.cc/6qZzq77Y/368.jpg
+255,2K12M2 Kub-M2s Batterie,Surface-To-Air Missile Systems,Czech Republic,CZ,Ukraine,UA,2,True,False,https://i.postimg.cc/R04HnK34/54g2.png
+256,Vampire Counter-Unmanned Aerial System,Surface-To-Air Missile Systems,United States,USA,Ukraine,UA,14,True,False,https://i.postimg.cc/SQdfZgFN/ims
+257,NASAMS Battery,Surface-To-Air Missile Systems,Canada,CAN,Ukraine,UA,1,True,False,https://i.postimg.cc/bwq2WPb7/f43.png
+258,NASAMS Firing Unit,Surface-To-Air Missile Systems,Norway,NOR,Ukraine,UA,4,True,False,https://i.postimg.cc/bwq2WPb7/f43.png
+259,2K12M2 Kub-M2,Surface-To-Air Missile Systems,Slovakia,SLVK,Ukraine,UA,2,True,False,https://i.postimg.cc/Qx3RyJ9X/2560px
+260,AGM-84 Harpoon (Launcher and Missiles),Anti-Ship Missiles,Denmark,DEN,Ukraine,UA,84,True,False,https://i.postimg.cc/d1bRDgC6/38.png
+261,AGM-84 Harpoon (Missiles),Anti-Ship Missiles,United Kingdom,UK,Ukraine,UA,84,True,False,https://i.postimg.cc/WzYc5s9Z/6652.png
+262,AGM-84 Harpoon (Missiles),Anti-Ship Missiles,Netherlands,NTHL,Ukraine,UA,84,True,False,https://i.postimg.cc/WzYc5s9Z/6652.png
+263,AGM-84 Harpoon (Launcher and an unknown number of missiles),Anti-Ship Missiles,United States,USA,Ukraine,UA,2,True,False,https://i.postimg.cc/WzYc5s9Z/6652.png
+264,AGM-84 Harpoon (Missiles),Anti-Ship Missiles,Spain,SP,Ukraine,UA,5,True,False,https://i.postimg.cc/WzYc5s9Z/6652.png
+265,R-73E Short-Range AAM,Anti-Ship Missiles,Poland,PL,Ukraine,UA,100,True,False,https://i.postimg.cc/JnzBW7rv/2f.png
+266,R-60MK Short-Range AAM,Anti-Ship Missiles,Macedonia,MAC,Ukraine,UA,0,True,False,https://i.postimg.cc/qRN8QdJk/219693617
+267,R-27R1 Beyond-Visual-Range AAM,Anti-Ship Missiles,Slovakia,SLVK,Ukraine,UA,1,True,False,https://i.postimg.cc/Y2QXnfmZ/663g.png
+268,R-73E Short-Range AAM,Anti-Ship Missiles,Slovakia,SLVK,Ukraine,UA,0,True,False,https://i.postimg.cc/Y2QXnfmZ/663g.png
+269,R-60MK Short-Range AAM,Anti-Ship Missiles,Slovakia,SLVK,Ukraine,UA,0,True,False,https://i.postimg.cc/Y2QXnfmZ/663g.png
+270,AIM-9 Short-Range AAM,Anti-Ship Missiles,Canada,CAN,Ukraine,UA,43,True,False,https://i.postimg.cc/V6ZRhXhL/2228.png
+271,AIM-7 Beyond-Visual-Range AAM,Anti-Ship Missiles,Canada,CAN,Ukraine,UA,287,True,False,https://i.postimg.cc/J7GqCz92/aim
+272,AIM-9M Short-Range AAM,Anti-Ship Missiles,United States,USA,Ukraine,UA,0,True,False,https://i.postimg.cc/T3ZN6JTW/32.png
+273,Storm Shadow Cruise Missile,Anti-Ship Missiles,United Kingdom,UK,Ukraine,UA,0,True,False,https://i.postimg.cc/jqv4LWHJ/63g.png
+274,SCALP EG Cruise Missile,Anti-Ship Missiles,France,FR,Ukraine,UA,0,True,False,https://i.postimg.cc/7PpY9SkM/image.jpg
+275,Brimstone 1,Surface-To-Surface Missiles,United Kingdom,UK,Ukraine,UA,600,True,False,https://twitter.com/UAWeapons/status/1524778779364696066
+276,launcher,Surface-To-Surface Missiles,United Kingdom,UK,Ukraine,UA,0,True,False,https://twitter.com/UAWeapons/status/1524778779364696066
+277,Wolfram,Surface-To-Surface Missiles,United Kingdom,UK,Ukraine,UA,0,True,False,https://postlmg.cc/rdc8tHFZ
+278,Brimstone 2,Surface-To-Surface Missiles,United Kingdom,UK,Ukraine,UA,0,True,False,https://twitter.com/UAWeapons/status/1594631837867020288
+279,launcher,Surface-To-Surface Missiles,United Kingdom,UK,Ukraine,UA,0,True,False,https://twitter.com/UAWeapons/status/1524778779364696066
+280,Wolfram,Surface-To-Surface Missiles,United Kingdom,UK,Ukraine,UA,0,True,False,https://postlmg.cc/rdc8tHFZ
+281,Hellfire Shore Defense Systems ''Robot 17'',Surface-To-Surface Missiles,Sweden,SWE,Ukraine,UA,0,True,False,https://i.postimg.cc/hvVStQ1W/339.png
+282,Hellfire Shore Defense Systems (Launchers and 160 Missiles),Surface-To-Surface Missiles,Norway,NOR,Ukraine,UA,160,True,False,https://i.postimg.cc/DyVVRg4h/338k.png
+283,''Electronic Jamming Equipment'',Surface-To-Surface Missiles,United States,USA,Ukraine,UA,0,True,False,https://twitter.com/Osinttechnical/status/1545535520071208968
+284,''Electronic Warfare Equipment'',Surface-To-Surface Missiles,United Kingdom,UK,Ukraine,UA,0,True,False,https://www.army
+285,''GPS Jamming Equipment'',Surface-To-Surface Missiles,United Kingdom,UK,Ukraine,UA,0,True,False,https://www.army
+286,''Electronic Warfare And Counter-Electronic Warfare Equipment'',Surface-To-Surface Missiles,United States,USA,Ukraine,UA,0,True,False,https://twitter.com/BNONews/status/1699862518238179780
+287,WB Electronics FlyEye,Reconnaissance UAVs,Poland,PL,Ukraine,UA,0,True,False,https://i.postimg.cc/vTvKbDhD/48.png
+288,Mini-Bayraktar,Reconnaissance UAVs,Turkey,TRK,Ukraine,UA,30,True,False,https://www.oryxspioenkop.com/2022/04/new
+289,RQ-35 Heidrun,Reconnaissance UAVs,Denmark,DEN,Ukraine,UA,25,True,False,https://i.postimg.cc/Wz790wpN/skywatch
+290,RQ-20 Puma,Reconnaissance UAVs,United States,USA,Ukraine,UA,20,True,False,https://i.postimg.cc/GpJVbd9V/image.jpg
+291,Tekever AR3,Reconnaissance UAVs,Portugal,POR,Ukraine,UA,6,True,False,https://i.postimg.cc/j2t7rh7j/dron1.png
+292,Unmanned Aerial Vehicle,Reconnaissance UAVs,Netherlands,NTHL,Ukraine,UA,0,True,False,https://nos.nl/artikel/2432074
+293,Quantix  Recon,Reconnaissance UAVs,United States,USA,Ukraine,UA,100,True,False,https://i.postimg.cc/d155RVrJ/image.png
+294,Unmanned Aerial Vehicle,Reconnaissance UAVs,Portugal,POR,Ukraine,UA,6,True,False,https://i.postimg.cc/XNFG3zGD/441.png
+295,Primoco One 150,Reconnaissance UAVs,Luxembourg,LUX,Ukraine,UA,9,True,False,https://i.postimg.cc/zv7NC6KD/227.png
+296,Primoco One 150,Reconnaissance UAVs,Germany,GER,Ukraine,UA,18,True,False,https://i.postimg.cc/zv7NC6KD/227.png
+297,Black Hornet,Reconnaissance UAVs,Norway,NOR,Ukraine,UA,850,True,False,https://i.postimg.cc/bJfXbLbr/image.jpg
+298,Vector,Reconnaissance UAVs,Germany,GER,Ukraine,UA,935,False,False,https://i.postimg.cc/7Lcst78r/image.jpg
+299,Sky-Hero Loki MkII Quadcopter,Reconnaissance UAVs,Belgium,BLG,Ukraine,UA,0,True,False,https://i.postimg.cc/TwSb7vdJ/image.jpg
+300,''Unmanned Aerial Vehicles'',Reconnaissance UAVs,Estonia,EST,Ukraine,UA,7,True,False,https://mil.in.ua/en/news/estonia
+301,''Unmanned Aerial Vehicles'',Reconnaissance UAVs,United Kingdom,UK,Ukraine,UA,0,True,False,https://www.reuters.com/world/uk/britain
+302,Boeing Insitu ScanEagle 2,Reconnaissance UAVs,United States,USA,Ukraine,UA,15,True,False,https://i.postimg.cc/6qgVKQ9k/4470.png
+303,DeltaQuad Pro VTOL,Reconnaissance UAVs,Netherlands,NTHL,Ukraine,UA,0,True,False,https://i.postimg.cc/BbvQJ0cp/22.jpg
+304,''Unmanned Aerial And Ground Vehicles'',Reconnaissance UAVs,Australia,AUS,Ukraine,UA,0,True,False,https://twitter.com/latikambourke/status/1509434798946803721
+305,Black Hornet,Reconnaissance UAVs,Norway,NOR,Ukraine,UA,1000,True,False,https://i.postimg.cc/y8p8JpSD/57.png
+306,Jump 20,Reconnaissance UAVs,United States,USA,Ukraine,UA,0,True,False,https://i.postimg.cc/VLGvJmhB/77.webp
+307,Altius-600,Reconnaissance UAVs,United States,USA,Ukraine,UA,0,True,False,https://i.postimg.cc/fyLx45Fx/image.jpg
+308,CyberLux K8,Reconnaissance UAVs,United States,USA,Ukraine,UA,0,True,False,https://i.postimg.cc/hjTQm6m4/25.jpg
+309,Penguin,Reconnaissance UAVs,United States,USA,Ukraine,UA,0,True,False,https://i.postimg.cc/RZXfntdC/443.png
+310,Luna NG,Reconnaissance UAVs,Germany,GER,Ukraine,UA,1,True,False,https://i.postimg.cc/CKhKx7kw/335.webp
+311,VT-4 Rochen,Reconnaissance UAVs,Germany,GER,Ukraine,UA,2,True,False,https://www.optoprecision.de/en/airborne
+312,Trinity eVTOL mapping UAV,Reconnaissance UAVs,Germany,GER,Ukraine,UA,28,True,False,https://i.postimg.cc/7LmrFNBd/Screenshot
+313,RQ-35 Heidrun,Reconnaissance UAVs,Germany,GER,Ukraine,UA,714,True,False,https://i.postimg.cc/25nsdKbx/sitemgr
+314,Songbird,Reconnaissance UAVs,Germany,GER,Ukraine,UA,543,False,False,https://droniq.de/en/produkte/drohnen/germandrones
+315,HORNET XR,Reconnaissance UAVs,Germany,GER,Ukraine,UA,46,True,False,https://i.postimg.cc/4N54D8Ks/HORNET
+316,Malloy Aeronautics T150,Cargo Drones,United Kingdom,UK,Ukraine,UA,0,True,False,https://i.postimg.cc/D0vXqY41/541.png
+317,AN/TPQ-36 Firefinder Weapons Locating Radar,Radars,Netherlands,NTHL,Ukraine,UA,5,True,False,https://i.postimg.cc/90v6hMhB/3d.png
+318,Thales Squire Ground Surveillance Radar,Radars,Netherlands,NTHL,Ukraine,UA,2,True,False,https://i.postimg.cc/Y0h77Zmt/1f.png
+319,AN/TPQ-36 Firefinder Weapons Locating Radar,Radars,United States,USA,Ukraine,UA,26,True,False,https://i.postimg.cc/RVW08MMZ/5889.png
+320,AN/MPQ-64 Sentinel Air Surveillance Radar,Radars,United States,USA,Ukraine,UA,21,True,False,https://i.postimg.cc/RVW08MMZ/5889.png
+321,Counter-Mortar Radar System,Radars,United States,USA,Ukraine,UA,24,False,False,https://i.postimg.cc/Y9D5MX3z/image.png
+322,Unknown Radar System,Radars,Australia,AUS,Ukraine,UA,0,True,False,https://www.abc.net.au/news/2022
+323,Patriot Battery,Radars,Germany,GER,Ukraine,UA,0,True,False,https://i.postimg.cc/7Lr06qRP/6y.png
+324,Patriot Battery,Radars,Netherlands,NTHL,Ukraine,UA,0,True,False,https://i.postimg.cc/7Lr06qRP/6y.png
+325,Ground Surveillance Radar,Radars,Germany,GER,Ukraine,UA,82,True,False,https://www.bundesregierung.de/breg
+326,Cobra Counter-Battery Radar System,Radars,Germany,GER,Ukraine,UA,1,True,False,https://i.postimg.cc/N01Fp2Tm/image.jpg
+327,TRML-4D Radar System,Radars,Germany,GER,Ukraine,UA,16,True,False,https://i.postimg.cc/MHnmrWhx/1308.jpg
+328,Mamba Arthur Counter-Battery Radar,Radars,United Kingdom,UK,Ukraine,UA,0,True,False,https://twitter.com/PaulJawin/status/1579732448274833408
+329,AN/TPQ-37 Weapons Locating Radar,Radars,United States,USA,Ukraine,UA,37,True,False,https://i.postimg.cc/xCVKW1c7/27c870463e501baa1db44486960fd7fc.jpg
+330,PS-90 Air Surveillance Radar,Radars,Sweden,SWE,Ukraine,UA,90,True,False,https://i.postimg.cc/sg3Qq1Ym/image.jpg
+331,Counter-Artillery Radar,Radars,United States,USA,Ukraine,UA,28,True,False,https://twitter.com/JackDetsch/status/1562481136181202944
+332,Multi-Mission Radar,Radars,United States,USA,Ukraine,UA,20,True,False,https://www.defense.gov/News/Releases/Release/Article/3173378/11
+333,Ground Master 200,Radars,France,FR,Ukraine,UA,4,True,False,https://i.postimg.cc/Dww8mw0d/7776.png
+334,VERA-NG Passive Radar,Radars,Netherlands,NTHL,Ukraine,UA,4,True,False,https://i.postimg.cc/Y0GmPbmk/VNGsand
+335,ARTHUR Counter-Battery Radar,Radars,Norway,NOR,Ukraine,UA,8,True,False,https://i.postimg.cc/fk4XyCQd/3d3.jpg
+336,Bergepanzer 2 Armoured Recovery Vehicle,Engineering Equipment,Germany,GER,Ukraine,UA,33,False,False,https://i.postimg.cc/nc3H6TYP/image.jpg
+337,M1089A1P2 and M984A4 HEMTT Wrecker,Engineering Equipment,United States,USA,Ukraine,UA,104,True,False,https://i.postimg.cc/9QN7B4Jj/1301.jpg
+338,M88A1 and A2 Hercule,Engineering Equipment,United States,USA,Ukraine,UA,8,True,False,https://i.postimg.cc/Sj0M8YwV/1302
+339,Br ckenlegepanzer Biber Bridgelayer,Engineering Equipment,Germany,GER,Ukraine,UA,27,True,False,https://i.postimg.cc/9Q4pyqWn/477.png
+340,GCS-200 Remote Controlled And Protected Mine Clearing System,Engineering Equipment,Germany,GER,Ukraine,UA,3,True,False,https://i.postimg.cc/ZntXFLk7/Fvdtb
+341,Bozena 4 Remote Controlled Mine Clearance System,Engineering Equipment,Slovakia,SLVK,Ukraine,UA,2,True,False,https://i.postimg.cc/7Z4rgc3v/4100.jpg
+342,Bozena 5 Remote Controlled Mine Clearance System,Engineering Equipment,Slovakia,SLVK,Ukraine,UA,5,True,False,https://i.postimg.cc/7Z4rgc3v/4100.jpg
+343,M113AS4 Armoured Logistics Vehicle,Engineering Equipment,Australia,AUS,Ukraine,UA,4,True,False,https://i.postimg.cc/WpKd47Zs/7754.jpg
+344,Bergepanzer 3 Armoured Recovery Vehicle,Engineering Equipment,Canada,CAN,Ukraine,UA,3,True,False,https://twitter.com/AnitaAnandMP/status/1637109663413026817
+345,Challenger Armoured Repair and Recovery Vehicle,Engineering Equipment,United Kingdom,UK,Ukraine,UA,0,True,False,https://i.postimg.cc/s2C3ZkgD/3df.png
+346,Bergepanzer 3 Armoured Recovery Vehicle,Engineering Equipment,Germany,GER,Ukraine,UA,2,True,False,https://i.postimg.cc/xT487F7C/46.png
+347,Wisent 1 Mine-Clearing Tank,Engineering Equipment,Germany,GER,Ukraine,UA,65,True,False,https://i.postimg.cc/jjR0MMhv/Wi
+348,Pionierpanzer 2A1 Dachs Armoured Engineering Vehicle,Engineering Equipment,Germany,GER,Ukraine,UA,15,False,False,https://i.postimg.cc/63sKPS7j/f25.png
+349,Pionierpanzer 2A1 Dachs Armoured Engineering Vehicle,Engineering Equipment,Denmark,DEN,Ukraine,UA,1,True,False,https://i.postimg.cc/63sKPS7j/f25.png
+350,Pansret Broslagningsvogn Biber Bridgelayer,Engineering Equipment,Denmark,DEN,Ukraine,UA,0,True,False,https://i.postimg.cc/sxZg2dCR/774.png
+351,PNINK Wisent 1 Armoured Recovery Vehicles (ARVs),Engineering Equipment,Denmark,DEN,Ukraine,UA,1,True,False,https://i.postimg.cc/8kFRv71T/337.png
+352,Hydrema 910 Mine Clearing Vehicle,Engineering Equipment,Denmark,DEN,Ukraine,UA,910,True,False,https://i.postimg.cc/jjwkqPsm/54h.png
+353,GCS-200 Remote Controlled Mine Clearing Vehicle,Engineering Equipment,Canada,CAN,Ukraine,UA,200,True,False,https://i.postimg.cc/nz6MmNtz/image.jpg
+354,NM217 Armoured Recovery Vehicle,Engineering Equipment,Norway,NOR,Ukraine,UA,2,True,False,https://i.postimg.cc/fy4ddTR7/image.jpg
+355,NM189 Ingeni rpanservogn Armoured Engineering Vehicle,Engineering Equipment,Norway,NOR,Ukraine,UA,3,True,False,https://twitter.com/UAWeapons/status/1661017391810383876
+356,DOK-ING MV-4 Remote Controlled Mine Clearance System,Engineering Equipment,South Korea,SK,Ukraine,UA,6,True,False,https://i.postimg.cc/BvHKSWBv/6h0.png
+357,DOK-ING MV-4 Remote Controlled Mine Clearance System,Engineering Equipment,Croatia,CRO,Ukraine,UA,1,True,False,https://i.postimg.cc/BvHKSWBv/6h0.png
+358,Leopard 2R Mine-Clearing Tank,Engineering Equipment,Finland,FIN,Ukraine,UA,6,True,False,https://i.postimg.cc/KYm3zWcx/image.jpg
+359,B rgningsbandvagn 90 Armoured Recovery Vehicle,Engineering Equipment,Sweden,SWE,Ukraine,UA,90,True,False,https://i.postimg.cc/1Xk62bJ2/689.jpg
+360,Br ckenlegepanzer Biber Bridgelayer,Engineering Equipment,Netherlands,NTHL,Ukraine,UA,5,True,False,https://i.postimg.cc/B6L0sZHM/Leopard
+361,DIGGER D-250 Remote Controlled Mine Clearance System,Engineering Equipment,Switzerland,SWZ,Ukraine,UA,1,True,False,https://i.postimg.cc/gkyvM905/image.jpg
+362,NM199 (M548) Tracked Logistics Vehicle,Engineering Equipment,Norway,NOR,Ukraine,UA,51,True,False,https://i.postimg.cc/G2124Btj/13.webp
+363,Motorised Floating Bridges*,Engineering Equipment,France,FR,Ukraine,UA,0,True,False,https://i.postimg.cc/x1pK7d5p/447.png
+364,M3 Amphibious Bridging Vehicles,Engineering Equipment,Netherlands,NTHL,Ukraine,UA,6,True,False,https://i.postimg.cc/XYPfq3CQ/ssb
+365,VAB G nie Engineering Vehicle,Engineering Equipment,France,FR,Ukraine,UA,0,True,False,https://i.postimg.cc/jdntYJ9x/46h.png
+366,K600 Combat Engineering Vehicle,Engineering Equipment,South Korea,SK,Ukraine,UA,2,True,False,https://i.postimg.cc/BQmvcXPg/764.png
+367,SDZ mine clearance robot,Engineering Equipment,France,FR,Ukraine,UA,4,True,False,https://i.postimg.cc/Ss997x1z/3201.jpg
+368,YPR-806 Armored Recovery Vehicle,Engineering Equipment,Netherlands,NTHL,Ukraine,UA,5,True,False,https://i.postimg.cc/FF8X10S6/Dutch
+369,Oshkosh M1070 tank transporter,Engineering Equipment,Germany,GER,Ukraine,UA,24,True,False,https://i.postimg.cc/8PtMB5mj/4200.jpg
+370,Alkmaar-Class minehunter,(Unmanned) Ships and Underwater Vehicles,Netherlands,NTHL,Ukraine,UA,2,False,False,https://i.postimg.cc/G2hDD6K3/3fs.png
+371,SeaFox Autonomous Mine-Detecting Underwater Vehicle,(Unmanned) Ships and Underwater Vehicles,Netherlands,NTHL,Ukraine,UA,2,True,False,https://i.postimg.cc/JzrHPVmc/545.png
+372,SeaFox Autonomous Mine-Detecting Underwater Vehicle,(Unmanned) Ships and Underwater Vehicles,Germany,GER,Ukraine,UA,1,True,False,https://i.postimg.cc/JzrHPVmc/545.png
+373,Sonobot 5,(Unmanned) Ships and Underwater Vehicles,Germany,GER,Ukraine,UA,80,True,False,https://i.postimg.cc/D0bDzzzR/1001
+374,Dauntless Sea Ark Patrol Boat,(Unmanned) Ships and Underwater Vehicles,United States,USA,Ukraine,UA,0,True,False,https://www.navalnews.com/naval
+375,Small Unit Riverine Craft (SURC),(Unmanned) Ships and Underwater Vehicles,United States,USA,Ukraine,UA,0,True,False,https://i.postimg.cc/mrqPrWW9/h80.png
+376,40-foot Riverine Patrol Boat,(Unmanned) Ships and Underwater Vehicles,United States,USA,Ukraine,UA,0,True,False,https://i.postimg.cc/6qpgbgTH/8873.png
+377,Armoured Riverine Boat,(Unmanned) Ships and Underwater Vehicles,United States,USA,Ukraine,UA,0,True,False,https://i.postimg.cc/5ykyYkSc/431.png
+378,Unmanned Coastal Defence Vessels (USVs),(Unmanned) Ships and Underwater Vehicles,United States,USA,Ukraine,UA,0,True,False,https://i.postimg.cc/RVW08MMZ/5889.png
+379,R7 Remotely Operated Vehicle,(Unmanned) Ships and Underwater Vehicles,Belgium,BLG,Ukraine,UA,15,True,False,https://i.postimg.cc/FsLTHm9Y/image.jpg
