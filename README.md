@@ -3,7 +3,7 @@
 ## Description
 This project contains a data pipeline that scrapes the open-source intelligence [Oryx blog](https://www.oryxspioenkop.com/) for the latest dataset of confirmed vehicle losses sustained during Russia's imperial aggression. The pipeline applies OCR models to extract text data directly from images and compiles all information into formatted Excel files.
 
-The data that this pipeline scraped formed the basis for a [https://public.tableau.com/app/profile/jasonwu00/viz/TheZOVArmyOnCossackLandV3/MainDashV3 Tableau dashboard].
+The data that this pipeline scraped formed the basis for a [Tableau dashboard](https://public.tableau.com/app/profile/jasonwu00/viz/TheZOVArmyOnCossackLandV3/MainDashV3).
 
 ## Technologies
 This pipeline makes use of the following languages, applications, and libraries:
