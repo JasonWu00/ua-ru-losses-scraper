@@ -16,4 +16,11 @@ This pipeline makes use of the following languages, applications, and libraries:
 * Jupyter Notebooks (run through Kaggle)
 
 ## Running the Project
+Quick and dirty instructions:
+1) Run oryx_parser.py to create the initial dataset. There are some inefficiencies in the code (such as discarding data that I later had to re-scrape) due to a rushed dev process; you may optimize them on your own time if you want.
+2) Run `Huggingface OCR to Extract Image Text.ipynb`. This notebook will take the output dataset from Step 1 and "read" date-time stamps on the images corresponding to each entry, before updating the dataset accordingly.
+- Due to the heavy computational costs involved with the OCR model used, you might want to run this notebook on Kaggle or Google Colab. Note that this code took me several runs (each lasting 12 hours each) before it got through the entire dataset.
+3) Check the dataset manually for any broken or impossible datestamps (anything before February 24 2022, anything after when you ran the code, so on).
+4) You should now have a final dataset usable for analysis work.
+
 This pipeline includes components run via Kaggle Notebooks due to hardware limitations. These components will be made available soon. Further instructions will be posted when this occurs.
