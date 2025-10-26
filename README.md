@@ -12,7 +12,7 @@ This pipeline makes use of the following languages, applications, and libraries:
   * pandas
   * BeautifulSoup
 * Object Character Recognition
-  * PaddleOCR (in the form of a Python library)
+  * PaddleOCR (found on Hugging Face)
 * Jupyter Notebooks (run through Kaggle)
 
 ## Running the Project
@@ -22,5 +22,3 @@ Quick and dirty instructions:
 - Due to the heavy computational costs involved with the OCR model used, you might want to run this notebook on Kaggle or Google Colab. Note that this code took me several runs (each lasting 12 hours each) before it got through the entire dataset.
 3) Check the dataset manually for any broken or impossible datestamps (anything before February 24 2022, anything after when you ran the code, so on).
 4) You should now have a final dataset usable for analysis work.
-
-This pipeline includes components run via Kaggle Notebooks due to hardware limitations. These components will be made available soon. Further instructions will be posted when this occurs.
