@@ -1,9 +1,11 @@
 # UA/RU Losses Scraper
 
 ## Description
-This project contains a data pipeline that scrapes the open-source intelligence [Oryx blog](https://www.oryxspioenkop.com/) for the latest dataset of confirmed vehicle losses sustained during Russia's imperial aggression. The pipeline applies OCR models to extract text data directly from images and compiles all information into formatted Excel files.
+This project contains a data pipeline that scrapes the open-source intelligence [Oryx blog](https://www.oryxspioenkop.com/) for the latest dataset of confirmed vehicle losses sustained during Russia's imperial aggression against Ukraine and Europe at large. The pipeline applies OCR models to extract text data directly from images and compiles all information into formatted Excel files.
 
-The data that this pipeline scraped formed the basis for a [Tableau dashboard](https://public.tableau.com/app/profile/jasonwu00/viz/TheZOVArmyOnCossackLandV3/MainDashV3).
+## Presentation: The ZOV Army on Cossack Land
+
+The data that this pipeline scraped formed the basis for a [Tableau dashboard](https://public.tableau.com/app/profile/jasonwu00/viz/TheZOVArmyOnCossackLandV3/MainDashV3), containing an overview and analysis of the data in question.
 
 ## Technologies
 This pipeline makes use of the following languages, applications, and libraries:
